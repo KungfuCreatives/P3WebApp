@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 Web App", "P3 Web App.csproj", "{B0E352E8-0B77-4C00-8F9C-1288B6E97E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rewrite.Net", "..\Rewrite.Net\Rewrite.Net.csproj", "{1AE66E31-4258-4910-AFEC-92BE224686D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesEngine", "..\RulesEngine\RulesEngine.csproj", "{8A78B2AE-7012-46A7-8501-B94FC9DFAE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExpRule", "..\RegExRule\RegExpRule.csproj", "{B0C27D32-3DB5-49EE-9407-6F2EF800B2D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E352E8-0B77-4C00-8F9C-1288B6E97E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E352E8-0B77-4C00-8F9C-1288B6E97E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E352E8-0B77-4C00-8F9C-1288B6E97E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E352E8-0B77-4C00-8F9C-1288B6E97E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE66E31-4258-4910-AFEC-92BE224686D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE66E31-4258-4910-AFEC-92BE224686D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE66E31-4258-4910-AFEC-92BE224686D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE66E31-4258-4910-AFEC-92BE224686D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A78B2AE-7012-46A7-8501-B94FC9DFAE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A78B2AE-7012-46A7-8501-B94FC9DFAE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A78B2AE-7012-46A7-8501-B94FC9DFAE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A78B2AE-7012-46A7-8501-B94FC9DFAE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C27D32-3DB5-49EE-9407-6F2EF800B2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C27D32-3DB5-49EE-9407-6F2EF800B2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C27D32-3DB5-49EE-9407-6F2EF800B2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C27D32-3DB5-49EE-9407-6F2EF800B2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

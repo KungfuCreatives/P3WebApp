@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Location.Master.cs" Inherits="P3WebApp.LocationMaster" %>
+
+<%@ Register TagPrefix="uc_footer" TagName="footer" Src="footer.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="robots" content="index,follow,noydir,noodp" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<style type="text/css"> 
+.RadMenu_Default  .rmRootGroup 
+        {  
+            border: 0px !important;
+            background-color: #cccccc !important;
+        }
+.RadMenu_Default  .rmItem 
+        {  
+            background-color: #cccccc !important;
+            border-bottom: 1px solid #333333 !important;
+        }
+.RadMenu_Default  .rmItem .rmLast
+{  
+    border-width: 0px !important;
+            
+}
+.RadMenu_Default .rmText 
+        {  
+            font-size: 12pt !important;  
+        } 
+.RadMenu .rmGroup .rmText
+{
+    font-size: 10pt !important;
+    padding: 0 54px 0 8px !important;
+}
+</style>
+
+<asp:ContentPlaceHolder ID="MetaContent" runat="server"/>
+<meta name="keywords" content="PMP Certification, Project Management Certification, PMP Exam, PMP Courses, PMP Training, Project Management Training, Project Management Courses"/>
+<meta name="google-site-verification" content="w2kz9KHq6UJRVotOHG9w4U2gbIRDDiPyLSV1RHmxCR4" />
+<meta name="msvalidate.01" content="A5394E0E5C43478DBB66BDA2D14FF198" />
+<meta name="verify-v1" content="424kv7MkwZRot1HkUentO3RxWGjRFiwYbrwGvetuCqs=" />
+<meta name="alexaVerifyID" content="pWSXZcfZLwf2vxOqf-xEadlIh1g" />
+
+</head>
+<body bgcolor="#FFFFFF" onload="">
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="ScriptManager1" runat="server"/>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="960">
+	<tr>
+		<td rowspan="3" bgcolor="#000000"><img src="images/spacer.gif" width="1" height="7" alt="" /></td>
+		<td colspan="3">
+        	<table width="958" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="350"><a href="."><img border="0" src="images/pinnacle_logo_white.gif"  alt="PMP certification" /></a>
+                      <div align="center"><span class="style4"><b>Helping You Achieve Your Pinnacle!</b></span></div>
+                      </td><td class="topNav" align="right">
+                        <p><a href="/">home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Instructor_Led_PMP_Exam_Training.aspx">courses</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="articles.aspx">articles</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="practice-exams.aspx">practice exams</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx">contact us</a><%--&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Sitemap.aspx">&nbsp;sitemap</a>--%>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p><a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx"><img src="/images/calltoaction.gif" style="position: relative;right: -1px;" /></a></p> 
+                    </td>
+                </tr>
+            </table>
+        </td>
+		<td rowspan="3" bgcolor="#000000"><img src="images/spacer.gif" width="1" height="7" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+        <asp:ContentPlaceHolder ID="BannerContent" runat="server"/>
+	    </td>
+	</tr>
+	<tr>
+		<td valign="top">
+        	<table cellpadding="0" cellspacing="0" border="0" width="650px">
+        	    <tr>
+                	<td>
+                    <div align="left">
+                    <telerik:RadSiteMap ID="BreadCrumbSiteMap" runat="server" DataTextField="Text" DataNavigateUrlField="NavigateUrl" CssClass="breadcrumb">
+                        <DefaultLevelSettings ListLayout-RepeatDirection="Horizontal" SeparatorText="/" Layout="Flow" />
+                    </telerik:RadSiteMap>
+                    </div>
+                        <div class="pPad">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+                        </div>
+                    </td>
+                	</tr>
+            </table>
+        </td>
+		<td valign="top">
+		   <asp:ContentPlaceHolder ID="RightContent" runat="server"/>
+        </td>
+	</tr>
+    <tr>
+    	<td colspan="5" bgcolor="#000000"><img alt="" src="images/spacer.gif" /></td>
+    </tr>
+    <uc_footer:footer ID="footer" runat="server" />
+</table>
+    </form>
+    <!-- AddThis Follow BEGIN -->
+    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="right:-6px;top:20px;border:solid 1px black;">
+    <a class="addthis_button_facebook_follow" addthis:userid="Pinnacle3"></a>
+    <a class="addthis_button_twitter_follow" addthis:userid="Pinnacle3PMP"></a>
+    <a class="addthis_button_linkedin_follow" addthis:usertype="company" addthis:userid="pinnacle-3-learning"></a>
+    <a class="addthis_button_youtube_follow" addthis:userid="ThePinnacle3"></a>
+    </div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5100b38e4fa69252"></script>
+    <!-- AddThis Follow END -->
+
+</body>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1854264-1']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</html>

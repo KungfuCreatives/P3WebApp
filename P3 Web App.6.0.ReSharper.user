@@ -1,0 +1,576 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:self_paced_PMP_Training.aspx" caret="1317" fromTop="13" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:pmp-classes-weekend.aspx.cs" caret="356" fromTop="13" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:pmp-classes-weekend.aspx.designer.cs" caret="2496" fromTop="32" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Site.Master" caret="1197" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training-online.aspx.cs" caret="734" fromTop="11" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:certified-associate-in-project-management.aspx.cs" caret="570" fromTop="12" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/d:App_Code/f:SendMail.cs" caret="3902" fromTop="21" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:confirmed-paid.aspx.cs" caret="12968" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/d:pdfs/f:Six-Sigma-Green-Belt-Course-Outline.pdf" caret="16973" fromTop="21" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/d:pdfs/f:Six-Sigma-Black-Belt-Course-Outline.pdf" caret="20677" fromTop="21" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:confirmed.aspx.cs" caret="12913" fromTop="27" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:class-manager.aspx.cs" caret="10429" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:register.aspx.cs" caret="11980" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:ClassHeader.ascx.cs" caret="2378" fromTop="30" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:PMP_Private_Group_Training.aspx.cs" caret="1409" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training.aspx" caret="0" fromTop="0" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Web.config" caret="3662" fromTop="39" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Default.aspx" caret="1810" fromTop="12" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Contact_Pinnacle_3_PMP_Certification_Training.aspx" caret="1678" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-six-sigma-green-belt.aspx" caret="6134" fromTop="14" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-six-sigma-black-belt.aspx" caret="6382" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-capm.aspx" caret="9722" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:lean-six-sigma-green-belt.aspx" caret="9326" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:lean-six-sigma-black-belt.aspx" caret="9324" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:certified-associate-in-project-management.aspx" caret="10702" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:pmp-classes-weekend.aspx" caret="10629" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training-online.aspx" caret="10635" fromTop="29" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-courses.aspx" caret="2231" fromTop="0" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-pmp.aspx" caret="0" fromTop="0" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-pmp.aspx.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:register.aspx.cs" caret="4591" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:register.aspx.cs" caret="7803" fromTop="29" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Default.aspx" caret="8677" fromTop="27" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training-online.aspx" caret="1227" fromTop="12" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training-online.aspx" caret="2510" fromTop="12" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:pmp-classes-weekend.aspx" caret="2496" fromTop="12" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:pmp-classes-weekend.aspx" caret="1213" fromTop="12" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training-online.aspx" caret="10656" fromTop="29" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:project-management-training.aspx" caret="11254" fromTop="18" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:pmp-classes-weekend.aspx" caret="10629" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:certified-associate-in-project-management.aspx" caret="10702" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:lean-six-sigma-black-belt.aspx" caret="9324" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:lean-six-sigma-green-belt.aspx" caret="9326" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-capm.aspx" caret="9722" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-pmp.aspx" caret="9600" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-six-sigma-black-belt.aspx" caret="6382" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:location-six-sigma-green-belt.aspx" caret="6430" fromTop="19" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Default.aspx" caret="844" fromTop="13" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Contact_Pinnacle_3_PMP_Certification_Training.aspx" caret="934" fromTop="8" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Contact_Pinnacle_3_PMP_Certification_Training.aspx" caret="11533" fromTop="29" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Contact_Pinnacle_3_PMP_Certification_Training.aspx" caret="11533" fromTop="7" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Contact_Pinnacle_3_PMP_Certification_Training.aspx" caret="963" fromTop="7" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:Default.aspx" caret="5260" fromTop="26" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:class-manager.aspx.cs" caret="10429" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/d:App_Code/f:SendMail.cs" caret="4093" fromTop="24" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:confirmed-paid.aspx.cs" caret="12968" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:confirmed.aspx.cs" caret="12308" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/d:pdfs/f:Six-Sigma-Black-Belt-Course-Outline.pdf" caret="21096" fromTop="21" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/f:register.aspx.cs" caret="11980" fromTop="20" />
+      <File id="B0E352E8-0B77-4C00-8F9C-1288B6E97E95/d:pdfs/f:Six-Sigma-Green-Belt-Course-Outline.pdf" caret="19750" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="p" priority="98" />
+      <Item value="style" priority="45" />
+      <Item value="class" priority="14" />
+      <Item value="pPad" priority="13" />
+      <Item value="table" priority="49" />
+      <Item value="tr" priority="71" />
+      <Item value="td" priority="174" />
+      <Item value="asp" priority="34" />
+      <Item value="telerik" priority="13" />
+      <Item value="RadListBox`0" priority="6" />
+      <Item value="ID" priority="62" />
+      <Item value="CheckBoxes" priority="7" />
+      <Item value="Items" priority="13" />
+      <Item value="RadComboBox`0" priority="6" />
+      <Item value="RadComboBoxItem`0" priority="6" />
+      <Item value="Value" priority="20" />
+      <Item value="Text" priority="22" />
+      <Item value="runat" priority="13" />
+      <Item value="server" priority="13" />
+      <Item value="SkinID" priority="15" />
+      <Item value="colspan" priority="34" />
+      <Item value="align" priority="48" />
+      <Item value="center" priority="27" />
+      <Item value="SelectionMode" priority="21" />
+      <Item value="Single" priority="27" />
+      <Item value="DatePickingCalendar`0" priority="6" />
+      <Item value="br" priority="139" />
+      <Item value="b" priority="34" />
+      <Item value="rt" priority="6" />
+      <Item value="valign" priority="34" />
+      <Item value="top" priority="27" />
+      <Item value="Multiple" priority="7" />
+      <Item value="EnableMultiSelect" priority="6" />
+      <Item value="Target" priority="13" />
+      <Item value="font-family" priority="7" />
+      <Item value="img" priority="6" />
+      <Item value="src" priority="6" />
+      <Item value="images" priority="20" />
+      <Item value="pinnacle_logo_white.gif" priority="13" />
+      <Item value="h1" priority="6" />
+      <Item value="strong" priority="34" />
+      <Item value="right" priority="13" />
+      <Item value="left" priority="6" />
+      <Item value="h2" priority="13" />
+      <Item value="width" priority="13" />
+      <Item value="rowspan" priority="13" />
+      <Item value="nobr" priority="6" />
+      <Item value="ul" priority="20" />
+      <Item value="li" priority="76" />
+      <Item value="div" priority="13" />
+      <Item value="a" priority="27" />
+      <Item value="href" priority="20" />
+      <Item value="six-sigma-green-belt.aspx" priority="6" />
+      <Item value="pdfs" priority="13" />
+      <Item value="BFS_v4.2.pdf" priority="6" />
+      <Item value="Six-Sigma-Black-Belt-Course-Outline.pdf" priority="7" />
+      <Item value="Six-Sigma-Green-Belt-Course-Outline.pdf" priority="7" />
+      <Item value="TextBox`0" priority="13" />
+      <Item value="TextMode" priority="6" />
+      <Item value="Password" priority="6" />
+      <Item value="Literal`0" priority="6" />
+      <Item value="NavigateUrl" priority="23" />
+      <Item value="span" priority="13" />
+      <Item value="text-align" priority="7" />
+      <Item value="padding-left" priority="15" />
+      <Item value="bottom" priority="6" />
+      <Item value="border" priority="27" />
+      <Item value="Contact_Pinnacle_3_PMP_Certification_Training.aspx" priority="6" />
+      <Item value="meta" priority="7" />
+      <Item value="name" priority="7" />
+      <Item value="content" priority="6" />
+      <Item value="ImageUrl" priority="7" />
+      <Item value="btn_viewDownload_blue.gif" priority="6" />
+      <Item value="cellpadding" priority="6" />
+      <Item value="cellspacing" priority="6" />
+      <Item value="&amp;AElig;" priority="5" />
+      <Item value="Visible" priority="6" />
+      <Item value="project-management-training-online.aspx" priority="6" />
+      <Item value="ItemStyle" priority="6" />
+      <Item value="HorizontalAlign" priority="6" />
+      <Item value="Center" priority="6" />
+      <Item value="Font" priority="7" />
+      <Item value="font-weight" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="private" priority="383" />
+      <Item value="ControlIDConverter`0" priority="31" />
+      <Item value="lbClasses" priority="126" />
+      <Item value="if" priority="1055" />
+      <Item value="IsPostBack" priority="31" />
+      <Item value="_initForm`0" priority="31" />
+      <Item value="new" priority="896" />
+      <Item value="RadListBoxItem" priority="28" />
+      <Item value="myReader" priority="160" />
+      <Item value="cmbDays" priority="63" />
+      <Item value="RadComboBoxItem" priority="28" />
+      <Item value="RadListBoxItem`0" priority="95" />
+      <Item value="i" priority="31" />
+      <Item value="true" priority="191" />
+      <Item value="lbLocations" priority="95" />
+      <Item value="dpStartDate" priority="63" />
+      <Item value="DateTime`0" priority="126" />
+      <Item value="void" priority="191" />
+      <Item value="int" priority="416" />
+      <Item value="string" priority="956" />
+      <Item value="classTypeId" priority="63" />
+      <Item value="classDaysId" priority="223" />
+      <Item value="locationId" priority="63" />
+      <Item value="classDate" priority="223" />
+      <Item value="throw" priority="159" />
+      <Item value="Exception" priority="145" />
+      <Item value="bool" priority="191" />
+      <Item value="count" priority="63" />
+      <Item value="break" priority="127" />
+      <Item value="return" priority="575" />
+      <Item value="isClassUnique`0" priority="31" />
+      <Item value="runProcess`0" priority="31" />
+      <Item value="lbOccurs" priority="95" />
+      <Item value="for" priority="31" />
+      <Item value="while" priority="159" />
+      <Item value="currentDate" priority="159" />
+      <Item value="dpEndDate" priority="31" />
+      <Item value="daysIncrement" priority="31" />
+      <Item value="foreach" priority="127" />
+      <Item value="addClass`0" priority="31" />
+      <Item value="classItem" priority="31" />
+      <Item value="lbDays" priority="31" />
+      <Item value="locItem" priority="31" />
+      <Item value="classesAdded" priority="63" />
+      <Item value="lblMessage" priority="95" />
+      <Item value="Monday" priority="16" />
+      <Item value="else" priority="223" />
+      <Item value="using" priority="61" />
+      <Item value="Configuration" priority="26" />
+      <Item value="ConfigurationManager`0" priority="95" />
+      <Item value="public" priority="671" />
+      <Item value="binding" priority="127" />
+      <Item value="false" priority="255" />
+      <Item value="ThreadWaitReason`0" priority="31" />
+      <Item value="Lead" priority="28" />
+      <Item value="lead" priority="447" />
+      <Item value="lastName" priority="159" />
+      <Item value="company" priority="95" />
+      <Item value="email" priority="63" />
+      <Item value="phone" priority="31" />
+      <Item value="leadsource" priority="95" />
+      <Item value="address" priority="31" />
+      <Item value="city" priority="31" />
+      <Item value="state" priority="31" />
+      <Item value="zip" priority="31" />
+      <Item value="SforceService`0" priority="31" />
+      <Item value="IsLoggedIn`0" priority="31" />
+      <Item value="Login`0" priority="31" />
+      <Item value="SalesForceHelper" priority="28" />
+      <Item value="try" priority="95" />
+      <Item value="Exception`0" priority="32" />
+      <Item value="ExecuteRegisteredAsyncTasks`0" priority="31" />
+      <Item value="ViewState" priority="31" />
+      <Item value="Session" priority="191" />
+      <Item value="message" priority="415" />
+      <Item value="Attachment" priority="86" />
+      <Item value="AttachmentCollection`0" priority="63" />
+      <Item value="_attachments" priority="63" />
+      <Item value="null" priority="127" />
+      <Item value="_sendMail" priority="95" />
+      <Item value="Attachment`0" priority="31" />
+      <Item value="a" priority="95" />
+      <Item value="objSendEmail" priority="31" />
+      <Item value="MailMessage" priority="89" />
+      <Item value="copy" priority="191" />
+      <Item value="MailAddress`0" priority="31" />
+      <Item value="in" priority="31" />
+      <Item value="b" priority="31" />
+      <Item value="Client" priority="31" />
+      <Item value="AddParsedSubObject`0" priority="31" />
+      <Item value="sf" priority="191" />
+      <Item value="LeadConvert`0" priority="31" />
+      <Item value="LeadConvert" priority="28" />
+      <Item value="returnString" priority="31" />
+      <Item value="result" priority="31" />
+      <Item value="OrgWideEmailAddress`0" priority="31" />
+      <Item value="_doSalesForceWork`0" priority="31" />
+      <Item value="Lead`0" priority="64" />
+      <Item value="records" priority="95" />
+      <Item value="Length" priority="53" />
+      <Item value="leadId" priority="31" />
+      <Item value="firstName" priority="127" />
+      <Item value="Account`0" priority="31" />
+      <Item value="Account" priority="28" />
+      <Item value="companyName" priority="31" />
+      <Item value="accountId" priority="95" />
+      <Item value="opportunityName" priority="31" />
+      <Item value="qr" priority="63" />
+      <Item value="optyId" priority="31" />
+      <Item value="sObject`0" priority="31" />
+      <Item value="Opportunity`0" priority="64" />
+      <Item value="opty" priority="191" />
+      <Item value="txtBillCompany" priority="31" />
+      <Item value="classDays" priority="63" />
+      <Item value="days" priority="95" />
+      <Item value="locationDesc" priority="31" />
+      <Item value="WriteUTF8ResourceString`0" priority="31" />
+      <Item value="ClassHeader1" priority="31" />
+      <Item value="locationLabel" priority="31" />
+      <Item value="lblClassLocation" priority="31" />
+      <Item value="lblClass" priority="31" />
+      <Item value="lblClassDate" priority="31" />
+      <Item value="lblClassDays" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="strBodyContent" priority="31" />
+      <Item value="InvoiceDate" priority="31" />
+      <Item value="InvoiceNum" priority="31" />
+      <Item value="StudentAddress" priority="31" />
+      <Item value="StudentCityStateZip" priority="31" />
+      <Item value="webmasterOnly" priority="31" />
+      <Item value="Send`0" priority="31" />
+      <Item value="Course" priority="31" />
+      <Item value="Description" priority="31" />
+      <Item value="UniqueID" priority="31" />
+      <Item value="UnitPrice" priority="95" />
+      <Item value="Discount" priority="31" />
+      <Item value="Total" priority="31" />
+      <Item value="this" priority="31" />
+      <Item value="as" priority="31" />
+      <Item value="SiteMaster`0" priority="32" />
+      <Item value="m" priority="95" />
+      <Item value="RadMenu`0" priority="31" />
+      <Item value="RadMenuMain" priority="31" />
+      <Item value="var" priority="191" />
+      <Item value="curItem" priority="31" />
+      <Item value="RadMenuItem" priority="28" />
+      <Item value="nextStep" priority="31" />
+      <Item value="System" priority="91" />
+      <Item value="Threading" priority="26" />
+      <Item value="Thread`0" priority="26" />
+      <Item value="txtPassword" priority="63" />
+      <Item value="ltrError" priority="31" />
+      <Item value="ddlCourse" priority="63" />
+      <Item value="pnlOutline" priority="31" />
+      <Item value="hypOutline" priority="31" />
+      <Item value="ListBoxButtonPosition`0" priority="31" />
+      <Item value="listHolidays" priority="63" />
+      <Item value="List" priority="31" />
+      <Item value="Dictionary" priority="31" />
+      <Item value="DictionaryItem" priority="30" />
+      <Item value="struct" priority="31" />
+      <Item value="RegionHotel`0" priority="58" />
+      <Item value="regionHotels" priority="32" />
+      <Item value="DataTableNewRowEventHandler`0" priority="63" />
+      <Item value="List&lt;DateTime&gt;" priority="28" />
+      <Item value="RegionHotel" priority="29" />
+      <Item value="rh" priority="63" />
+      <Item value="initLists`0" priority="31" />
+      <Item value="date" priority="191" />
+      <Item value="DayOfWeek`0" priority="63" />
+      <Item value="Sunday" priority="50" />
+      <Item value="day" priority="31" />
+      <Item value="do" priority="31" />
+      <Item value="isHolidayWeek`0" priority="63" />
+      <Item value="listRegionHotels" priority="31" />
+      <Item value="Linq" priority="26" />
+      <Item value="curWeekSequence" priority="159" />
+      <Item value="HotelRegion" priority="31" />
+      <Item value="twoWeekClass" priority="63" />
+      <Item value="isWeekendClass" priority="31" />
+      <Item value="Saturday" priority="16" />
+      <Item value="continue" priority="31" />
+      <Item value="WebPostRequest" priority="28" />
+      <Item value="register`0" priority="31" />
+      <Item value="req" priority="127" />
+      <Item value="dic" priority="31" />
+      <Item value="Uri" priority="54" />
+      <Item value="Uri`0" priority="31" />
+      <Item value="theQueryData" priority="31" />
+      <Item value="url" priority="31" />
+      <Item value="theUri" priority="31" />
+      <Item value="theRequest" priority="80" />
+      <Item value="s" priority="63" />
+      <Item value="doCreateUserInStudentRegistrationSystem`0" priority="31" />
+      <Item value="catch" priority="31" />
+      <Item value="success" priority="63" />
+      <Item value="runProcessWithCities`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadListBox">
+      <Item value="Items" priority="26" />
+      <Item value="SelectedValue" priority="134" />
+      <Item value="SelectedItems" priority="26" />
+      <Item value="CheckedItems" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadListBoxItemCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="215" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadComboBox">
+      <Item value="Items" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadComboBoxItemCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadListBoxItem">
+      <Item value="Checked" priority="26" />
+      <Item value="Value" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.DatePickingCalendar">
+      <Item value="SelectedDate" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="26" />
+      <Item value="Parse`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="53" />
+      <Item value="IsNullOrEmpty`0" priority="53" />
+      <Item value="Empty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddDays`0" priority="107" />
+      <Item value="DayOfWeek" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DayOfWeek">
+      <Item value="Sunday" priority="54" />
+      <Item value="Saturday" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.sforce.SforceService">
+      <Item value="SessionHeaderValue" priority="26" />
+      <Item value="retrieve`0" priority="53" />
+      <Item value="convertLead`0" priority="26" />
+      <Item value="logout`0" priority="26" />
+      <Item value="update`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.sforce.Lead">
+      <Item value="FirstName" priority="53" />
+      <Item value="LastName" priority="53" />
+      <Item value="Company" priority="26" />
+      <Item value="Email" priority="26" />
+      <Item value="Phone" priority="26" />
+      <Item value="LeadSource" priority="26" />
+      <Item value="Street" priority="26" />
+      <Item value="City" priority="26" />
+      <Item value="State" priority="26" />
+      <Item value="PostalCode" priority="26" />
+      <Item value="Description" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailMessage">
+      <Item value="Attachments" priority="107" />
+      <Item value="From" priority="53" />
+      <Item value="Subject" priority="53" />
+      <Item value="IsBodyHtml" priority="53" />
+      <Item value="Bcc" priority="107" />
+      <Item value="To" priority="27" />
+      <Item value="Body" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.AttachmentCollection">
+      <Item value="Add`0" priority="80" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PinnacleLearningCenter.SendMail">
+      <Item value="Attachments" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.MailAddressCollection">
+      <Item value="Add`0" priority="26" />
+      <Item value="Remove`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mail.SmtpClient">
+      <Item value="Send`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.App_Code.SalesForceHelper">
+      <Item value="Binding" priority="161" />
+      <Item value="ConvertLeadToOpportunity`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.sforce.LeadConvertResult">
+      <Item value="opportunityId" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="81" />
+      <Item value="Contains`0" priority="80" />
+      <Item value="ToUpper`0" priority="53" />
+      <Item value="Substring`0" priority="108" />
+      <Item value="Replace`0" priority="53" />
+      <Item value="Length" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.sforce.Account">
+      <Item value="Name" priority="26" />
+      <Item value="Id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.sforce.Opportunity">
+      <Item value="StageName" priority="26" />
+      <Item value="Id" priority="26" />
+      <Item value="Name" priority="26" />
+      <Item value="Description" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.sforce.QueryResult">
+      <Item value="records" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.ClassHeader">
+      <Item value="ClassType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="font-family" priority="0" />
+      <Item value="border-bottom-width" priority="3" />
+      <Item value="margin" priority="5" />
+      <Item value="border-width" priority="9" />
+      <Item value="no-repeat" priority="5" />
+      <Item value="repeat-x" priority="5" />
+      <Item value="text-align" priority="0" />
+      <Item value="padding-left" priority="1" />
+      <Item value="font-weight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.location_pmp">
+      <Item value="Master" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.SiteMaster">
+      <Item value="DataBindBreadCrumbSiteMap`0" priority="26" />
+      <Item value="RadMenu" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadMenu">
+      <Item value="FindItemByText`0" priority="22" />
+      <Item value="Items" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadMenuItemCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Void">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ImageButton">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="NavigateUrl" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="26" />
+      <Item value="Contains`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.class_manager+RegionHotel">
+      <Item value="HotelId" priority="53" />
+      <Item value="RegionId" priority="26" />
+      <Item value="WeekSequence" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;AElig;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:P3WebApp.App_Code.WebPostRequest">
+      <Item value="Add`0" priority="53" />
+      <Item value="GetResponse`0" priority="26" />
+      <Item value="ExecutePostRequest`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.HttpWebRequest">
+      <Item value="Credentials" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="27" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
