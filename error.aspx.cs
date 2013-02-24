@@ -17,10 +17,17 @@ public partial class error : System.Web.UI.Page
             Exception objError = Server.GetLastError();
             objError = objError.GetBaseException();
             ErrorMessage = objError.Message;
+
+            // these are errors most likely caused by robots. We don't want to be alerted when they occur.
             if (objError.Message.Contains("A potentially dangerous Request.Path value was detected from the client"))
                 return;
             if (objError.Message.Contains("Invalid viewstate"))
                 return;
+            if (objError.Message.Contains("Invalid length for a Base-64 char array."))
+                return;
+            if (objError.Message.Contains("The input is not a valid Base-64 string"))
+                return;
+            
             SendMail objSendEmail = new SendMail();
             objSendEmail.IsHTML = true;
             objSendEmail.Subject = "Error on pinnacle3learning.com";
