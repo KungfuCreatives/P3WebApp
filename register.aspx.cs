@@ -9,6 +9,7 @@ namespace P3WebApp
 {
     public partial class register : System.Web.UI.Page
     {
+        public string className = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             SampleCaptcha.UserInputClientID = CaptchaCode.ClientID;
@@ -192,27 +193,35 @@ namespace P3WebApp
                     {
                         case "PMP":
                             classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(3));
+                            className = "PMP Exam Prep";
                             break;
                         case "PMPLive":
                             classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            className = "PMP Online";
                             break;
                         case "CAPM":
                             classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(3));
+                            className = classTypeDesc;
                             break;
                         case "L6GI":
                             classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(2));
+                            className = "Lean Six Sigma Green Belt";
                             break;
                         case "L6BI":
                             classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(4));
+                            className = "Lean Six Sigma Black Belt";
                             break;
                         case "Essentials":
                             classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            className = classTypeDesc;
                             break;
                         case "Risk":
                             classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            className = classTypeDesc;
                             break;
                         case "MS Project":
                             classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            className = classTypeDesc;
                             break;
                     }
                     ViewState["originalamount"] = classCost;

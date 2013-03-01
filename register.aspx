@@ -9,7 +9,9 @@
 <img src="images/default_06.jpg" width="958" height="234" alt="">
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-                    	<div style="text-align:center; height:50px;"><img src="images/title_register.gif" alt="Pinnacle 3 Learning - PMP Certification Training"></div>
+                        <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+                    	<div style="text-align:center; height:50px;"><h1>Register for your <%=className %> class</h1></div>
+                        </asp:PlaceHolder>
                         <table width="100%">
                             <tr>
                                 <td width="550px"><uc1:ClassHeader ID="ClassHeader1" runat="server" ClassType="PMP" /></td>
