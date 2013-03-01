@@ -26,16 +26,6 @@
                 <td class="style4"><strong>Cost:</strong></td>
                 <td class="style4"><asp:Label ID="lblCost" runat="server" Text="" /></td>
             </tr>
-            <asp:Panel runat="server" ID="pnlOutline" Visible="false">
-            <tr>
-                <td valign="top" class="style4">
-                    <strong>Course Outline:</strong>
-                </td>
-                <td>
-                    <asp:Hyperlink ID="hypOutline" ImageUrl="images/btn_viewDownload_blue.gif" runat="server" Text="View Course Outline" Target="_blank" />    
-                </td>
-            </tr>
-            </asp:Panel>
             </table>
            <%-- <asp:Panel runat="server" ID="pnlDiscount" Visible="false"><span style="color:red;">Discount of $<asp:Label ID="lblDiscount" runat="server" Text="" />!</span></asp:Panel>--%>
             <br />

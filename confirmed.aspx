@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="P3WebApp.confirmed" Codebehind="confirmed.aspx.cs" MasterPageFile="~/Location.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="P3WebApp.confirmed" Codebehind="confirmed.aspx.cs" MasterPageFile="~/Register.Master" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
 <title>(PMP®) Project Management Professional Certification | Congratulations, You're Enrolled!</title>
 <meta name="description" content="PMP Certification Courses with a 98% SUCCESS RATE! Take Your Career To The Next Level with a Project Management Certification! Our Project Management Exam Training is The Best PMP Training Company Available. Check Us Out!">

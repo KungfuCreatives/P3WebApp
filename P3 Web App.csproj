@@ -382,6 +382,7 @@
     <Content Include="Thanks.aspx" />
     <Content Include="unsubscribe.aspx" />
     <Content Include="Location.Master" />
+    <Content Include="Register.Master" />
     <None Include="pdfs\BFS2_v4.2.pdf" />
     <None Include="pdfs\BFSQRG4.pdf" />
     <None Include="pdfs\BFS_v4.2.pdf" />
@@ -585,6 +586,13 @@
     </Compile>
     <Compile Include="certified-associate-in-project-management.aspx.designer.cs">
       <DependentUpon>certified-associate-in-project-management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.Master.cs">
+      <DependentUpon>Register.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.Master.designer.cs">
+      <DependentUpon>Register.Master</DependentUpon>
     </Compile>
     <Compile Include="footer-small.ascx.cs">
       <DependentUpon>footer-small.ascx</DependentUpon>

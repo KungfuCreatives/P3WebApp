@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="P3WebApp.register" Codebehind="register.aspx.cs" MasterPageFile="~/Location.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="P3WebApp.register" Codebehind="register.aspx.cs" MasterPageFile="~/Register.Master" %>
 <%@ Register src="ClassHeader.ascx" tagname="ClassHeader" tagprefix="uc1" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
 <title>(PMP®) Project Management Professional Certification | Complete Your Registration</title>
@@ -35,25 +35,7 @@
                                     <td></td>
                                     <td><asp:Label ID="classTimes" runat="server" Text="9:00A - 6:00P" /> </td>
                                 </tr>
-                                <tr>
-                                    <td align="left" valign="middle" colspan="2">
-                                <asp:Panel runat="server" ID="pnlPMPCert" Visible="false">
-                                    <b>The Project Management Professional ® Exam Prep course includes:
-                    	            <ul>
-                                        <li>PMBOK® Guide-Fourth Edition</li>
-                    	                <li>Pre-course       &quot;Blueprint For Success&quot;</li>
-                    	                <li>Online test simulator</li>
-                    	                <li>Detailed review and breakdown of the knowledge needed to pass the PMP® Certification Exam. </li>
-                    	                <li>Critical Exam Taking Techniques</li>
-                    	                <li>Memory enhancement techniques </li>
-                    	                <li>In class accelerated learning techniques using audio, visual and kinesthetic       approaches</li>
-                    	                <li>Over 550+ practice questions</li>
-                    	                <li>PMP Exam prep study guides</li>
-                    	                <li>Approved 36 contact hour PMP® Exam Certification Course</li>
-                  	                </ul></b>
-                                    </asp:Panel>
-                                </td>
-                                </tr>
+                                
                                 <tr>
                                 <td colspan="2">
                                     <table cellpadding="2" cellspacing="0" border="0">
@@ -61,7 +43,6 @@
                                             <td colspan="2">
                                                 <h4>
                                                     Contact Information</h4>
-                                                <font color="red"><b>** All Fields Are Required **</b></font>
                                             </td>
                                         </tr>
                                         <tr>
@@ -69,7 +50,7 @@
                                                 First Name:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_firstName" runat="server" Width="200px" />
+                                                <asp:TextBox ID="billTo_firstName" runat="server" Width="200px" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="billTo_firstName"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -79,7 +60,7 @@
                                                 Last Name:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_lastName" runat="server" Width="200px" />
+                                                <asp:TextBox ID="billTo_lastName" runat="server" Width="200px" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="billTo_lastName"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -88,9 +69,7 @@
                                                 <td align="right" class="label">
                                                     Company:                                                </td>
                                                 <td>
-                                                    <asp:TextBox ID="txtcompany" runat="server" Width="200px"></asp:TextBox>  
-                                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtcompany"
-                                                    Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>                                              
+                                                    <asp:TextBox ID="txtcompany" runat="server" Width="200px"></asp:TextBox>                                              
                                                     </td>
                                             </tr>
                                         <tr>
@@ -98,7 +77,7 @@
                                                 Address:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_street1" runat="server" Width="200px" />
+                                                <asp:TextBox ID="billTo_street1" runat="server" Width="200px" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="billTo_street1"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -108,7 +87,7 @@
                                                 City:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_city" runat="server" Width="200px" />
+                                                <asp:TextBox ID="billTo_city" runat="server" Width="200px" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="billTo_city"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -118,7 +97,7 @@
                                                 State/Province:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_state" runat="server" />
+                                                <asp:TextBox ID="billTo_state" runat="server" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="billTo_state"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -128,7 +107,7 @@
                                                 Postal Code:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_postalCode" runat="server" />
+                                                <asp:TextBox ID="billTo_postalCode" runat="server" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="billTo_postalCode"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -146,7 +125,7 @@
                                                 Email Address:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_email" runat="server" Width="200px"  />
+                                                <asp:TextBox ID="billTo_email" runat="server" Width="200px"  />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="billTo_email"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="billTo_email"
@@ -158,7 +137,7 @@
                                                 Phone Number:
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="billTo_phoneNumber" runat="server" Width="200px" />
+                                                <asp:TextBox ID="billTo_phoneNumber" runat="server" Width="200px" />&nbsp;*
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="billTo_phoneNumber"
                                                     Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>
                                             </td>
@@ -180,7 +159,7 @@
                                                         <asp:ListItem Value="7">Email</asp:ListItem>
                                                         <asp:ListItem Value="8">Friend/Colleague (specify)</asp:ListItem>
                                                         <asp:ListItem Value="8">Other (specify)</asp:ListItem>
-                                                    </asp:DropDownList><br />
+                                                    </asp:DropDownList>&nbsp;*<br />
                                                     <asp:TextBox ID="sourceOther" Visible="true" runat="server"></asp:TextBox>
                                                     (other)
                                                     </td>
@@ -241,6 +220,27 @@
                                             </telerik:RadAjaxLoadingPanel>
 
                                             </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="middle" colspan="2">
+                                <asp:Panel runat="server" ID="pnlPMPCert" Visible="false">
+                                <br />
+                                <br />
+                                    <b>The Project Management Professional ® Exam Prep course includes:
+                    	            <ul>
+                                        <li>PMBOK® Guide-Fourth Edition</li>
+                    	                <li>Pre-course       &quot;Blueprint For Success&quot;</li>
+                    	                <li>Online test simulator</li>
+                    	                <li>Detailed review and breakdown of the knowledge needed to pass the PMP® Certification Exam. </li>
+                    	                <li>Critical Exam Taking Techniques</li>
+                    	                <li>Memory enhancement techniques </li>
+                    	                <li>In class accelerated learning techniques using audio, visual and kinesthetic       approaches</li>
+                    	                <li>Over 550+ practice questions</li>
+                    	                <li>PMP Exam prep study guides</li>
+                    	                <li>Approved 36 contact hour PMP® Exam Certification Course</li>
+                  	                </ul></b>
+                                    </asp:Panel>
+                                </td>
                                 </tr>
                             </table>
                             <br />&nbsp;

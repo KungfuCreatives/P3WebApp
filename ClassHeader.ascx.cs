@@ -39,8 +39,7 @@ namespace P3WebApp
                     lblCredits.Text = "36";
                     lblDuration.Text = "4";
                     lblCourseNumber.Text = "PMP401";
-                    pnlOutline.Visible = true;
-                    hypOutline.NavigateUrl = "pdfs/PMPExamPrepCourseOutline.pdf";
+                    
                     string pmpCost = ConfigurationManager.AppSettings["Cost_PMP"];
                     string pmpCostSale = ConfigurationManager.AppSettings["Cost_PMP_Sale"];
                     if (classCost == 0)
@@ -54,8 +53,6 @@ namespace P3WebApp
                     lblCredits.Text = "36";
                     lblDuration.Text = "4";
                     lblCourseNumber.Text = "PMPW";
-                    pnlOutline.Visible = true;
-                    hypOutline.NavigateUrl = "pdfs/Live-On-Line-PMP-Certification-Course-Outline.pdf";
                     string pmpLiveCost = ConfigurationManager.AppSettings["Cost_PMPLive"];
                     string pmpLiveCostSale = ConfigurationManager.AppSettings["Cost_PMPLive_Sale"];
                     if (!string.IsNullOrEmpty(pmpLiveCostSale))
@@ -76,8 +73,6 @@ namespace P3WebApp
                     lblCredits.Text = "36";
                     lblDuration.Text = "4";
                     lblCourseNumber.Text = "CAPM101";
-                    pnlOutline.Visible = true;
-                    hypOutline.NavigateUrl = "pdfs/PMPExamPrepCourseOutline.pdf";
                     string capmCost = ConfigurationManager.AppSettings["Cost_CAPM"];
                     string capmCostSale = ConfigurationManager.AppSettings["Cost_CAPM_Sale"];
                      if (classCost == 0)
@@ -91,8 +86,6 @@ namespace P3WebApp
                     lblCredits.Text = "21";
                     lblDuration.Text = "3";
                     lblCourseNumber.Text = "L6GI";
-                    pnlOutline.Visible = true;
-                    hypOutline.NavigateUrl = "pdfs/Six-Sigma-Green-Belt-Course-Outline.pdf";
                     string l6giCost = ConfigurationManager.AppSettings["Cost_L6GI"];
                     string l6giCostSale = ConfigurationManager.AppSettings["Cost_L6GI_Sale"];
                     if (classCost == 0)
@@ -106,8 +99,6 @@ namespace P3WebApp
                     lblCredits.Text = "36";
                     lblDuration.Text = "5";
                     lblCourseNumber.Text = "L6BI";
-                    pnlOutline.Visible = true;
-                    hypOutline.NavigateUrl = "pdfs/Six-Sigma-Black-Belt-Course-Outline.pdf";
                     string l6biCost = ConfigurationManager.AppSettings["Cost_L6BI"];
                     string l6biCostSale = ConfigurationManager.AppSettings["Cost_L6BI_Sale"];
                     if (classCost == 0)
@@ -122,7 +113,6 @@ namespace P3WebApp
                     lblCredits.Text = "16";
                     lblDuration.Text = "2";
                     lblCourseNumber.Text = "PM101";
-                    pnlOutline.Visible = false;
                     lblCost.Text = "$" + classCost + "&nbsp;USD";
                     break;
                 case "Risk":
@@ -133,7 +123,6 @@ namespace P3WebApp
                     lblCredits.Text = "16";
                     lblDuration.Text = "2";
                     lblCourseNumber.Text = "RM101";
-                    pnlOutline.Visible = false;
                     lblCost.Text = "$" + classCost + "&nbsp;USD";
                     break;
                 case "MS Project":
@@ -144,7 +133,6 @@ namespace P3WebApp
                     lblCredits.Text = "16";
                     lblDuration.Text = "2";
                     lblCourseNumber.Text = "MP101";
-                    pnlOutline.Visible = false;
                     lblCost.Text = "$" + classCost + "&nbsp;USD";
                     break;
             }

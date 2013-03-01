@@ -112,15 +112,6 @@ namespace P3WebApp {
         protected global::System.Web.UI.WebControls.Label classTimes;
         
         /// <summary>
-        /// pnlPMPCert control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlPMPCert;
-        
-        /// <summary>
         /// billTo_firstName control.
         /// </summary>
         /// <remarks>
@@ -164,15 +155,6 @@ namespace P3WebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtcompany;
-        
-        /// <summary>
-        /// RequiredFieldValidator9 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator9;
         
         /// <summary>
         /// billTo_street1 control.
@@ -398,5 +380,14 @@ namespace P3WebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Telerik.Web.UI.RadAjaxLoadingPanel RadAjaxLoadingPanel;
+        
+        /// <summary>
+        /// pnlPMPCert control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlPMPCert;
     }
 }
