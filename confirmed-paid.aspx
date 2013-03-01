@@ -62,7 +62,7 @@
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
-                                <td><asp:Label ID="classTimes" runat="server" Text="9:00A - 6:00P" /> </td>
+                                <td><asp:Label ID="classTimes" runat="server" Text="8:30am to 6:00pm" /> </td>
                             </tr>
                             <tr>
                                 <td colspan="2">

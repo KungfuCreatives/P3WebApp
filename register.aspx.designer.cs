@@ -49,6 +49,15 @@ namespace P3WebApp {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
+        /// classID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label classID;
+        
+        /// <summary>
         /// hotelLabel control.
         /// </summary>
         /// <remarks>
@@ -83,24 +92,6 @@ namespace P3WebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label classDate;
-        
-        /// <summary>
-        /// classID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label classID;
-        
-        /// <summary>
-        /// classDays control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label classDays;
         
         /// <summary>
         /// classTimes control.

@@ -64,8 +64,7 @@ namespace P3WebApp
                     hotelLabel.Text = hotel + "<br />" + hotelAddress;
                     hotelInfoLink.NavigateUrl = hotelWebsite;
                     hotelInfoLink.Visible = !string.IsNullOrEmpty(hotelWebsite);
-                    classDate.Text = classDateTime.ToShortDateString();
-                    classDays.Text = description;
+                    
 
                     //Turn on the descriptive panels
                     pnlPMPCert.Visible = classTypeDesc == "PMP";
@@ -177,7 +176,7 @@ namespace P3WebApp
                                     //}
                                 }
                                 break;
-                            case "MS Project":
+                            case "MS Project": 
                                 if (classCost == 0)
                                 {
                                     classCost = int.Parse(ConfigurationManager.AppSettings["Cost_MS_Project"]);
@@ -189,6 +188,33 @@ namespace P3WebApp
                                 }
                                 break;
                         }
+                    switch (classTypeDesc)
+                    {
+                        case "PMP":
+                            classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(3));
+                            break;
+                        case "PMPLive":
+                            classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            break;
+                        case "CAPM":
+                            classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(3));
+                            break;
+                        case "L6GI":
+                            classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(2));
+                            break;
+                        case "L6BI":
+                            classDate.Text = string.Format("{0:MMM dd} - {1:dd}", classDateTime, classDateTime.AddDays(4));
+                            break;
+                        case "Essentials":
+                            classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            break;
+                        case "Risk":
+                            classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            break;
+                        case "MS Project":
+                            classDate.Text = string.Format("{0:MMM dd}", classDateTime);
+                            break;
+                    }
                     ViewState["originalamount"] = classCost;
                 }
             }
@@ -278,7 +304,7 @@ namespace P3WebApp
                     lead.City = city;
                     lead.State = state;
                     lead.PostalCode = zip;
-                    lead.Description = "Web Site Registration Initiated - " + locationLabel.Text + " " + ClassHeader1.ClassType + " " + classDate.Text + " " + classDays.Text + " Comments: " + billto_comments.Text;
+                    lead.Description = "Web Site Registration Initiated - " + locationLabel.Text + " " + ClassHeader1.ClassType + " " + classDate.Text + " Comments: " + billto_comments.Text;
 
                     var sr = sf.Binding.create(new sObject[] {lead});
 

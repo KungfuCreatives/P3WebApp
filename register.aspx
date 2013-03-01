@@ -21,7 +21,9 @@
                                                 <asp:Label ID="locationLabel" runat="server" Text="" /></td>
                                         </tr>
                                         <tr>
-                                            <td valign="top"><asp:Label ID="Label2" runat="server" Text="Location: " Font-Bold="True" /></td>
+                                            <td valign="top"><asp:Label ID="Label2" runat="server" Text="Location: " Font-Bold="True" />
+                                            <asp:Label ID="classID" runat="server" Text="" Visible="false" />
+                                            </td>
                                             <td>
                                                 <asp:Label ID="hotelLabel" runat="server" Text="" />&nbsp;<asp:Hyperlink ID="hotelInfoLink" Target="_blank" runat="server" Text="web site" /></td>
                                         </tr>
@@ -30,12 +32,8 @@
                                             <td><asp:Label ID="classDate" runat="server" Text="" /></td>
                                         </tr>
                                         <tr>
-                                            <td><asp:Label ID="classID" runat="server" Text="" Visible="false" /></td>
-                                            <td><asp:Label ID="classDays" runat="server" Text="" ForeColor="Red" /></td>
-                                        </tr>
-                                        <tr>
                                             <td></td>
-                                            <td><asp:Label ID="classTimes" runat="server" Text="9:00A - 6:00P" /> </td>
+                                            <td><asp:Label ID="classTimes" runat="server" Text="8:30am to 6:00pm" /> </td>
                                         </tr>
                                     </table>
                             </td>
