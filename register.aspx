@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="P3WebApp.register" Codebehind="register.aspx.cs" MasterPageFile="~/Site.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="P3WebApp.register" Codebehind="register.aspx.cs" MasterPageFile="~/Location.Master" %>
 <%@ Register src="ClassHeader.ascx" tagname="ClassHeader" tagprefix="uc1" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
 <title>(PMP®) Project Management Professional Certification | Complete Your Registration</title>

@@ -74,6 +74,7 @@
     <Content Include="contact-sent.aspx" />
     <Content Include="confirmed-paid.aspx" />
     <Content Include="certified-associate-in-project-management.aspx" />
+    <Content Include="footer-small.ascx" />
     <Content Include="location-six-sigma-green-belt-old.aspx" />
     <Content Include="location-six-sigma-black-belt-old.aspx" />
     <Content Include="location-capm-old.aspx" />
@@ -584,6 +585,13 @@
     </Compile>
     <Compile Include="certified-associate-in-project-management.aspx.designer.cs">
       <DependentUpon>certified-associate-in-project-management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="footer-small.ascx.cs">
+      <DependentUpon>footer-small.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="footer-small.ascx.designer.cs">
+      <DependentUpon>footer-small.ascx</DependentUpon>
     </Compile>
     <Compile Include="location-six-sigma-green-belt-old.aspx.cs">
       <DependentUpon>location-six-sigma-green-belt-old.aspx</DependentUpon>

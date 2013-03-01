@@ -49,15 +49,6 @@ namespace P3WebApp {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder BannerContent;
         
         /// <summary>
-        /// BreadCrumbSiteMap control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Telerik.Web.UI.RadSiteMap BreadCrumbSiteMap;
-        
-        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>
@@ -82,6 +73,6 @@ namespace P3WebApp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::footer footer;
+        protected global::footersmall footer;
     }
 }

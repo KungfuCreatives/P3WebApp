@@ -38,7 +38,6 @@ namespace P3WebApp
             var m = Master as LocationMaster;
             var newMenuItem = new RadSiteMapNode();
             newMenuItem.Text = City;
-            m.DataBindBreadCrumbSiteMap(newMenuItem);
 
         }
 
