@@ -15,7 +15,6 @@ namespace P3WebApp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            (Master as SiteMaster).MiniContactForm.Visible = false;
             _acceptCreditCards = bool.Parse(ConfigurationManager.AppSettings["AcceptCreditCards"]);
             _creditCard_Test50Cents = bool.Parse(ConfigurationManager.AppSettings["CreditCard_Test50Cents"]);
             _creditCard_AuthorizationActive = bool.Parse(ConfigurationManager.AppSettings["CreditCard_AuthorizationActive"]);

@@ -9,40 +9,45 @@
 <img src="images/default_06.jpg" width="958" height="234" alt="">
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-                    	<p><img src="images/title_register.gif" alt="Pinnacle 3 Learning - PMP Certification Training"></p>
-                    	&nbsp;<br />
-                        <uc1:ClassHeader ID="ClassHeader1" runat="server" ClassType="PMP" />
+                    	<div style="text-align:center; height:50px;"><img src="images/title_register.gif" alt="Pinnacle 3 Learning - PMP Certification Training"></div>
+                        <table width="100%">
+                            <tr>
+                                <td width="550px"><uc1:ClassHeader ID="ClassHeader1" runat="server" ClassType="PMP" /></td>
+                                <td>
+                                    <table cellpadding="2" cellspacing="0" border="0" class="style4">
+                                        <tr>
+                                            <td><asp:Label ID="Label1" runat="server" Text="City: " Font-Bold="True" /></td>
+                                            <td>
+                                                <asp:Label ID="locationLabel" runat="server" Text="" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top"><asp:Label ID="Label2" runat="server" Text="Location: " Font-Bold="True" /></td>
+                                            <td>
+                                                <asp:Label ID="hotelLabel" runat="server" Text="" />&nbsp;<asp:Hyperlink ID="hotelInfoLink" Target="_blank" runat="server" Text="web site" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td><asp:Label ID="Label3" runat="server" Text="Date & Time: " Font-Bold="True" /></td>
+                                            <td><asp:Label ID="classDate" runat="server" Text="" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td><asp:Label ID="classID" runat="server" Text="" Visible="false" /></td>
+                                            <td><asp:Label ID="classDays" runat="server" Text="" ForeColor="Red" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><asp:Label ID="classTimes" runat="server" Text="9:00A - 6:00P" /> </td>
+                                        </tr>
+                                    </table>
+                            </td>
+                            </tr>
+                        </table>
                             <table cellpadding="2" cellspacing="0" border="0" width="520" align="center" class="style4">
-                                <tr>
-                                    <td align="right"><asp:Label ID="Label1" runat="server" Text="City: " Font-Bold="True" /></td>
-                                    <td>
-                                        <asp:Label ID="locationLabel" runat="server" Text="" /></td>
-                                </tr>
-                                <tr>
-                                    <td align="right" valign="top"><asp:Label ID="Label2" runat="server" Text="Location: " Font-Bold="True" /></td>
-                                    <td>
-                                        <asp:Label ID="hotelLabel" runat="server" Text="" />&nbsp;<asp:Hyperlink ID="hotelInfoLink" Target="_blank" runat="server" Text="web site" /></td>
-                                </tr>
-                                <tr>
-                                    <td align="right"><asp:Label ID="Label3" runat="server" Text="Date & Time: " Font-Bold="True" /></td>
-                                    <td><asp:Label ID="classDate" runat="server" Text="" /></td>
-                                </tr>
-                                <tr>
-                                    <td><asp:Label ID="classID" runat="server" Text="" Visible="false" /></td>
-                                    <td><asp:Label ID="classDays" runat="server" Text="" ForeColor="Red" /></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td><asp:Label ID="classTimes" runat="server" Text="9:00A - 6:00P" /> </td>
-                                </tr>
-                                
                                 <tr>
                                 <td colspan="2">
                                     <table cellpadding="2" cellspacing="0" border="0">
                                         <tr>
                                             <td colspan="2">
-                                                <h4>
-                                                    Contact Information</h4>
+                                                <h3>Contact Information</h3>
                                             </td>
                                         </tr>
                                         <tr>
@@ -159,7 +164,7 @@
                                                         <asp:ListItem Value="7">Email</asp:ListItem>
                                                         <asp:ListItem Value="8">Friend/Colleague (specify)</asp:ListItem>
                                                         <asp:ListItem Value="8">Other (specify)</asp:ListItem>
-                                                    </asp:DropDownList>&nbsp;*<br />
+                                                    </asp:DropDownList><br />
                                                     <asp:TextBox ID="sourceOther" Visible="true" runat="server"></asp:TextBox>
                                                     (other)
                                                     </td>
@@ -195,8 +200,7 @@
                                 </td>
                                 </tr>
                                 <tr>
-                                    <td align="center" valign="middle" colspan="2">
-                                    <hr /></td>
+                                    <td align="center" valign="middle" colspan="2">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td colspan="2" align="center">

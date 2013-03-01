@@ -9,7 +9,8 @@
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
                 <p class=><asp:HyperLink runat="server" ID="hypBack" Text="Back to registration"></asp:HyperLink></p>
-                <h1 style="text-align:center">Confirm Your Pinnacle 3 Learning Registration</h1>
+                 <center>
+                 <h1>Confirm Your Pinnacle 3 Learning Registration</h1>
                         <table cellpadding="2" cellspacing="0" border="0">
                             <tr>
                                 <td colspan="2">
@@ -347,4 +348,5 @@
                         </asp:Panel>
                         <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel" runat="server" Skin="Default">
                         </telerik:RadAjaxLoadingPanel>
+                        </center>
                 </asp:Content>

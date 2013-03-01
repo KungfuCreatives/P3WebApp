@@ -8,7 +8,8 @@
 <img src="images/default_06.jpg" width="958" height="234" alt="">
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-                <h1 style="text-align:center">Thank You For Registering!</h1>
+<center>
+                <h1>Thank You For Registering!</h1>
                 <div style="color:Red"><h2><asp:label runat="server" ID="lblEmail" Text="A confirmation letter has been sent to your email address."></asp:label></h2>
                 </div>
                 <div><h2>
@@ -183,7 +184,7 @@
                                 <td colspan="2">&nbsp;</td>
                             </tr>
                         </table>
-
+                        </center>
                         <!-- Google Code for Sales Conversion Page -->
                         <script type="text/javascript">
                         /* <![CDATA[ */
