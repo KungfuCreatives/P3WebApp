@@ -33,15 +33,19 @@ namespace P3WebApp
             ClassHeader1.InitControl(classCost);
             CmsLocationContent.PageTitle = City + " PMP";
             CmsLocationContent.OnContentTextChanged += new EventHandler(CmsLocationContent_OnContentTextChanged);
+            CmsLocationContent.OnUnableToFindContent += new EventHandler(CmsLocationContent_OnUnableToFindContent);
 
             cmsPageContent_FAQs_City.PageTitle = "PMP FAQs " + City;
             cmsPageContent_FAQs_City.OnContentTextChanged += new EventHandler(cmsPageContent_FAQs_City_OnContentTextChanged);
+            cmsPageContent_FAQs_City.OnUnableToFindContent += new EventHandler(cmsPageContent_FAQs_City_OnUnableToFindContent);
 
             cmsPageContent_PmpApplication_City.PageTitle = "PMP Application " + City;
             cmsPageContent_PmpApplication_City.OnContentTextChanged += new EventHandler(cmsPageContent_PmpApplication_City_OnContentTextChanged);
+            cmsPageContent_PmpApplication_City.OnUnableToFindContent += new EventHandler(cmsPageContent_PmpApplication_City_OnUnableToFindContent);
 
             cmsPageContent_WhyUs_City.PageTitle = "P3 Why Us? " + City;
             cmsPageContent_WhyUs_City.OnContentTextChanged += new EventHandler(cmsPageContent_WhyUs_City_OnContentTextChanged);
+            cmsPageContent_WhyUs_City.OnUnableToFindContent += new EventHandler(cmsPageContent_WhyUs_City_OnUnableToFindContent);
 
             var m = Master as LocationMaster;
             var newMenuItem = new RadSiteMapNode();
@@ -49,22 +53,49 @@ namespace P3WebApp
 
         }
 
+        void cmsPageContent_WhyUs_City_OnUnableToFindContent(object sender, EventArgs e)
+        {
+            cmsPageContent_WhyUs_City.Visible = false;
+            cmsPageContent_WhyUs_General.Visible = true;
+        }
+
+        void cmsPageContent_PmpApplication_City_OnUnableToFindContent(object sender, EventArgs e)
+        {
+            cmsPageContent_PmpApplication_City.Visible = false;
+            cmsPageContent_PmpApplication_General.Visible = true;
+        }
+
+        void cmsPageContent_FAQs_City_OnUnableToFindContent(object sender, EventArgs e)
+        {
+            cmsPageContent_FAQs_City.Visible = false;
+            cmsPageContent_FAQs_General.Visible = true;
+        }
+
+        void CmsLocationContent_OnUnableToFindContent(object sender, EventArgs e)
+        {
+            pnlStaticDetails.Visible = true;
+            pnlRssDetails.Visible = false;
+        }
+
         void cmsPageContent_WhyUs_City_OnContentTextChanged(object sender, EventArgs e)
         {
             cmsPageContent_WhyUs_City.Visible = true;
             cmsPageContent_WhyUs_General.Visible = false;
+            cmsPageContent_WhyUs_General.SkipLoading = true;
         }
 
         void cmsPageContent_PmpApplication_City_OnContentTextChanged(object sender, EventArgs e)
         {
             cmsPageContent_PmpApplication_City.Visible = true;
             cmsPageContent_PmpApplication_General.Visible = false;
+            cmsPageContent_PmpApplication_General.SkipLoading = true;
         }
 
         void cmsPageContent_FAQs_City_OnContentTextChanged(object sender, EventArgs e)
         {
             cmsPageContent_FAQs_City.Visible = true;
             cmsPageContent_FAQs_General.Visible = false;
+            cmsPageContent_FAQs_General.SkipLoading = true;
         }
 
         void CmsLocationContent_OnContentTextChanged(object sender, EventArgs e)
