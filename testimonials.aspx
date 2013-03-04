@@ -9,12 +9,12 @@
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
     <asp:Repeater runat="server" ID="rptTestimonials" DataSourceID="xdsTestimonials" >
-<ItemTemplate>
-<p>
-<b><%#XPath("reference")%></b><br />
-    <%#XPath("quote")%></p><br />
-</ItemTemplate>
-</asp:Repeater>
+        <ItemTemplate>
+        <p>
+        <b><%#XPath("reference")%></b><br />
+            <%#XPath("quote")%></p>
+        </ItemTemplate>
+    </asp:Repeater>
 <p>&nbsp;</p>
      <asp:XmlDataSource runat="server" ID="xdsTestimonials" 
          DataFile="~/App_Data/testimonials.xml" XPath="testimonials/testimonial" ></asp:XmlDataSource>

@@ -11,35 +11,78 @@
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
 <h1>PMP Training <%# City %></h1>
-    <p class=" style4"><b>Class Details</b></p>
-    <asp:Panel runat="server" ID="pnlStaticDetails">
-        <p>
-            In our <%# City %> PMP Exam Prep course, you'll gain the essential preparation needed to pass the Project Management Institutes PMP® Certification Exam. The <%# City %> PMP Exam Prep course is based on the nine Knowledge Areas of the Guide to the Project Management Body of Knowledge(PMBOK® Guide) and the five process groups - Initiating, Planning, Executing, Monitoring and Controlling, and Closing as well as Critical Exam Taking Techniques. This <%# City %> PMP Exam Prep class will provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the detailed exam and earn your Project Management Professional (PMP®) Credential.
-        </p>
-        <p class=" style4"><b>The Project Management Professional ® Exam Prep Course includes:</b></p>
-        <ul>
-                <li>PMP® Exam Prep Study Book</li>
-                <li>Pre-course &quot;Blueprint For Success&quot;</li>
-                <li>Online PMP® Exam Simulator</li>
-			    <li>Over 600+ Practice PMP® Questions</li>
-                <li>100% PMP® Exam Pass Guarantee</li>
-                <li>Critical Exam Taking Techniques</li>
-                <li>Breakfast, Lunch and Snacks Provided</li>
-                <li>In Class Exercises and Accelerated Learning Techniques</li>
-                <li>PMP® Eligibility Application Support</li>
-                <li>PMI Approved 36 Contact Hour PMP® Exam Certification Course</li>
-        </ul>
-	    <p>What we believe is a significant differentiator is our <b>T.rusted A.dvisor P.rogram&trade;</b> that allows you to <b>T.A.P.&trade;</b> into the experience and insights of our instructors via email and telephone support prior, during and following class.  Because at Pinnacle 3 we believe, You aren’t done with class, until you pass!&trade;</p>
-        <p>
-        The objective of this course is to prepare you for the Project Management Professional (PMP®) examination. We are so confident that after our 4 Day Instructor led PMP Exam Prep Class you will pass the exam that we guarantee it. </p>
-        <ul>
-        <li><a href="pmp-certification-prep-faqs.aspx">Find more information on the PMP® Certification Exam here</a> 
-        </li>
-        </ul> 
-    </asp:Panel> 
-    <asp:Panel runat="server" ID="pnlRssDetails" Visible="true">
-        <uc1:CmsPageContent ID="CmsLocationContent" runat="server" />
-    </asp:Panel>
+    
+    <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="0">
+            <Tabs>
+                <telerik:RadTab Text="PMP Training">
+                </telerik:RadTab>
+                <telerik:RadTab Text="PMP Application">
+                </telerik:RadTab>
+                <telerik:RadTab Text="Why Choose Us?">
+                </telerik:RadTab>
+                <telerik:RadTab Text="PMP Reviews">
+                </telerik:RadTab>
+                <telerik:RadTab Text="PMP FAQ’s">
+                </telerik:RadTab>
+            </Tabs>
+        </telerik:RadTabStrip>
+        <telerik:RadMultiPage ID="RadMultiPage1" Runat="server" SelectedIndex="0">
+                <telerik:RadPageView ID="RadPageViewpPmpTraining" runat="server">
+                    <p class=" style4"><b>Class Details</b></p>  
+                    <asp:Panel runat="server" ID="pnlStaticDetails">
+                        <p>
+                            <b>
+                            </b>In our <%# City %> PMP Exam Prep course, you'll gain the essential preparation needed to pass the Project Management Institutes PMP® Certification Exam. The <%# City %> PMP Exam Prep course is based on the nine Knowledge Areas of the Guide to the Project Management Body of Knowledge(PMBOK® Guide) and the five process groups - Initiating, Planning, Executing, Monitoring and Controlling, and Closing as well as Critical Exam Taking Techniques. This <%# City %> PMP Exam Prep class will provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the detailed exam and earn your Project Management Professional (PMP®) Credential.
+                        </p>
+                        <p class=" style4"><b>The Project Management Professional ® Exam Prep Course includes:</b></p>
+                        <ul>
+                                <li>PMP® Exam Prep Study Book</li>
+                                <li>Pre-course &quot;Blueprint For Success&quot;</li>
+                                <li>Online PMP® Exam Simulator</li>
+			                    <li>Over 600+ Practice PMP® Questions</li>
+                                <li>100% PMP® Exam Pass Guarantee</li>
+                                <li>Critical Exam Taking Techniques</li>
+                                <li>Breakfast, Lunch and Snacks Provided</li>
+                                <li>In Class Exercises and Accelerated Learning Techniques</li>
+                                <li>PMP® Eligibility Application Support</li>
+                                <li>PMI Approved 36 Contact Hour PMP® Exam Certification Course</li>
+                        </ul>
+	                    <p>What we believe is a significant differentiator is our <b>T.rusted A.dvisor P.rogram&trade;</b> that allows you to <b>T.A.P.&trade;</b> into the experience and insights of our instructors via email and telephone support prior, during and following class.  Because at Pinnacle 3 we believe, You aren’t done with class, until you pass!&trade;</p>
+                        <p>
+                        The objective of this course is to prepare you for the Project Management Professional (PMP®) examination. We are so confident that after our 4 Day Instructor led PMP Exam Prep Class you will pass the exam that we guarantee it. </p>
+                        <ul>
+                        <li><a href="pmp-certification-prep-faqs.aspx">Find more information on the PMP® Certification Exam here</a> 
+                        </li>
+                        </ul> 
+                    </asp:Panel> 
+                    <asp:Panel runat="server" ID="pnlRssDetails" Visible="true">
+                        <uc1:CmsPageContent ID="CmsLocationContent" runat="server" />
+                    </asp:Panel>
+                </telerik:RadPageView>
+                <telerik:RadPageView ID="RadPageViewPmpApplication" runat="server">
+                    <uc1:CmsPageContent ID="cmsPageContent_PmpApplication_General" runat="server" PageTitle="PMP Application"/> 
+                    <uc1:CmsPageContent ID="cmsPageContent_PmpApplication_City" runat="server" Visible="false"/> 
+                </telerik:RadPageView>
+                <telerik:RadPageView ID="RadPageViewWhyUs" runat="server">
+                    <uc1:CmsPageContent ID="cmsPageContent_WhyUs_General" runat="server" PageTitle="P3 Why Us?"/> 
+                    <uc1:CmsPageContent ID="cmsPageContent_WhyUs_City" runat="server" Visible="false"/> 
+                </telerik:RadPageView>
+                <telerik:RadPageView ID="RadPageViewTestimonials" runat="server">
+                    <asp:Repeater runat="server" ID="rptTestimonials" DataSourceID="xdsTestimonials" >
+                        <ItemTemplate>
+                        <p>
+                        <b><%#XPath("reference")%></b><br />
+                            <%#XPath("quote")%></p>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                     <asp:XmlDataSource runat="server" ID="xdsTestimonials" 
+                         DataFile="~/App_Data/testimonials.xml" XPath="testimonials/testimonial" ></asp:XmlDataSource>
+                </telerik:RadPageView>
+                <telerik:RadPageView ID="RadPageViewFAQs" runat="server">
+                    <uc1:CmsPageContent ID="cmsPageContent_FAQs_General" runat="server" PageTitle="PMP FAQs"/> 
+                    <uc1:CmsPageContent ID="cmsPageContent_FAQs_City" runat="server" Visible="false"/> 
+                </telerik:RadPageView>
+            </telerik:RadMultiPage>
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="RightContent" ID="rightContent">
