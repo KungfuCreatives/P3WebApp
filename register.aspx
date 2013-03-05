@@ -74,7 +74,9 @@
                                                 <td align="right" class="label">
                                                     Company:                                                </td>
                                                 <td>
-                                                    <asp:TextBox ID="txtcompany" runat="server" Width="200px"></asp:TextBox>                                              
+                                                    <asp:TextBox ID="txtcompany" runat="server" Width="200px"></asp:TextBox>&nbsp;*
+                                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="txtcompany"
+                                                    Display="Dynamic" ErrorMessage="required"></asp:RequiredFieldValidator>                                            
                                                     </td>
                                             </tr>
                                         <tr>

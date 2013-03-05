@@ -16,6 +16,10 @@ namespace P3WebApp
 {
     public partial class LocationMaster : System.Web.UI.MasterPage
     {
+        public bool ShouldLoadCMSContent { get; set; }
+        public event EventHandler OnCMSContentLoaded;
+        public XDocument XDocRssFeed { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.Browser.MSDomVersion.Major == 0)
@@ -25,6 +29,11 @@ namespace P3WebApp
             if (!IsPostBack)
             {
 
+            }
+            if (ShouldLoadCMSContent)
+            {
+                XDocRssFeed = XDocument.Load("http://pmpexampass.info/?feed=rss2&cat=-1");
+                OnCMSContentLoaded(sender, e);
             }
         }
 

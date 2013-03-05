@@ -15,36 +15,53 @@ namespace P3WebApp
         public event EventHandler OnContentTextChanged;
         public event EventHandler OnUnableToFindContent;
         
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Init(object sender, EventArgs e)
         {
             if (SkipLoading)
                 return;
 
-            XDocument xdoc = XDocument.Load("http://pmpexampass.info/?feed=rss2&cat=-1");
+            if (Page.Master is LocationMaster)
+            {
+                (Page.Master as LocationMaster).ShouldLoadCMSContent = true;
+                (Page.Master as LocationMaster).OnCMSContentLoaded += new EventHandler(CmsPageContent_OnCMSContentLoaded);
+            }
+            else
+            {
+                XDocument xdoc = XDocument.Load("http://pmpexampass.info/?feed=rss2&cat=-1");
+                LoadContent(xdoc);
+            }
+        }
 
+        void CmsPageContent_OnCMSContentLoaded(object sender, EventArgs e)
+        {
+            LoadContent((Page.Master as LocationMaster).XDocRssFeed);
+        }
+
+        private void LoadContent(XDocument xdoc)
+        {
             XNamespace contentNs = XNamespace.Get("http://purl.org/rss/1.0/modules/content/");
 
             var q = from item in xdoc.Descendants("rss").Elements("channel").Elements("item")
                     where item.Element("title").Value == PageTitle
                     select new
-                               {
-                                   title = item.Element("title").Value,
-                                   content = item.Element(contentNs + "encoded").Value,
-                                   published = item.Element("pubDate").Value
-                               };
+                    {
+                        title = item.Element("title").Value,
+                        content = item.Element(contentNs + "encoded").Value,
+                        published = item.Element("pubDate").Value
+                    };
             bool foundContent = false;
             foreach (var obj in q)
             {
                 lblContent.Text = obj.content;
                 if (OnContentTextChanged != null)
-                    OnContentTextChanged(sender, e);
+                    OnContentTextChanged(this, new EventArgs());
                 foundContent = true;
                 break;
             }
             if (!foundContent)
             {
                 if (OnUnableToFindContent != null)
-                    OnUnableToFindContent(sender, e);
+                    OnUnableToFindContent(this, new EventArgs());
             }
         }
     }

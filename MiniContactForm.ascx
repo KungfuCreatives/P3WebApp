@@ -16,7 +16,7 @@
     </div>
     <div class="submit-button">
         <asp:Button runat="server" ID="btnSubmit" Text="Send" 
-            onclick="btnSubmit_Click" />
+            onclick="btnSubmit_Click" OnClientClick="_gaq.push(['_trackEvent', 'Submissions', 'ContactSent', 'ContactForm',, false]);"  />
     </div>
 </div>
 </asp:Panel>

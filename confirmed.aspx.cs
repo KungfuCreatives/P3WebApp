@@ -11,6 +11,8 @@ namespace P3WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            pnlSiteSeal.Visible = Request.Url.Scheme == "https" || !bool.Parse(ConfigurationManager.AppSettings["GoSecure"]);
+
             if (!IsPostBack)
             {
                 if (Request.QueryString["registrationid"] == null)
@@ -19,6 +21,7 @@ namespace P3WebApp
                 string registrationid = Request.QueryString["registrationid"];
                 string classId = string.Empty;
                 string locationDesc = string.Empty;
+                string locationSeo = string.Empty;
                 string hotel = string.Empty;
                 string hotelWebsite = string.Empty;
                 string description = string.Empty;
@@ -43,7 +46,7 @@ namespace P3WebApp
                 string company = string.Empty;
 
                 OleDbConnection conn = new OleDbConnection(ConfigurationManager.ConnectionStrings["classDBF"].ConnectionString);
-                OleDbCommand cmd = new OleDbCommand("SELECT classes.ClassID, classes.HOT, (Format(classes.ClassDate,'mm/dd/yyyy')) AS ClassDate, classes.numdays, ClassType.classTypeDesc, DaysOfWeek.Description, Hotels.Hotel, Hotels.HotelWebsite, Locations.LocationDesc, registration.RegistrationId, registration.amounttocharge, registration.firstname, registration.lastname, registration.company, registration.address, registration.city, registration.state, registration.zipcode, registration.country, registration.phone, registration.email, registration.numstudents, registration.couponcode, registration.comments, registration.paymenttype FROM (Locations INNER JOIN (ClassType INNER JOIN (Hotels INNER JOIN (DaysOfWeek INNER JOIN classes ON DaysOfWeek.DaysOfWeekID = classes.ClassDaysID) ON Hotels.HotelID = classes.HotelID) ON ClassType.classTypeID = classes.ClassTypeID) ON Locations.LocationID = classes.LocationID) INNER JOIN registration ON classes.ClassID = registration.classId WHERE registration.RegistrationId=" + registrationid, conn);
+                OleDbCommand cmd = new OleDbCommand("SELECT classes.ClassID, classes.HOT, (Format(classes.ClassDate,'mm/dd/yyyy')) AS ClassDate, classes.numdays, ClassType.classTypeDesc, DaysOfWeek.Description, Hotels.Hotel, Hotels.HotelWebsite, Locations.LocationSeo, Locations.LocationDesc, registration.RegistrationId, registration.amounttocharge, registration.firstname, registration.lastname, registration.company, registration.address, registration.city, registration.state, registration.zipcode, registration.country, registration.phone, registration.email, registration.numstudents, registration.couponcode, registration.comments, registration.paymenttype FROM (Locations INNER JOIN (ClassType INNER JOIN (Hotels INNER JOIN (DaysOfWeek INNER JOIN classes ON DaysOfWeek.DaysOfWeekID = classes.ClassDaysID) ON Hotels.HotelID = classes.HotelID) ON ClassType.classTypeID = classes.ClassTypeID) ON Locations.LocationID = classes.LocationID) INNER JOIN registration ON classes.ClassID = registration.classId WHERE registration.RegistrationId=" + registrationid, conn);
 
                 conn.Open();
                 OleDbDataReader myReader = cmd.ExecuteReader();
@@ -52,6 +55,7 @@ namespace P3WebApp
                 {
                     classId = myReader["ClassID"].ToString();
                     locationDesc = myReader["LocationDesc"].ToString();
+                    locationSeo = myReader["LocationSeo"].ToString();
                     hotel = myReader["Hotel"].ToString();
                     hotelWebsite = myReader["HotelWebsite"].ToString();
                     description = myReader["Description"].ToString();
@@ -84,7 +88,6 @@ namespace P3WebApp
                 lblPrice.Text = string.Format("{0:C}", amountToCharge);
                 lblClassDays.Text = description;
                 lblHotel.Text = hotel;
-                hotelInfoLink.NavigateUrl = hotelWebsite;
                 billTo_city.Text = city;
                 billto_comments.Text = comments;
                 billTo_country.Text = country;
@@ -99,10 +102,13 @@ namespace P3WebApp
                 lblNumStudents.Text = numstudents;
                 lblCompany.Text = company;
 
+                var locationLink = string.Empty;
+
                 switch (classTypeDesc)
                 {
                     case "PMP":
-                        lblClass.Text = "Project Management Professional (PMP®) Prep"; 
+                        lblClass.Text = "Project Management Professional (PMP®) Prep";
+                        locationLink = "pmp-certification-" + locationSeo;
                         break;
                     case "Essentials":
                         lblClass.Text = "PM Essentials"; 
@@ -115,14 +121,18 @@ namespace P3WebApp
                         break;
                     case "CAPM":
                         lblClass.Text = "Certified Associate in Project Management";
+                        locationLink = locationSeo + "-capm-training-class";
                         break;
                     case "L6BI":
                         lblClass.Text = "Lean Six Sigma Black Belt Program";
+                        locationLink = locationSeo + "-lean-six-sigma-green-belt-training-class";
                         break;
                     case "L6GI":
                         lblClass.Text = "Lean Six Sigma Green Belt Program";
+                        locationLink = locationSeo + "-lean-six-sigma-green-belt-training-class";
                         break;
                 }
+                hotelInfoLink.NavigateUrl = locationLink;
 
                 if (ConfigurationManager.AppSettings["SendLeadsToSalesForce"] == "true")
                 {
@@ -150,8 +160,8 @@ namespace P3WebApp
                                                   lblClass.Text,
                                                   locationDesc,
                                                   classDateTime.ToShortDateString(), 
-                                                  description, "9:00A - 6:00P", 
-                                                  hotelWebsite,
+                                                  description, "8:30am - 6:00pm", 
+                                                  locationLink,
                                                   hotel,
                                                   firstName,
                                                   lastName,

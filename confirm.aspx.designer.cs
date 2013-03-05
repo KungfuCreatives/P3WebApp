@@ -202,6 +202,15 @@ namespace P3WebApp {
         protected global::Telerik.Web.UI.RadAjaxManager RadAjaxManager1;
         
         /// <summary>
+        /// pnlSiteSeal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlSiteSeal;
+        
+        /// <summary>
         /// uPnlPayment control.
         /// </summary>
         /// <remarks>

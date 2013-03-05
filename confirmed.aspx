@@ -17,6 +17,11 @@
                 <br />
                 Please print this page for your records.</h2>
                 </div>
+                <div class="secureSeal">
+                    <asp:Panel runat="server" ID="pnlSiteSeal" Visible="false" Width="100px">
+                        <span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=ngrNrhNzGoZeSBh7wCiQivYG40xIDd4PNlVaDffzVh1Gyp6M3udu3w6nXU3"></script></span>
+                    </asp:Panel>
+                </div>
                         <table cellpadding="2" cellspacing="0" border="0">
                             <tr>
                                 <td colspan="2">

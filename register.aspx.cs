@@ -350,9 +350,7 @@ namespace P3WebApp
                 url = String.Format("https://{0}{1}",
                                            Request.ServerVariables["HTTP_HOST"],
                                            ResolveUrl("~/confirm.aspx?registrationid=" + registrationId));
-                //Response.Redirect(url);
             }
-                // otherwise stay non-secure
             else
             {
                 url = "confirm.aspx?registrationid=" + registrationId;

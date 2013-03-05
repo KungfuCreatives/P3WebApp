@@ -19,6 +19,8 @@ namespace P3WebApp
             _creditCard_Test50Cents = bool.Parse(ConfigurationManager.AppSettings["CreditCard_Test50Cents"]);
             _creditCard_AuthorizationActive = bool.Parse(ConfigurationManager.AppSettings["CreditCard_AuthorizationActive"]);
 
+            pnlSiteSeal.Visible = Request.Url.Scheme == "https" || !bool.Parse(ConfigurationManager.AppSettings["GoSecure"]);
+
             if (!IsPostBack)
             {
                 _initPage();

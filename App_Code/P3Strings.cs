@@ -43,7 +43,6 @@ namespace P3WebApp.App_Code
                     "========= ORDER INFORMATION =========" + "<Br />" + 
                     "<Br />" +
                     "Description : {1} - {2} - {3}" + "<Br />" +
-                    "Students : {14}" + "<Br />" + 
                     "Total : US {4}" + "<Br />" + 
                     "<Br />" +
                     "========= REGISTRANT INFORMATION =========" + "<Br />" + 
@@ -74,7 +73,6 @@ namespace P3WebApp.App_Code
                     "<Br />" +
                     "Registration : {17}" + "<Br />" +
                     "Description : {0} - {1} - {2}" + "<Br />" +
-                    "Student : {16}" + "<Br />" +
                     "Charge Amount : US {3}" + "<Br />" +
                     "<Br />" +
                     "========= BILLING INFORMATION =========" + "<Br />" +
@@ -158,8 +156,7 @@ namespace P3WebApp.App_Code
                     "<Br />" +
                     "<b>CLASS INFORMATION</b>" + "<Br />" + 
                     "<Br />" +
-                    "Class: {1} " + "<Br />" +
-                    "Students : {19}" + "<Br />" + 
+                    "Class: {1} " + "<Br />" + 
                     "Location: {2}"+ "<Br />" +
                     "Date: {3} " + "<Br />" +
                     "{4} {5} " + "<Br />" +

@@ -26,14 +26,6 @@
                                     <asp:Label ID="lblClass"  runat="server" Text=""></asp:Label>
                                 </td>
                             </tr>
-                            <%--<tr>
-                                <td class="label" align="right">
-                                    Num Students:
-                                </td>
-                                <td>
-                                    <asp:Label ID="lblNumStudents"  runat="server" Text=""></asp:Label>
-                                </td>
-                            </tr>--%>
                             <tr>
                                 <td class="label" align="right">
                                     Class Location:
@@ -189,6 +181,11 @@
                                 </telerik:AjaxSetting>
                             </AjaxSettings>
                         </telerik:RadAjaxManager>
+                        <div class="secureSeal">
+                            <asp:Panel runat="server" ID="pnlSiteSeal" Visible="false" Width="100px">
+                                <span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=ngrNrhNzGoZeSBh7wCiQivYG40xIDd4PNlVaDffzVh1Gyp6M3udu3w6nXU3"></script></span>
+                            </asp:Panel>
+                        </div>
                          <asp:Panel runat="server" ID="uPnlPayment">
                          <table cellpadding="2" cellspacing="0" border="0">
                             <tr>
