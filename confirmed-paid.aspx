@@ -37,14 +37,6 @@
                                     <asp:Label ID="lblClass"  runat="server" Text=""></asp:Label>
                                 </td>
                             </tr>
-                             <tr>
-                                <td class="label" align="right">
-                                    Num Students:
-                                </td>
-                                <td>
-                                    <asp:Label ID="lblNumStudents"  runat="server" Text=""></asp:Label>
-                                </td>
-                            </tr>
                             <tr>
                                 <td class="label" align="right">
                                     Class Location:

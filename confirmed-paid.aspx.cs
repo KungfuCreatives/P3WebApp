@@ -103,7 +103,6 @@ namespace P3WebApp
                 billTo_state.Text = state;
                 billTo_street1.Text = address;
                 lblPayment.Text = paymenttype;
-                lblNumStudents.Text = numstudents;
                 lblCompany.Text = company;
 
                 var locationLink = string.Empty;
@@ -169,8 +168,8 @@ namespace P3WebApp
                                                   lblClass.Text,
                                                   locationDesc,
                                                   classDateTime.ToShortDateString(),
-                                                  description, "8:30am - 6:00pm", 
-                                                  locationLink,
+                                                  description, "8:30am - 6:00pm",
+                                                  "http://" + Request.ServerVariables["HTTP_HOST"] + "/" + locationLink,
                                                   hotel,
                                                   firstName,
                                                   lastName,

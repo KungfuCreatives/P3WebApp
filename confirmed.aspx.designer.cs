@@ -49,15 +49,6 @@ namespace P3WebApp {
         protected global::System.Web.UI.WebControls.Label lblClass;
         
         /// <summary>
-        /// lblNumStudents control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumStudents;
-        
-        /// <summary>
         /// lblClassLocation control.
         /// </summary>
         /// <remarks>

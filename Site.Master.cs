@@ -26,6 +26,10 @@ namespace P3WebApp
         }
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Url.Scheme == "https")
+            {
+                Response.Redirect("http://" + Request.ServerVariables["HTTP_HOST"] + Request.RawUrl);
+            }
             if (Request.Browser.MSDomVersion.Major == 0)
             {
                 Response.Cache.SetNoStore();
