@@ -200,7 +200,12 @@
                         <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1059085745/?label=AmmrCLeewQIQsbuB-QM&amp;guid=ON&amp;script=0"/>
                         </div>
                         </noscript>
-
+                        <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+                        <!-- Google code for Analytics Goals -->
+                        <script type="text/javascript">
+                            _gaq.push(['_trackEvent', 'Submissions', 'Completion', 'Registration', <%=AmountToCharge %> , false]);
+                        </script>
+                        </asp:PlaceHolder>
                         <!-- Google Code for adcenter -->
                         <script type="text/javascript">
                             if (!window.mstag) mstag = { loadTag: function () { }, time: (new Date()).getTime() };

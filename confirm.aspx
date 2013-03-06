@@ -346,4 +346,10 @@
                         <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel" runat="server" Skin="Default">
                         </telerik:RadAjaxLoadingPanel>
                         </center>
+                        <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+                        <!-- Google code for Analytics Goals -->
+                        <script type="text/javascript">
+                            _gaq.push(['_trackEvent', 'Submissions', 'Initiation', 'Registration', <%=AmountToCharge / 2 %> , false]);
+                        </script>
+                        </asp:PlaceHolder>
                 </asp:Content>

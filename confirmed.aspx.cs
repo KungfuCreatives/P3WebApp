@@ -9,6 +9,7 @@ namespace P3WebApp
 {
     public partial class confirmed : Page
     {
+        public int AmountToCharge { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             pnlSiteSeal.Visible = Request.Url.Scheme == "https" || !bool.Parse(ConfigurationManager.AppSettings["GoSecure"]);
@@ -29,7 +30,7 @@ namespace P3WebApp
                 string classDays = string.Empty;
                 bool hot = false;
                 DateTime classDateTime = DateTime.MaxValue;
-                int amountToCharge = 0;
+                AmountToCharge = 0;
                 string firstName = string.Empty;
                 string lastName = string.Empty;
                 string city = string.Empty;
@@ -62,7 +63,7 @@ namespace P3WebApp
                     hot = myReader["HOT"].ToString() == "images/discount_img.gif";
                     classDateTime = DateTime.Parse(myReader["ClassDate"].ToString());
                     classTypeDesc = myReader["classTypeDesc"].ToString();
-                    amountToCharge = int.Parse(myReader["amounttocharge"].ToString());
+                    AmountToCharge = int.Parse(myReader["amounttocharge"].ToString());
                     firstName = myReader["firstName"].ToString();
                     lastName = myReader["lastName"].ToString();
                     city = myReader["city"].ToString();
@@ -85,7 +86,7 @@ namespace P3WebApp
                 lblRegistration.Text = registrationid.ToString();
                 lblClassDate.Text = classDateTime.ToShortDateString();
                 lblClassLocation.Text = locationDesc;
-                lblPrice.Text = string.Format("{0:C}", amountToCharge);
+                lblPrice.Text = string.Format("{0:C}", AmountToCharge);
                 lblClassDays.Text = description;
                 lblHotel.Text = hotel;
                 billTo_city.Text = city;
@@ -146,7 +147,7 @@ namespace P3WebApp
                     }
                     string optyname = locationDesc.ToUpper().Replace(".", "").Replace(" ", "").Substring(0, 3) + " " +
                                       classTypeDesc.ToUpper().Replace(" ", "").Substring(0, 3) + " " + days + " - " + lastName + "." + firstName.Substring(0, 1);
-                    _doSalesForceWork(optyname, company, amountToCharge, locationDesc, classDateTime);
+                    _doSalesForceWork(optyname, company, AmountToCharge, locationDesc, classDateTime);
                 }
 
                 SendMail objSendEmail = new SendMail();
