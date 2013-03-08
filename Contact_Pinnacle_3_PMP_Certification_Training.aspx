@@ -124,7 +124,7 @@
                                         <tr>
                                             <td>&nbsp;                                                </td>
                                             <td valign="top">
-                                                <asp:ImageButton ID="Submit" runat="server" ImageUrl="images/btn_sendInquiry_blue.gif" OnClick="Submit_Click" OnClientClick="_gaq.push(['_trackEvent', 'Submissions', 'ContactSent', 'ContactForm',, false]);" />                                                </td>
+                                                <asp:ImageButton ID="Submit" runat="server" ImageUrl="images/btn_sendInquiry_blue.jpg" OnClick="Submit_Click" OnClientClick="_gaq.push(['_trackEvent', 'Submissions', 'ContactSent', 'ContactForm',, false]);" />                                                </td>
                                         </tr>
                         </table>
                         </p>

@@ -9,7 +9,7 @@
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
 <h1 style="text-align:center">Pinnacle 3 Virtual Classroom Training</h1>
-<iframe src="virtual_classes_iframe.html" width="563px" height="3500px" scrolling="no" frameborder="0">
+<iframe src="virtual_classes_iframe.html" width="563px" height="600px" scrolling="yes" frameborder="0">
 </iframe>
 <p><span style="font-size: xx-small;">Courses are offered through Mindedge REP #2391</span></p>
 <p>&nbsp;</p>

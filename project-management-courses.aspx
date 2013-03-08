@@ -25,7 +25,7 @@
                     	  <li>PMP       Exam prep study guides</li>
                     	  <li>Approved       36 contact hour PMP® Exam Certification Course</li>
                   	  </ul>
-                    	<p><span class="style2"><span class="style1"><span class="style3">Monday - Thursday Classes</span> &nbsp;</span>&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="classSchedule_pmp_weekend.aspx" style="font-size:12px;"><img src="images/btn_viewWeekendSchedule_blue.gif" border="0" /></a></p>
+                    	<p><span class="style2"><span class="style1"><span class="style3">Monday - Thursday Classes</span> &nbsp;</span>&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="classSchedule_pmp_weekend.aspx" style="font-size:12px;"><img src="images/btn_viewWeekendSchedule_blue.jpg" border="0" /></a></p>
                     	 <br />
                         <telerik:RadAjaxManager runat="server" ID="RadAjaxManager" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
                         <AjaxSettings>

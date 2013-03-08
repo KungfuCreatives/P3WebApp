@@ -44,7 +44,7 @@
                                         </telerik:GridTemplateColumn>         
                                         <telerik:GridTemplateColumn HeaderText="Register">
                                             <ItemTemplate>
-                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.gif" ToolTip="Register now for this class" ID="ibtnRegister"  CommandArgument='<%#Eval("ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' />
+                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.jpg" ToolTip="Register now for this class" ID="ibtnRegister"  CommandArgument='<%#Eval("ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' />
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>
                                     </Columns>
@@ -108,7 +108,7 @@ iif(Format(classes.ClassDate+7,&quot;mm&quot;) <> Format(classes.ClassDate+8,&qu
                                         <telerik:GridTemplateColumn HeaderText="Register" >
                                             <HeaderStyle Width="100px" />
                                             <ItemTemplate>
-                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.gif" ToolTip="Register now for this class" ID="ibtnRegisterL6G"  CommandArgument='<%#Eval("G_ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("G_ClassID") %>' />
+                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.jpg" ToolTip="Register now for this class" ID="ibtnRegisterL6G"  CommandArgument='<%#Eval("G_ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("G_ClassID") %>' />
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>
 
@@ -122,7 +122,7 @@ iif(Format(classes.ClassDate+7,&quot;mm&quot;) <> Format(classes.ClassDate+8,&qu
                                         <telerik:GridTemplateColumn HeaderText="Register">
                                             <HeaderStyle Width="100px" />
                                             <ItemTemplate>
-                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.gif" ToolTip="Register now for this class" ID="ibtnRegisterL6B"  CommandArgument='<%#Eval("B_ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("B_ClassID") %>' />
+                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.jpg" ToolTip="Register now for this class" ID="ibtnRegisterL6B"  CommandArgument='<%#Eval("B_ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("B_ClassID") %>' />
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>
                                         

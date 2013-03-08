@@ -76,7 +76,7 @@
                                 </telerik:RadComboBox></td>
                                 <td width="200px">&nbsp;</td>
                                 <td align="right" width="200px">
-                                    <a href="pmp-certification-training.aspx"><img src="images/btn_PreferWeekdays.gif" border="0" /></a>
+                                    <a href="pmp-certification-training.aspx"><img src="images/btn_PreferWeekdays.jpg" border="0" /></a>
                                 </td>
                             </tr>
                         </table>
@@ -121,7 +121,7 @@
                                         <telerik:GridTemplateColumn HeaderText="Register">
                                         <HeaderStyle Width="100px" />
                                             <ItemTemplate>
-                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.gif"  ToolTip="Register now for this class" ID="ibtnRegister"  CommandArgument='<%#Eval("ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' />
+                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.jpg"  ToolTip="Register now for this class" ID="ibtnRegister"  CommandArgument='<%#Eval("ClassID") %>' PostBackUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' />
                                                 <%--<asp:HyperLink runat="server" ToolTip="Register for this class" ID="hypRegister" CssClass="GridItemHyperlink" NavigateUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' ><nobr>Register Now</nobr></asp:HyperLink>--%>
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>

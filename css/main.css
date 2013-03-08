@@ -60,7 +60,7 @@ font-size : 14px;
 }
 #classOfferings {
 background-position : center;
-background-image : url(../images/monitor.gif);
+background-image : url(../images/monitor.jpg);
 background-repeat : no-repeat;
 color : #ffffff;
 height : 306px;
@@ -154,7 +154,7 @@ background-color : #336699;
 
 .TelerikItem
 {
-background-image : url(../images/item-bg.gif);
+background-image : url(../images/item-bg.jpg);
 background-repeat : repeat-x;
 height:35px;
 }
@@ -189,7 +189,7 @@ height:35px;
 }
 .classDetailsWrapper
 {
-	background-image:url("../images/classschedulebg.gif");
+	background-image:url("../images/classschedulebg.jpg");
 	background-repeat:repeat-x;
 	
 }

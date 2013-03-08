@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="receipt-pmp.ascx.cs" Inherits="P3WebApp.receipt_pmp" %>
-<img src="images/pinnacle_logo_white.gif"/><br/>
+<img src="images/pinnacle_logo_white.jpg"/><br/>
 <span class="style4"><b>Helping You Achieve Your Pinnacle!</b></span>
 <h1 align="center">Receipt</h1>
 <p>&nbsp;</p>

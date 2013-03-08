@@ -3,7 +3,7 @@
     <ItemTemplate>
         <p>
             <h4 align="left"><%#XPath("title")%></h4>
-            <p align="left"><asp:Literal runat="server" ID="ltrDescription" Text='<%#XPath("description")%> '></asp:Literal>
+            <p align="left"><asp:Literal runat="server" ID="ltrDescription" Text='<%# String.Format("{0}", GetSubstring(XPath("description").ToString(), 240)) %>'></asp:Literal>
             <a href='article.aspx?t=<%#XPath("title")%>'>more</a></p>
         </p>
     </ItemTemplate>       

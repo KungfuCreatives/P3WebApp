@@ -303,7 +303,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2" align="center">
-                                        <asp:ImageButton ID="btnPay" runat="server" ImageUrl="images/btn_SubmitPayment_blue.gif" 
+                                        <asp:ImageButton ID="btnPay" runat="server" ImageUrl="images/btn_SubmitPayment_blue.jpg" 
                                         onclick="btnPay_Click" CausesValidation="true" />
                                         </td>
                                     </tr>
@@ -331,7 +331,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2" align="center">
-                                        <asp:ImageButton ID="btnEnroll" runat="server" ImageUrl="images/btn_confirmEnrollment_blue.gif" OnClick="btnEnroll_Click" CausesValidation="false" />
+                                        <asp:ImageButton ID="btnEnroll" runat="server" ImageUrl="images/btn_confirmEnrollment_blue.jpg" OnClick="btnEnroll_Click" CausesValidation="false" />
                                         </td>
                                     </tr>
                                 </table>

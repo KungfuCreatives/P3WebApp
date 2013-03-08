@@ -84,7 +84,7 @@
                                 <td width="50px">&nbsp;</td>
                                 
                                 <td align="right" width="200px">
-                                    <%--<a href="pmp-classes-weekend.aspx"><img src="images/btn_PreferWeekends.gif" border="0" /></a>--%>
+                                    <%--<a href="pmp-classes-weekend.aspx"><img src="images/btn_PreferWeekends.jpg" border="0" /></a>--%>
                                 </td>
                                 <%--
                                 Adam removed this dropdown from the table on 10/5/2011 to replace weekends with a link to the Online Live class schedule
@@ -141,13 +141,14 @@
                                         <HeaderStyle Width="100px" />
                                         <ItemStyle HorizontalAlign="Center"></ItemStyle>
                                             <ItemTemplate>
-                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.gif"  ToolTip="Register now for this class" ID="ibtnRegister" CommandName='<%# GetPrice(DateTime.Parse(Eval("dtClassDate").ToString())) %>'  CommandArgument='<%#Eval("ClassID") %>' OnClick="RegisterButton_Click" />
+                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.jpg"  ToolTip="Register now for this class" ID="ibtnRegister" CommandName='<%# GetPrice(DateTime.Parse(Eval("dtClassDate").ToString())) %>'  CommandArgument='<%#Eval("ClassID") %>' OnClick="RegisterButton_Click" />
                                                 <%--<asp:HyperLink runat="server" ToolTip="Register for this class" ID="hypRegister" CssClass="GridItemHyperlink" NavigateUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' ><nobr>Register Now</nobr></asp:HyperLink>--%>
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>
                                     </Columns>
                                 </MasterTableView>
                                 </telerik:RadGrid>
+                                <p>&nbsp;</p>
                                 <asp:AccessDataSource ID="CitiesDataSource" runat="server" 
                                 DataFile="~/App_Data/classes_v2.mdb" SelectCommand="
                                 SELECT distinct( Locations.LocationDesc) as City

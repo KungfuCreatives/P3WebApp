@@ -219,7 +219,7 @@
                                      <asp:Panel runat="server" ID="uPnlPayment">
                                     
                                     <asp:ImageButton ID="nextStep" runat="server" 
-                                            ImageUrl="images/btn_nextStep_blue.gif" onclick="nextStep_Click" />
+                                            ImageUrl="images/btn_nextStep_blue.jpg" onclick="nextStep_Click" />
                                             
                                             </asp:Panel>
                                             <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel" runat="server" Skin="Default">

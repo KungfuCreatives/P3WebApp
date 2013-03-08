@@ -72,7 +72,7 @@ namespace P3WebApp
                         hotel = myReader["Hotel"].ToString();
                         hotelWebsite = myReader["HotelWebsite"].ToString();
                         description = myReader["Description"].ToString();
-                        hot = myReader["HOT"].ToString() == "images/discount_img.gif";
+                        hot = myReader["HOT"].ToString() == "images/discount_img.jpg";
                         classDateTime = DateTime.Parse(myReader["ClassDate"].ToString());
                         classTypeDesc = myReader["classTypeDesc"].ToString();
                         AmountToCharge = int.Parse(myReader["amounttocharge"].ToString());

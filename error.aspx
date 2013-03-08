@@ -16,7 +16,7 @@
 <%=ErrorMessage %>
 </p>  
 <p>
-Don't worry!. The web site administrator has been notified of the error and will be responding appropriately right away. Pinnacle 3 Learning sincerely apologizes for this inconvenience and will do everything possible to make it right.
+The web site administrator has been notified of the error and will be responding appropriately. Pinnacle 3 Learning sincerely apologizes for this inconvenience and will do everything possible to make it right.
 </p>
 <p>
 If you'd like to talk to us about this issue or make sure your previous actions were captured please call <strong>202-706-7620</strong> and we'll work with you in person.</p>                                                                                                                                                                                                                                                                                                                                                                           

@@ -19,8 +19,8 @@
                     	    </tr>
                     	    <tr>
                     	        <td><a href="pmp-certification-training.aspx">
-                                    <img src="images/btn_classSchedule_blue.gif" border="0" alt="" /></a></td>
-                    	        <td class="style2"><%--<a href="classSchedule_pmp_weekend.aspx"><img src="images/btn_viewWeekendSchedule_blue.gif" border="0" alt="" /></a>--%></td>
+                                    <img src="images/btn_classSchedule_blue.jpg" border="0" alt="" /></a></td>
+                    	        <td class="style2"><%--<a href="classSchedule_pmp_weekend.aspx"><img src="images/btn_viewWeekendSchedule_blue.jpg" border="0" alt="" /></a>--%></td>
                     	    </tr>
                     	    <tr>
                     	        <td colspan="2"><b>Monday - Thursday&nbsp;&nbsp;&nbsp;-or-&nbsp;&nbsp;&nbsp;Two consecutive weekends</b></td>
@@ -36,7 +36,7 @@
                     	        
                     	    </tr>
                     	    <tr>
-                    	        <td style="width:211px;"><a href="http://www.pinnacle3learning.com/self_paced_PMP_Training.aspx"><img src="images/btn_viewOnlineCourses_blue.gif" border="0" alt="" /></a></td>
+                    	        <td style="width:211px;"><a href="http://www.pinnacle3learning.com/self_paced_PMP_Training.aspx"><img src="images/btn_viewOnlineCourses_blue.jpg" border="0" alt="" /></a></td>
                     	        <td></td>
                     	    </tr>
                     	    <tr>
@@ -51,7 +51,7 @@
                     	        <td colspan="2"><h4 style="text-decoration: underline; font-size:16px; margin-bottom:0px; "><a href="PM_Essentials.aspx">Project Management Essentials</a></h4></td>
                     	    </tr>
                     	    <tr>
-                    	        <td class="style3"><a href="PM_Essentials.aspx"><img src="images/btn_classSchedule_blue.gif" border="0" alt="" /></a></td>
+                    	        <td class="style3"><a href="PM_Essentials.aspx"><img src="images/btn_classSchedule_blue.jpg" border="0" alt="" /></a></td>
                     	        <td class="style4"></td>
                     	    </tr>
                     	    <tr>
@@ -66,7 +66,7 @@
                     	        <td colspan="2"><h4 style="text-decoration: underline; font-size:16px; margin-bottom:0px; "><a href="Project_Risk.aspx">Managing Project Risk</a></h4></td>
                     	    </tr>
                     	    <tr>
-                    	        <td style="width:225px;"><a href="Project_Risk.aspx"><img src="images/btn_classSchedule_blue.gif" border="0" alt="" /></a></td>
+                    	        <td style="width:225px;"><a href="Project_Risk.aspx"><img src="images/btn_classSchedule_blue.jpg" border="0" alt="" /></a></td>
                     	        <td></td>
                     	    </tr>
                     	    <tr>
@@ -77,11 +77,11 @@
                     	<table cellpadding="0" cellspacing="2" border="0" style="margin-top:3px;" width="500">
                     	    <tr><td colspan="3"></td></tr>
                     	    <tr>
-                    	        <td rowspan="3" style="width:80px;"><img src="images/bordered_msproject.gif" border="0" alt="" /></td>
+                    	        <td rowspan="3" style="width:80px;"><img src="images/bordered_msproject.jpg" border="0" alt="" /></td>
                     	        <td colspan="2"><h4 style="text-decoration: underline; font-size:16px;margin-bottom:0px; "><a href="MS_Project_2007.aspx">Microsoft Project 2007 Certification Training</a></h4></td>
                     	    </tr>
                     	    <tr>
-                    	        <td><a href="MS_Project_2007.aspx"><img src="images/btn_classSchedule_blue.gif" border="0" alt="" /></a></td>
+                    	        <td><a href="MS_Project_2007.aspx"><img src="images/btn_classSchedule_blue.jpg" border="0" alt="" /></a></td>
                     	        <td></td>
                     	    </tr>
                     	    <tr>

@@ -127,7 +127,7 @@ namespace P3WebApp
                     break;
                 case "MS Project":
                     classCost = int.Parse(ConfigurationManager.AppSettings["Cost_MS_Project"]);
-                    imgCourse.ImageUrl = "images/ms_project.gif";
+                    imgCourse.ImageUrl = "images/ms_project.jpg";
                     imgCourse.Width = Unit.Pixel(80);
                     lblTitle.Text = "Microsoft Project 2007 Training";
                     lblCredits.Text = "16";

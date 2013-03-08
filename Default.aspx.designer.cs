@@ -12,11 +12,47 @@
 public partial class _Default {
     
     /// <summary>
-    /// CmsLocationContent control.
+    /// RadGrid1 control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::P3WebApp.CmsPageContent CmsLocationContent;
+    protected global::Telerik.Web.UI.RadGrid RadGrid1;
+    
+    /// <summary>
+    /// defaultQuery control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.AccessDataSource defaultQuery;
+    
+    /// <summary>
+    /// RadGrid2 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::Telerik.Web.UI.RadGrid RadGrid2;
+    
+    /// <summary>
+    /// leanSixQuery control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.AccessDataSource leanSixQuery;
+    
+    /// <summary>
+    /// RssReader control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::P3WebApp.RssReader RssReader;
 }

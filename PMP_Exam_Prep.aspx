@@ -7,7 +7,7 @@
 <img src="images/default_06.jpg" width="958" height="234" alt="">
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-                    	<p>&nbsp;<br /><img src="images/title_pmp_exam_prep.gif" alt="Pinnacle 3 Learning - PMP Certification Training"></p>
+                    	<p>&nbsp;<br /><img src="images/title_pmp_exam_prep.jpg" alt="Pinnacle 3 Learning - PMP Certification Training"></p>
                     	
                     	
                     	<p>
@@ -52,8 +52,8 @@
                         <p>
                             <table cellpadding="0" cellspacing="2" border="0" align="center" style="margin-top:3px;" width="350">
                     	    <tr>
-                    	        <td><a href="project-management-courses.aspx"><img src="images/btn_viewWeekdaySchedule_blue.gif" border="0" /></a></td>
-                    	        <td class="style2"><a href="classSchedule_pmp_weekend.aspx"><img src="images/btn_viewWeekendSchedule_blue.gif" border="0" /></a></td>
+                    	        <td><a href="project-management-courses.aspx"><img src="images/btn_viewWeekdaySchedule_blue.jpg" border="0" /></a></td>
+                    	        <td class="style2"><a href="classSchedule_pmp_weekend.aspx"><img src="images/btn_viewWeekendSchedule_blue.jpg" border="0" /></a></td>
                     	    </tr>
                     	    <tr>
                     	        <td align="center"><b>(Monday - Thursday)</b></td>

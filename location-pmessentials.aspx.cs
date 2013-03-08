@@ -56,7 +56,7 @@ namespace P3WebApp
             {
                 City = myReader["LocationDesc"].ToString();
                 // City = City.Substring(0, City.IndexOf(','));
-                imgHotel.ImageUrl = "images/hotels/" + LocationSeo + ".gif";
+                imgHotel.ImageUrl = "images/hotels/" + LocationSeo + ".jpg";
                 Hotel = myReader["Hotel"].ToString();
                 HotelWebsite = myReader["HotelWebsite"].ToString();
                 HotelAddress = myReader["Address"].ToString();

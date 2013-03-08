@@ -28,7 +28,7 @@ materials are designed around Accelerated learning.</p>
                   	  </ul>
                     	<p class=" style1"> <b>These classes begin on the date listed below, and finish on the following weekend.</b> </p>
                     	
-                        <p><span class="style2"><span class="style1"><span class="style3">Weekend Classes (x2)</span> &nbsp;</span>&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="project-management-courses.aspx" style="font-size:12px;"><img src="images/btn_viewWeekdaySchedule_blue.gif" border="0" /></a></p>
+                        <p><span class="style2"><span class="style1"><span class="style3">Weekend Classes (x2)</span> &nbsp;</span>&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="project-management-courses.aspx" style="font-size:12px;"><img src="images/btn_viewWeekdaySchedule_blue.jpg" border="0" /></a></p>
 
                         <br />
                         <telerik:RadAjaxManager runat="server" ID="RadAjaxManager" DefaultLoadingPanelID="RadAjaxLoadingPanel1">

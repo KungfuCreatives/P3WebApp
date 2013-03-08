@@ -137,7 +137,7 @@
                                             <tr>
                                                 <td>&nbsp;                                                </td>
                                                 <td valign="top">
-                                                <asp:ImageButton ID="Submit" runat="server" ImageUrl="images/btn_sendInquiry_blue.gif" OnClick="Submit_Click" />
+                                                <asp:ImageButton ID="Submit" runat="server" ImageUrl="images/btn_sendInquiry_blue.jpg" OnClick="Submit_Click" />
                                                 </td>
                                             </tr>
                           </table>

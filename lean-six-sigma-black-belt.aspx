@@ -112,7 +112,7 @@
                                         <ItemStyle HorizontalAlign="Center"></ItemStyle>
                                         <HeaderStyle Width="100px" />
                                             <ItemTemplate>
-                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.gif" ToolTip="Register now for this class" ID="ibtnRegister" CommandName='<%# GetPrice(DateTime.Parse(Eval("dtClassDate").ToString())) %>'  CommandArgument='<%#Eval("ClassID") %>' OnClick="RegisterButton_Click" />
+                                            <asp:imagebutton runat="server" ImageUrl="~/images/register_now.jpg" ToolTip="Register now for this class" ID="ibtnRegister" CommandName='<%# GetPrice(DateTime.Parse(Eval("dtClassDate").ToString())) %>'  CommandArgument='<%#Eval("ClassID") %>' OnClick="RegisterButton_Click" />
                                                 <%--<asp:HyperLink runat="server" ToolTip="Register for this class" ID="hypRegister" CssClass="GridItemHyperlink" NavigateUrl='<%#"register.aspx?classID=" + Eval("ClassID") %>' ><nobr>Register Now</nobr></asp:HyperLink>--%>
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>
