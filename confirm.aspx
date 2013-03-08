@@ -349,7 +349,9 @@
                         <asp:PlaceHolder ID="PlaceHolder1" runat="server">
                         <!-- Google code for Analytics Goals -->
                         <script type="text/javascript">
-                            _gaq.push(['_trackEvent', 'Submissions', 'Initiation', 'Registration', <%=AmountToCharge / 2 %> , false]);
+                        window.onload = function() { // this will be run when the whole page is loaded
+                           _gaq.push(['_trackEvent', 'Submissions', 'Initiation', 'Registration', <%=AmountToCharge / 2 %> , false]);
+                        };
                         </script>
                         </asp:PlaceHolder>
                 </asp:Content>

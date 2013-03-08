@@ -203,7 +203,9 @@
                         <asp:PlaceHolder ID="PlaceHolder1" runat="server">
                         <!-- Google code for Analytics Goals -->
                         <script type="text/javascript">
+                             window.onload = function() { // this will be run when the whole page is loaded
                             _gaq.push(['_trackEvent', 'Submissions', 'Completion', 'Registration', <%=AmountToCharge %> , false]);
+                            };
                         </script>
                         </asp:PlaceHolder>
                         <!-- Google Code for adcenter -->
