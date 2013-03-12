@@ -9,15 +9,11 @@
 <h1 style="text-align:center">Articles</h1>
 <asp:Repeater ID="rptRSS" runat="server" DataSourceID="xmlRSS">
     <ItemTemplate>
-    
         <p>
-            <a href='article.aspx?t=<%#XPath("title")%>'><h3><%#XPath("title")%></a></h3><br />
+            <h3><%#XPath("title")%></h3>
             <p>Published: <%#String.Format("{0:ddd, MMM d, yyyy}", DateTime.Parse(XPath("pubDate").ToString()))%></p>  
-            <br />
-             <p><asp:Literal runat="server" ID="ltrDescription" Text='<%#XPath("description")%> '></asp:Literal>
+             <p align="left"><asp:Literal runat="server" ID="ltrDescription" Text='<%# String.Format("{0}", GetSubstring(XPath("description").ToString(), 240)) %>'></asp:Literal>
             <a href='article.aspx?t=<%#XPath("title")%>'>more</a></p>
-            <br />
-            <br /> 
         </p>
     </ItemTemplate>       
 </asp:Repeater>

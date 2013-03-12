@@ -14,5 +14,9 @@ namespace P3WebApp
         {
             
         }
+        protected string GetSubstring(string str, int length)
+        {
+            return str.Length > length ? str.Substring(0, length) + "..." : str;
+        }
     }
 }
