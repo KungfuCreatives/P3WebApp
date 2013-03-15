@@ -7,11 +7,8 @@
  </h3>
  
         <p>R.E.P. Logo, PMI, PMP, PMP Logo, and PMBOK are registered marks of the Project Management Institute, Inc.</p>
-       <p>
-          <a href="mailto:info@pinnacle3.com">info@pinnacle3.com</a> &nbsp;&nbsp; | &nbsp;&nbsp; 888 808 4767<br />
+       <p><a href="mailto:info@pinnacle3.com">info@pinnacle3.com</a> &nbsp;&nbsp; | &nbsp;&nbsp; 888 808 4767<br />
         &copy;2005 - 2012, All Rights Reserved</p>
-      <p>
-      </p>
         <p>&nbsp;</p>
     </td>
 </tr>

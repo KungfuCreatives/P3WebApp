@@ -59,7 +59,7 @@
                       <div align="center"><span class="style4"><b>Helping You Achieve Your Pinnacle!</b></span></div>
                       </td><td class="topNav" align="right">
                         <p><a href="/">home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Instructor_Led_PMP_Exam_Training.aspx">courses</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="articles.aspx">articles</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="practice-exams.aspx">practice exams</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx">contact us</a><%--&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Sitemap.aspx">&nbsp;sitemap</a>--%>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                        <p><a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx"><img src="/images/calltoaction.jpg" style="position: relative;right: -1px;" /></a></p>    
+                        <p><a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx"><img src="/images/calltoaction.jpg" style="position: relative;right: -1px;" alt="calltoaction" /></a></p>    
                     </td>
                 </tr>
             </table>
@@ -123,26 +123,6 @@
                         </Items>
                         </telerik:RadMenu>
                     </td>
-            </tr>
-            <%--<tr>
-            <td>
-            <p style="text-align:center;">
-                <a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx"><img src="images/phone1.jpg" alt="registernow" border="0" /></a></p>
-            </td>
-            </tr>--%>
-            <tr>
-                <td><%--<p style="border:solid 1px #CCCCCC;">
-                <!-- start RatePoint Subscription Tool - Please, do not change -->
-<iframe frameborder="0" height="74" scrolling="no" width="210" src="//sitetools.ratepoint.com/subscribe_tool/13487?fg=000000&amp;bg=cccccc&amp;border=cccccc&amp;title=&amp;group_id=" ></iframe>
-<!-- end RatePoint Subscription Tool - Please, do not change -->
-            </p>--%>
-            <p><div style="text-align:center">
-            <asp:Panel runat="server" ID="pnlSiteSeal" Visible="false">
-            <span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=ngrNrhNzGoZeSBh7wCiQivYG40xIDd4PNlVaDffzVh1Gyp6M3udu3w6nXU3"></script></span>
-            </asp:Panel>
-            </div>
-            </p>
-            </td>
             </tr>
              <tr>
             <td valign="bottom">

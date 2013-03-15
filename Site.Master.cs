@@ -44,7 +44,6 @@ namespace P3WebApp
             {
                 ConfigureRadCustomerRotator();
             }
-            pnlSiteSeal.Visible = Request.Url.Scheme == "https";
         }
         public void DataBindBreadCrumbSiteMap(RadMenuItem currentItem)
         {

@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RssReader.ascx.cs" Inherits="P3WebApp.RssReader" %>
 <asp:Repeater ID="rptRSS" runat="server" DataSourceID="xmlRSS">
     <ItemTemplate>
-        <p>
             <h4 align="left"><%#XPath("title")%></h4>
             <p align="left"><asp:Literal runat="server" ID="ltrDescription" Text='<%# String.Format("{0}", GetSubstring(XPath("description").ToString(), 240)) %>'></asp:Literal>
             <a href='article.aspx?t=<%#XPath("title")%>'>more</a></p>
-        </p>
     </ItemTemplate>       
 </asp:Repeater>
 <asp:XmlDataSource ID="xmlRSS"            

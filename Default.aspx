@@ -39,7 +39,7 @@
                                          <telerik:GridTemplateColumn HeaderText="Date" SortExpression="ClassDate">
                                         <HeaderStyle Width="180px" />
                                             <ItemTemplate>
-                                                <nobr><asp:Label ID="Label4" Font-Size="Small" runat="server" Text='<%# Bind("ClassDate") %>'></asp:Label></nobr>
+                                                <asp:Label ID="Label4" Font-Size="Small" runat="server" Text='<%# Bind("ClassDate") %>'></asp:Label>
                                             </ItemTemplate>
                                         </telerik:GridTemplateColumn>         
                                         <telerik:GridTemplateColumn HeaderText="Register">
@@ -149,7 +149,7 @@ WHERE (((classes.ClassTypeID)=7) AND ((classes_1.ClassTypeID)=6))
                 	        
                 	    </div>
                         <p align="left" style="margin-top:6px;">&nbsp;</p>
-                        <h2>PMP & Lean Six Sigma Certification News</h2>
+                        <h2>PMP &amp; Lean Six Sigma Certification News</h2>
                         <uc1:RssReader ID="RssReader" runat="server" />
 <script type="text/javascript">
     var flashvars = {};
