@@ -1,5 +1,4 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="P3WebApp.SiteMaster" %>
-
 <%@ Register TagPrefix="uc_footer" TagName="footer" Src="footer.ascx" %>
 <%@ Register src="MiniContactForm.ascx" tagname="MiniContactForm" tagprefix="uc1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -44,7 +43,7 @@
 <meta name="verify-v1" content="424kv7MkwZRot1HkUentO3RxWGjRFiwYbrwGvetuCqs=" />
 <meta name="alexaVerifyID" content="pWSXZcfZLwf2vxOqf-xEadlIh1g" />
 <script src="Scripts/swfobject.js" type="text/javascript"></script>
-
+<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server"></telerik:RadStyleSheetManager>
 </head>
 <body bgcolor="#FFFFFF" onload="">
     <form id="form1" runat="server">
