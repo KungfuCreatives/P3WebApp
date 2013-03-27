@@ -1,22 +1,20 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="_Default" Codebehind="Default.aspx.cs" MasterPageFile="~/Site.Master" %>
 <%@ Register src="RssReader.ascx" tagname="RssReader" tagprefix="uc1" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
-    <title>PMP Certification | PMP Bootcamp | Project Management Certification</title>
-<meta name="description" content="Our PMP Certification Bootcamp Classes have the Highest Pass Rate, Guaranteed! Take Your Career To The Next Level with Project Management Certification!" />
-<meta name="keywords" content="PMP Bootcamp , PMP Boot Camp"/>
+    <title>PMP Certification Boot Camp Training and Lean Six Sigma Training</title>
+<meta name="description" content="Our PMP Certification and Lean Six Sigma Boot Camp Training Classes have the Highest Pass Rate, Guaranteed! !" />
+<meta name="keywords" content="PMP Certification, PMP Certification Training, PMP Boot Camp, PMP Bootcamp, Lean Six Sigma Certification, Lean Six Sigma Training"/>
 <link rel="canonical" href="http://pinnacle3learning.com" />
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BannerContent" ID="contentBanner">
     <div id="flashDropZone"></div>
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-                        <h1 style="text-align:center">PMP &amp; Lean Six Sigma Certification</h1>
-                	    <p align="left">At Pinnacle 3 Learning we are committed to ensuring that we provide the Best Project Management Training and Certification Exam Preparation available. We offer a variety of intense, professional, project management training classes. 
-                        We specialize in <a href="pmp-certification-training.aspx">Project Management Professional, PMP&reg; Certification Exam</a>
-                        Let us help you achieve the Pinnacle today!
+                        <h1 style="text-align:center">PMP&reg; Certification  and Lean Six Sigma Training</h1>
+                	    <p align="left">At Pinnacle 3 Learning we are committed to ensuring that we provide the Best PMP<span style="text-align:center">&reg;</span> Certification and Lean Six Sigma Training available. We offer a variety of intense, Instructor Led, Boot Camp style classes. We specialize in PMP&reg; Certification and Lean Six Sigma Training and we understand the value of your time. We make every effort to maximize your learning, while delivering unparalleled Service and Quality.  Let us help you achieve your Pinnacle today!
                          </p>
-                	    <h2 class="pPadH2">Upcoming PMP Certification Boot Camp Training Classes</h2>
-                	    <div style="text-align:center;">
+                	    <h2 align="center" class="pPadH2">Upcoming PMP Certification Boot Camp Training Classes</h2>
+                	    <div style="text-align:center">
                             <div style="margin:2px 4px 4px 4px;">
                                 <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="false" DataSourceID="defaultQuery" Skin="Web20"
                                  GridLines="None" BorderWidth="0px"
@@ -51,7 +49,7 @@
                                 </MasterTableView>
                                 </telerik:RadGrid>
                             </div>
-                            <a class="classTypes" href="pmp-certification-training.aspx">See our full <i>PMP</i> schedule</a>
+                            See Our Full <a class="classTypes" href="pmp-certification-training.aspx"><i>PMP&reg; Certification Class</i> schedule</a>
                 	        <asp:AccessDataSource ID="defaultQuery" runat="server" 
                                 DataFile="~/App_Data/classes_v2.mdb" SelectCommand="
                                 SELECT TOP 8 classes.ClassID, ClassType.classTypeDesc, DaysOfWeek.Description, Hotels.HotelWebsite,Locations.LocationSeo, Locations.LocationDesc as City, classes.HOT, 
@@ -77,8 +75,8 @@ iif(Format(classes.ClassDate+7,&quot;mm&quot;) <> Format(classes.ClassDate+8,&qu
                 	        
                 	        
                 	    </div>
-                        <h2 class="pPadH2">Upcoming Lean Six Sigma Certification Classes</h2>
-                        <div style="text-align:center;">
+                        <h2 align="center" class="pPadH2">Upcoming Lean Six Sigma Certification Classes</h2>
+                        <div style="text-align:center">
                             <div style="margin:2px 4px 4px 4px;">
                                 <telerik:RadGrid ID="RadGrid2" runat="server" AutoGenerateColumns="false" DataSourceID="leanSixQuery" Skin="Web20"
                                  GridLines="None" BorderWidth="0px"
@@ -131,8 +129,8 @@ iif(Format(classes.ClassDate+7,&quot;mm&quot;) <> Format(classes.ClassDate+8,&qu
                                 </telerik:RadGrid>
                             </div>
                             <p>
-                            <a class="classTypes" href="lean-six-sigma-black-belt.aspx">See our full Lean 6 Sigma <i>Black Belt</i> Schedule</a></p>
-                            <p><a class="classTypes" href="lean-six-sigma-green-belt.aspx">See our full Lean 6 Sigma <i>Green Belt</i> Schedule</a></p>
+                            See Our Full <a class="classTypes" href="lean-six-sigma-black-belt.aspx">Lean Six Sigma <i>Black Belt</i> Schedule</a></p>
+                            <p>See Our Full <a class="classTypes" href="lean-six-sigma-green-belt.aspx">Lean Six Sigma <i>Green Belt</i> Schedule</a></p>
                 	        <asp:AccessDataSource ID="leanSixQuery" runat="server" 
                                 DataFile="~/App_Data/classes_v2.mdb" SelectCommand="
  SELECT classes.ClassID as B_ClassID, classes_1.ClassID as G_ClassID, classes.ClassTypeID as B_ClassTypeID, classes_1.ClassTypeID as G_ClassTypeID, ClassType.classTypeDesc, ClassType_1.classTypeDesc, DaysOfWeek.Description, DaysOfWeek_1.Description, Locations.LocationDesc, Locations.LocationSeo,
@@ -149,7 +147,7 @@ WHERE (((classes.ClassTypeID)=7) AND ((classes_1.ClassTypeID)=6))
                 	        
                 	    </div>
                         <p align="left" style="margin-top:6px;">&nbsp;</p>
-                        <h2>PMP &amp; Lean Six Sigma Certification News</h2>
+                        <h2 align="center"><u>PMP&reg; &amp; Lean Six Sigma Certification News</u></h2>
                         <uc1:RssReader ID="RssReader" runat="server" />
 <script type="text/javascript">
     var flashvars = {};

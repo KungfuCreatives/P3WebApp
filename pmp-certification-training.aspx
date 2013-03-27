@@ -9,33 +9,28 @@
 <img src="images/default_06.jpg" width="958" height="234" alt="">
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-                	    <h1 class="" style="text-align:center">PMP Certification Exam Prep</h1>
+                	    <h1 class="" style="text-align:center">PMP® Certification Boot Camp Training</h1>
                         <uc1:ClassHeader ID="ClassHeader1" runat="server" ClassType="PMP" />
-                         <p><span class="style3">Class Details</span></p>
-                    	 <br />
-                         <p>
-                        In this course, you'll gain the essential preparation needed to pass the Project Management Institutes PMP® Certification Exam. The course is based on the nine Knowledge Areas of the Guide to the Project Management Body of Knowledge(PMBOK® Guide) and the five process groups - Initiating, Planning, Executing, Monitoring and Controlling, and Closing as well as Critical Exam Taking Techniques. This course will  provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. 
+                         <p class=" style4"><b>PMP® Class Details</b></p>
+                                             	 The objective of this course is to prepare you for the Project Management Professional (PMP®) Certification Examination. In our  PMP® Certification Boot Camp, you'll gain the essential information needed to pass the PMP® Certification Exam. We are so confident that you will Pass the PMP® Exam after our 4 Day Instructor Led Boot Camp Class, We Guarantee It! 
+ <p>In this course, you'll gain the essential preparation needed to pass the Project Management Institutes PMP® Certification Exam. The course is based on the Project Management Body of Knowledge(PMBOK® Guide). This course will  provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. 
                         Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the detailed exam and earn your Project Management Professional (PMP®) Credential. </p>
-                            <p class=" style4"><b>The Project Management Professional ® Exam Prep Course includes:</b></p>
+                    	<p>****PLEASE NOTE: ALL CLASES AFTER JULY 31st are for the PMBOK 5th Edition version of the Exam****</p>
+                            <p class=" style4"><b>The Project Management Professional ® Boot Camp Course includes:</b></p>
                             <ul>
-                                   <li>PMP® Exam Prep Study Book</li>
-                                   <li>Pre-course &quot;Blueprint For Success&quot;</li>
-                                   <li>Online PMP® Exam Simulator</li>
-								   <li>Over 600+ Practice PMP® Questions</li>
-                                   <li>100% PMP® Exam Pass Guarantee</li>
-                                   <li>Critical Exam Taking Techniques</li>
-                                   <li>Breakfast, Lunch and Snacks Provided</li>
-                                   <li>In Class Exercises and Accelerated Learning Techniques</li>
-                                   <li>PMP® Eligibility Application Support</li>
-                                   <li>PMI Approved 36 Contact Hour PMP® Exam Certification Course</li>
+                              <li>PMP® Certification Exam Prep Study Book</li>
+                              <li>Pre-course Quick Reference Guide</li>
+                              <li>On-line PMP® Exam Simulator</li>
+                              <li>Over 600+ Practice PMP® Questions</li>
+                              <li>100% PMP® Exam Pass Guarantee</li>
+                              <li>Critical Exam Taking Techniques</li>
+                              <li>Breakfast, Lunch and Snacks Provided</li>
+                              <li>In Class Exercises and Accelerated Learning Techniques</li>
+                              <li>PMP® Eligibility Application Support</li>
+                              <li>PMI Approved 36 Contact Hours</li>
                             </ul>
-                           <p>What we believe is a significant differentiator is our <b>T.rusted A.dvisor P.rogram&trade;</b> that allows you to <b>T.A.P.&trade;</b> into the experience and insights of our instructors via email and telephone support prior, during and following class.  Because at Pinnacle 3 we believe, You aren’t done with class, until you pass!&trade;</p>
-                            <p>
-                            The objective of this course is to prepare you for the Project Management Professional (PMP®) examination. We are so confident that after our 4 Day Instructor led PMP Exam Prep Class you will pass the exam that we guarantee it. </p>
-                            <ul>
-                            <li><a href="pmp-certification-prep-faqs.aspx">Find more information on the PMP® Certification Exam here</a> 
-                            </li>
-                            </ul>  
+                            <p>We believe a significant differentiator is our <b>Trusted Advisor Program</b> that allows you to tap into the experience and insights of our instructors prior, during and following class.  Because at Pinnacle 3 we believe, You aren’t done with class, until you pass!</p>
+                            <p>Find More Information on the <a href="pmp-certification-prep-faqs.aspx">PMP® Certification Exam here</a>                            </p>  
                             <%-- <p class=" style4" style="text-align:center">
                            To Register for this Class, call <strong>888-808-4PMP(4767)</strong><br>or see the Schedule and Register Online here:</p>--%>
                       

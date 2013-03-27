@@ -3,15 +3,15 @@
 <%@ Register src="CmsPageContent.ascx" tagname="CmsPageContent" tagprefix="uc1" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
 <link rel="canonical" href="http://www.pinnacle3learning.com/pmp-certification-<%# LocationSeo %>"/>
-    <title><%# City %> PMP Training by Pinnacle 3 Learning</title>
-<meta name="description" content="Register for PMP Certification Classes and PMP Exam Prep Courses available in <%# City %>. We offer the highest-quality PMP Training, guaranteed!" />
+    <title>PMP® Certification Boot Camp Training - <%# City %></title>
+<meta name="description" content="Register for PMP® Certification Boot Camp Training Classes available in <%# City %>. We offer the highest-quality PMP® Training, Guaranteed!" />
 <meta name="keywords" content="pmp certification, pmp, pmp training, pmp certificate, pmp boot camp, pmp exam prep, pmp certification training, pmi, pmp exam questions, pmi certification, project management certification, pmp certification requirements, pmi certification, project management professional certification, pmi pmp, certification pmp, pmp certification exam, pmp certified, pmi pmp certification, pmp requirements, pmp certifications, pmp cert, pmp certification prep, pmp education, pmp certification class, pmp certification test, PMP Exam, PMP Exam Prep, PMP Course, PMP Online Course, PMP Certification Training, PMP Training, Online PMP Training, PMP Preparation, PMP Free, PMP Practice Question, PMI Exam, PMI Course, PMI Online Course, PMI Certification Training, PMI Training, Online PMI Training, Project Management Certification PMP, Project Management Certification, Certification Project Management, Project Management Training, pmp, pmp exam, pmp exam prep, pmp bootcamp, pmp exam preparation, pmp prep, pmi pmp exam, pmp exam simulation, project management professional exam, pmp exam training, pmp prep courses, online pmp exam prep, pmp questions, pmp test, pmp training, pmp certification training, pmi training, pmp examination, pmi certification training, pmi pmp training" />
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BannerContent" ID="contentBanner">
     <img src="images/default_06_location.jpg" width="958" height="234" alt="" />
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
-<h1>PMP Training <%# City %></h1>
+<h1>PMP® Certification Boot Camp Training <%# City %></h1>
     
     <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="0">
             <Tabs>
@@ -29,30 +29,30 @@
         </telerik:RadTabStrip>
         <telerik:RadMultiPage ID="RadMultiPage1" Runat="server" SelectedIndex="0">
                 <telerik:RadPageView ID="RadPageViewpPmpTraining" runat="server">
-                    <p class=" style4"><b>Class Details</b></p>  
+                    <p class=" style4"><b>PMP® Class Details</b></p>  
                     <asp:Panel runat="server" ID="pnlStaticDetails">
-                        <p>
+                      <p>
                             <b>
-                            </b>In our <%# City %> PMP Exam Prep course, you'll gain the essential preparation needed to pass the Project Management Institutes PMP® Certification Exam. The <%# City %> PMP Exam Prep course is based on the nine Knowledge Areas of the Guide to the Project Management Body of Knowledge(PMBOK® Guide) and the five process groups - Initiating, Planning, Executing, Monitoring and Controlling, and Closing as well as Critical Exam Taking Techniques. This <%# City %> PMP Exam Prep class will provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the detailed exam and earn your Project Management Professional (PMP®) Credential.
+                            </b>The objective of this course is to prepare you for the Project Management Professional (PMP®) Certification Examination. In our <%# City %> PMP® Certification Boot Camp, you'll gain the essential information needed to pass the PMP® Certification Exam. We are so confident that you will Pass the PMP® Exam after our 4 Day Instructor Led Boot Camp Class, We Guarantee It! </p>
+                          <p>The PMP® Exam Prep course is based on the Project Management Body of Knowledge(PMBOK® Guide). This <%# City %> PMP® Boot Camp will provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the exam and earn your Project Management Professional (PMP®) Credential.
                         </p>
-                        <p class=" style4"><b>The Project Management Professional ® Exam Prep Course includes:</b></p>
+                          <p>****PLEASE NOTE: ALL CLASES AFTER JULY 31st are for the PMBOK 5th Edition version of the Exam****</p>
+                        <p class=" style4"><b>The Project Management Professional ® Boot Camp Course includes:</b></p>
                         <ul>
-                                <li>PMP® Exam Prep Study Book</li>
-                                <li>Pre-course &quot;Blueprint For Success&quot;</li>
-                                <li>Online PMP® Exam Simulator</li>
+                                <li>PMP® Certification Exam Prep Study Book</li>
+                                <li>Pre-course Quick Reference Guide</li>
+                                <li>On-line PMP® Exam Simulator</li>
 			                    <li>Over 600+ Practice PMP® Questions</li>
                                 <li>100% PMP® Exam Pass Guarantee</li>
                                 <li>Critical Exam Taking Techniques</li>
                                 <li>Breakfast, Lunch and Snacks Provided</li>
                                 <li>In Class Exercises and Accelerated Learning Techniques</li>
                                 <li>PMP® Eligibility Application Support</li>
-                                <li>PMI Approved 36 Contact Hour PMP® Exam Certification Course</li>
+                                <li>PMI Approved 36 Contact Hours</li>
                         </ul>
-	                    <p>What we believe is a significant differentiator is our <b>T.rusted A.dvisor P.rogram&trade;</b> that allows you to <b>T.A.P.&trade;</b> into the experience and insights of our instructors via email and telephone support prior, during and following class.  Because at Pinnacle 3 we believe, You aren’t done with class, until you pass!&trade;</p>
-                        <p>
-                        The objective of this course is to prepare you for the Project Management Professional (PMP®) examination. We are so confident that after our 4 Day Instructor led PMP Exam Prep Class you will pass the exam that we guarantee it. </p>
+	                    <p>We believe a significant differentiator is our <b>Trusted Advisor Program</b> that allows you to tap into the experience and insights of our instructors prior, during and following class.  Because at Pinnacle 3 we believe, You aren’t done with class, until you pass!</p>
                         <ul>
-                        <li><a href="pmp-certification-prep-faqs.aspx">Find more information on the PMP® Certification Exam here</a> 
+                        <li>Find more information on the <a href="pmp-certification-prep-faqs.aspx">PMP® Certification Exam here</a> 
                         </li>
                         </ul> 
                     </asp:Panel> 
@@ -89,17 +89,16 @@
 <asp:Content runat="server" ContentPlaceHolderID="RightContent" ID="rightContent">
 <uc1:ClassHeader ID="ClassHeader1" ClassType="PMP" ShowImage="false" runat="server" />
 <fieldset class="locationSchedule wrapper">
-<h1><%# City %></h1>
-<h4>PMP Exam Prep Class</h4>
-    <telerik:RadListView ID="RadListViewClasses" runat="server" DataSourceID="classDB">
+<h2>PMP® Certification Training Class Schedule</h2>
+<telerik:RadListView ID="RadListViewClasses" runat="server" DataSourceID="classDB">
         <ItemTemplate>
             <div class="class wrapper">
                 <div class="classDetailsWrapper">
                     <table class="classDetailsTable">
                         <tr>
                             <td class="classTitle">
-                            PMP Boot Camp
-                            </td>
+                            PMP® Boot Camp
+                          </td>
                             <td class="classPrice" rowspan="2"><asp:imagebutton runat="server" ImageUrl="~/images/register-btn.png"  ToolTip="Register now for this class" ID="Imagebutton1" CommandName='<%# GetPrice(DateTime.Parse(Eval("dtClassDate").ToString())) %>'  CommandArgument='<%#Eval("ClassID") %>' OnClick="RegisterButton_Click"  /><br />
                                 <span class="priceText"><%# GetPriceText(DateTime.Parse(Eval("dtClassDate").ToString()))%></span>
                             </td>
