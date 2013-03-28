@@ -130,7 +130,7 @@
                                                 <td align="right" valign="top">
                                                     Comments:                                                </td>
                                                 <td valign="top">
-                                                    <nobr><asp:TextBox ID="comments" runat="server" TextMode="MultiLine" Rows="4" Width="380px"></asp:TextBox>
+                                                    <nobr><asp:TextBox ID="comments" runat="server" TextMode="MultiLine" Rows="4" Width="300px"></asp:TextBox>
                                                     *</nobr><asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="comments"
                                                         ErrorMessage="Let Us Know How We Can Help!"></asp:RequiredFieldValidator>                                                </td>
                                             </tr>

@@ -37,6 +37,10 @@
       <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Lanapsoft\BotDetect 3 CAPTCHA Component\Asp.Net\v4.0\BotDetect.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SubgurimSiteMap, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SubgurimSiteMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -195,7 +199,6 @@
     <Content Include="images\pmp-instruction.jpg" />
     <Content Include="receipt-pmp.ascx" />
     <Content Include="RssReader.ascx" />
-    <Content Include="sitemap.html" />
     <Content Include="virtual_classes_iframe.html" />
     <Content Include="project-management-courses.aspx" />
     <Content Include="pmp-certification-training.aspx" />
@@ -371,8 +374,6 @@
     <Content Include="Scripts\expressinstall.swf" />
     <Content Include="Scripts\swfobject.js" />
     <Content Include="self_paced_PMP_Training.aspx" />
-    <Content Include="Sitemap.aspx" />
-    <Content Include="sitemap.xml" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
@@ -862,13 +863,6 @@
     </Compile>
     <Compile Include="self_paced_PMP_Training.aspx.designer.cs">
       <DependentUpon>self_paced_PMP_Training.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SiteMap.aspx.cs">
-      <DependentUpon>Sitemap.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SiteMap.aspx.designer.cs">
-      <DependentUpon>Sitemap.aspx</DependentUpon>
     </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>

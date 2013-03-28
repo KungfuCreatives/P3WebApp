@@ -24,7 +24,7 @@ namespace P3WebApp
         {
             if (Request.Url.Scheme == "https")
             {
-                Response.Redirect("http://" + Request.ServerVariables["HTTP_HOST"] + Request.RawUrl);
+                Response.Redirect("http://" + Request.ServerVariables["HTTP_HOST"] + Request.RawUrl); 
             }
             if (Request.Browser.MSDomVersion.Major == 0)
             {
