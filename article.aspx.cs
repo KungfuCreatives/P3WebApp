@@ -11,8 +11,10 @@ namespace P3WebApp
 {
     public partial class article : System.Web.UI.Page
     {
+        protected string canonical;
         protected void Page_Load(object sender, EventArgs e)
         {
+            canonical = Request.QueryString["t"];
             XmlDocument xmlDoc = new XmlDocument();
 
             XDocument xdoc = XDocument.Load("http://pmpexampass.info/?feed=rss2&cat=-1");
