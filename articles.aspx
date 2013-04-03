@@ -11,7 +11,7 @@
     <ItemTemplate>
             <h3><%#XPath("title")%></h3>
             <p>Published: <%#String.Format("{0:ddd, MMM d, yyyy}", DateTime.Parse(XPath("pubDate").ToString()))%></p>  
-             <p align="left"><asp:Literal runat="server" ID="ltrDescription" Text='<%# String.Format("{0}", GetSubstring(XPath("description").ToString(), 240)) %>'></asp:Literal>
+             <p align="left"><asp:Literal runat="server" ID="ltrDescription" Text='<%# String.Format("{0}", GetSubstring(XPath("description").ToString(), 200)) %>'></asp:Literal>
             <a href='article.aspx?t=<%#XPath("title")%>'>more</a></p>
             <br />
     </ItemTemplate>       

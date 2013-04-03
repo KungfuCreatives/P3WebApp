@@ -34,3 +34,4 @@ C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\bin\
 C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\bin\P3 Web App.pdb
 C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\obj\Debug\P3 Web App.dll
 C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\obj\Debug\P3 Web App.pdb
+C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\obj\Debug\P3 Web App.csprojResolveAssemblyReference.cache
