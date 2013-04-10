@@ -73,6 +73,7 @@
     <Content Include="articles.aspx" />
     <Content Include="class-manager.aspx" />
     <Content Include="ClassHeader.ascx" />
+    <Content Include="clear-sitemap.aspx" />
     <Content Include="CmsPageContent.ascx" />
     <Content Include="confirm.aspx" />
     <Content Include="confirmed.aspx" />
@@ -543,6 +544,13 @@
     </Compile>
     <Compile Include="classSchedule_pm_risk.aspx.designer.cs">
       <DependentUpon>classSchedule_pm_risk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clear-sitemap.aspx.cs">
+      <DependentUpon>clear-sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clear-sitemap.aspx.designer.cs">
+      <DependentUpon>clear-sitemap.aspx</DependentUpon>
     </Compile>
     <Compile Include="CmsPageContent.ascx.cs">
       <DependentUpon>CmsPageContent.ascx</DependentUpon>

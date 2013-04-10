@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://pinnacle3learning.com/sitemap.xml

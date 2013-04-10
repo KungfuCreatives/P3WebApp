@@ -2,83 +2,43 @@
 <SubgurimSiteMap>
   <urls>
     <url>
-      <loc>http://localhost:4241/accreditation_pinnacle_3_pmp_exam_training.aspx</loc>
-      <lastmod>3/28/2013 2:34:52 AM</lastmod>
+      <loc>http://localhost:4241/lean-six-sigma-green-belt.aspx</loc>
+      <lastmod>4/10/2013 2:59:27 AM</lastmod>
       <changefreq>3</changefreq>
       <priority>0.5</priority>
       <hash />
       <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:34:52 AM</lastmodlistitem>
+        <lastmodlistitem>4/10/2013 2:59:27 AM</lastmodlistitem>
+      </lastmodlist>
+    </url>
+    <url>
+      <loc>http://localhost:4241/memphis-tn-lean-six-sigma-green-belt-training-class</loc>
+      <lastmod>4/10/2013 2:59:30 AM</lastmod>
+      <changefreq>3</changefreq>
+      <priority>0.5</priority>
+      <hash />
+      <lastmodlist>
+        <lastmodlistitem>4/10/2013 2:59:30 AM</lastmodlistitem>
+      </lastmodlist>
+    </url>
+    <url>
+      <loc>http://localhost:4241/accreditation_pinnacle_3_pmp_exam_training.aspx</loc>
+      <lastmod>4/10/2013 3:01:47 AM</lastmod>
+      <changefreq>3</changefreq>
+      <priority>0.5</priority>
+      <hash />
+      <lastmodlist>
+        <lastmodlistitem>4/10/2013 3:01:47 AM</lastmodlistitem>
       </lastmodlist>
     </url>
     <url>
       <loc>http://localhost:4241/pmp-certification-training.aspx</loc>
-      <lastmod>3/28/2013 2:35:28 AM</lastmod>
+      <lastmod>4/10/2013 3:02:27 AM</lastmod>
       <changefreq>3</changefreq>
       <priority>0.5</priority>
       <hash />
       <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:35:28 AM</lastmodlistitem>
-      </lastmodlist>
-    </url>
-    <url>
-      <loc>http://localhost:4241/lean-six-sigma-green-belt.aspx</loc>
-      <lastmod>3/28/2013 2:36:53 AM</lastmod>
-      <changefreq>3</changefreq>
-      <priority>0.5</priority>
-      <hash />
-      <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:36:53 AM</lastmodlistitem>
-      </lastmodlist>
-    </url>
-    <url>
-      <loc>http://localhost:4241/denver-co-lean-six-sigma-green-belt-training-class</loc>
-      <lastmod>3/28/2013 2:37:01 AM</lastmod>
-      <changefreq>3</changefreq>
-      <priority>0.5</priority>
-      <hash />
-      <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:37:01 AM</lastmodlistitem>
-      </lastmodlist>
-    </url>
-    <url>
-      <loc>http://localhost:4241/houston-tx-lean-six-sigma-green-belt-training-class</loc>
-      <lastmod>3/28/2013 2:37:47 AM</lastmod>
-      <changefreq>3</changefreq>
-      <priority>0.5</priority>
-      <hash />
-      <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:37:47 AM</lastmodlistitem>
-      </lastmodlist>
-    </url>
-    <url>
-      <loc>http://localhost:4241/self_paced_pmp_training.aspx</loc>
-      <lastmod>3/28/2013 2:37:52 AM</lastmod>
-      <changefreq>3</changefreq>
-      <priority>0.5</priority>
-      <hash />
-      <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:37:52 AM</lastmodlistitem>
-      </lastmodlist>
-    </url>
-    <url>
-      <loc>http://localhost:4241/virtual_classes_iframe.html</loc>
-      <lastmod>3/28/2013 2:37:52 AM</lastmod>
-      <changefreq>3</changefreq>
-      <priority>0.5</priority>
-      <hash />
-      <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:37:52 AM</lastmodlistitem>
-      </lastmodlist>
-    </url>
-    <url>
-      <loc>http://localhost:4241/location-six-sigma-green-belt.aspx?l=houston-tx%3f</loc>
-      <lastmod>3/28/2013 2:40:47 AM</lastmod>
-      <changefreq>3</changefreq>
-      <priority>0.5</priority>
-      <hash />
-      <lastmodlist>
-        <lastmodlistitem>3/28/2013 2:40:47 AM</lastmodlistitem>
+        <lastmodlistitem>4/10/2013 3:02:27 AM</lastmodlistitem>
       </lastmodlist>
     </url>
   </urls>

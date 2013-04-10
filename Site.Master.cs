@@ -27,8 +27,8 @@ namespace P3WebApp
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-
             SubgurimSiteMapBLL.addSiteMap(Request.Url.ToString());
+            
             if (Request.Url.Scheme == "https")
             {
                 Response.Redirect("http://" + Request.ServerVariables["HTTP_HOST"] + Request.RawUrl);
