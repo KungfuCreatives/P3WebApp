@@ -211,9 +211,14 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><nobr>Name on Card</nobr></td><td width="80%"><asp:TextBox runat="server" ID="txtNameOnCard"></asp:TextBox>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter the Cardholder's Name"
-                                    Display="Dynamic" ControlToValidate="txtNameOnCard" ></asp:RequiredFieldValidator></td>
+                                        <td><nobr>First Name</nobr></td><td width="80%"><asp:TextBox runat="server" ID="txtFirstNameOnCard"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter the Cardholder's First Name"
+                                    Display="Dynamic" ControlToValidate="txtFirstNameOnCard" ></asp:RequiredFieldValidator></td>
+                                    </tr>
+                                    <tr>
+                                        <td><nobr>Last Name</nobr></td><td width="80%"><asp:TextBox runat="server" ID="txtLastNameOnCard"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ErrorMessage="Please enter the Cardholder's Last Name"
+                                    Display="Dynamic" ControlToValidate="txtLastNameOnCard" ></asp:RequiredFieldValidator></td>
                                     </tr>
                                     <tr>
                                         <td><nobr>Card Number</nobr></td><td><asp:TextBox runat="server" ID="txtCardnumber"></asp:TextBox>

@@ -4,6 +4,9 @@ using System.Data.OleDb;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using P3WebApp.App_Code;
+using Samurai;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace P3WebApp
 {
@@ -12,6 +15,7 @@ namespace P3WebApp
         private bool _creditCard_Test50Cents;
         private bool _acceptCreditCards;
         private bool _creditCard_AuthorizationActive;
+        private string classTypeDesc;
         public int AmountToCharge { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
@@ -38,7 +42,7 @@ namespace P3WebApp
                     string hotel = string.Empty;
                     string hotelWebsite = string.Empty;
                     string description = string.Empty;
-                    string classTypeDesc = string.Empty;
+                    classTypeDesc = string.Empty;
                     string classDays = string.Empty;
                     bool hot = false;
                     DateTime classDateTime = DateTime.MaxValue;
@@ -237,45 +241,76 @@ namespace P3WebApp
             _recordEnrollment();
             if (ViewState["AmountToCharge"] != null)
             {
-                string response;
+                List<Message> messages = null;
+                Transaction authorization = null;
+                string authorizationReferenceId = "";
                 decimal chargeAmount = decimal.Parse(ViewState["AmountToCharge"].ToString());
                 if (_creditCard_Test50Cents)
                     chargeAmount = (decimal).50;
 
-                // Removing CC Processing
+                // CC Processing Block
                 if (_creditCard_AuthorizationActive)
-                    response = FirstDataCheckout.ChargeCreditCard(txtCardnumber.Text.Trim(), ddlExpyMonth.SelectedValue, ddlExpyYear.SelectedValue, txtCcv.Text.Trim(), chargeAmount,
-                                                                           txtBillName.Text, txtBillAddress.Text, txtBillCity.Text, txtBillState.Text, txtBillZip.Text, txtBillPhone.Text, txtBillEmail.Text, txtBillCompany.Text);
+                {
+                    PaymentMethodPayload payload = new PaymentMethodPayload()
+                    {
+                        FirstName = txtFirstNameOnCard.Text.Trim(),
+                        LastName = txtLastNameOnCard.Text.Trim(),
+                        Address1 = txtBillAddress.Text,
+                        City = txtBillCity.Text,
+                        State = txtBillState.Text,
+                        Zip = txtBillZip.Text,
+                        CardNumber = txtCardnumber.Text.Trim(),
+                        Cvv = txtCcv.Text.Trim(),
+                        ExpiryMonth = int.Parse(ddlExpyMonth.SelectedValue),
+                        ExpiryYear = int.Parse(ddlExpyYear.SelectedValue),
+                        Custom = string.Format("{0} {1} {2} {4}", classTypeDesc, lblClassDate.Text, lblClassLocation.Text, billTo_email)
+                    };
+                    // Use Samurai payment gateway to authorize the transaction
+                    var paymentMethodToken = PaymentMethod.TokenizePaymentMethod(payload);
+                    Processor processor = Processor.TheProcessor; 
+                    authorization = processor.Authorize(paymentMethodToken, chargeAmount);
+                    authorizationReferenceId = authorization.ReferenceId; // save this value, you can find the transaction with it later
+                    messages = authorization.ProcessorResponse.Messages;
+
+                }
                 else
                 {
-                    //response = "APPROVED TESTMODE-12345";
-                    // Adam commented out the above code to prevent CC authorization. Instead I will email the CC info to Pinnacle3
-                    response = "APPROVED";
+                    // We're not using the payment gateway so just send the credit card info in an email
                     sendCCEmail(chargeAmount);
-                    // that's it for the workaround. -- Inserted Jan 20 20120
+                    // We're all good... continue.
+                    btnPay.Visible = false;
+                    lblMessage.Text = "APPROVAL PENDING - Generating Confirmation Letter. Please Wait";
+                    lblMessage.ForeColor = System.Drawing.Color.Green;
+                    string redirect = "window.location.href='confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=Pending'";
+                    ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);
                 }
 
-                if (!response.Contains("APPROVED"))
+                if (messages != null)
                 {
-                    if (response.Contains("CardNumber"))
+                    var processorTransactionMessages = messages.Where(m => m.Context == "processor.transaction");
+                    // check for success 
+                    if (processorTransactionMessages.FirstOrDefault(m => m.Key != "success") != null)
                     {
-                        lblMessage.Text = "There is an error with your card number. Please verify that it's correct.";
+                        // we're in a failure situation
+                        // print out an error statement
+                        lblMessage.Text = "This transaction has failed. Please verify your credit card information or choose to pay later.<br>The error message is: ";
+                        foreach (var message in messages)
+                            lblMessage.Text += string.Format("<br> {0} - {1}", message.Context, message.Description);
                         return;
                     }
-                    if (response.Contains("DECLINED"))
-                    {
-                        lblMessage.Text = "This transaction has been declined";
-                        return;
-                    }
-                    lblMessage.Text = "This transaction has failed. Please verify your credit card information or choose to pay later.<br>The error message is: " + response;
-                    return;
+                    // We're all good... continue.
+                    btnPay.Visible = false;
+                    lblMessage.Text = "APPROVED - Generating Confirmation Letter. Please Wait";
+                    lblMessage.ForeColor = System.Drawing.Color.Green;
+                    string redirect = "window.location.href='confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=" + authorizationReferenceId + "'";
+                    ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);
                 }
-                btnPay.Visible = false;
-                lblMessage.Text = "APPROVED - Generating Confirmation Letter. Please Wait";
-                lblMessage.ForeColor = System.Drawing.Color.Green;
-                string apprv = response.Replace("APPROVED", "");
-                string redirect = "window.location.href='confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=" + apprv + "'";
-                ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);
+                else
+                {
+                    // something went wrong
+                    throw new Exception("Unhandled exception while processing a credit card transaction for registrationid=" + Request.QueryString["registrationid"]);
+                }
+                
             }
         }
 

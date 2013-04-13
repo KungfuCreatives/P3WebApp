@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using Samurai;
 
 namespace P3WebApp
 {
@@ -14,6 +15,12 @@ namespace P3WebApp
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
+            Samurai.Samurai.Options = new SamuraiOptions()
+            {
+                MerchantKey = "e137aef1ce125f2063824a98",
+                MerchantPassword = "da21d6602f0d4028883c3b71",
+                ProcessorToken = "9db5f40cbbd5340b7c2e1e60"
+            };
 
         }
 

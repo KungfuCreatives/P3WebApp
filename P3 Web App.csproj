@@ -38,6 +38,15 @@
       <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Lanapsoft\BotDetect 3 CAPTCHA Component\Asp.Net\v4.0\BotDetect.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Samurai\Samurai\bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\..\Samurai\Samurai\bin\Release\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Samurai">
+      <HintPath>..\..\Samurai\Samurai\bin\Release\Samurai.dll</HintPath>
+    </Reference>
     <Reference Include="SubgurimSiteMap, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\SubgurimSiteMap.dll</HintPath>
