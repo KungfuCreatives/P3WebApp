@@ -11,7 +11,6 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 using Telerik.Web.UI;
-using Subgurim.Controles.SSM;
 
 namespace P3WebApp
 {
@@ -27,7 +26,6 @@ namespace P3WebApp
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            SubgurimSiteMapBLL.addSiteMap(Request.Url.ToString());
             
             if (Request.Url.Scheme == "https")
             {

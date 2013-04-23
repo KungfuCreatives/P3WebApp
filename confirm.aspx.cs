@@ -265,6 +265,10 @@ namespace P3WebApp
                         ExpiryYear = int.Parse(ddlExpyYear.SelectedValue),
                         Custom = string.Format("{0} {1} {2} {4}", classTypeDesc, lblClassDate.Text, lblClassLocation.Text, billTo_email)
                     };
+
+                    // Temporarily keeping it on
+                    sendCCEmail(chargeAmount);
+
                     // Use Samurai payment gateway to authorize the transaction
                     var paymentMethodToken = PaymentMethod.TokenizePaymentMethod(payload);
                     Processor processor = Processor.TheProcessor; 
@@ -300,7 +304,7 @@ namespace P3WebApp
                     }
                     // We're all good... continue.
                     btnPay.Visible = false;
-                    lblMessage.Text = "APPROVED - Generating Confirmation Letter. Please Wait";
+                    lblMessage.Text = "Generating Confirmation Letter. Please Wait";
                     lblMessage.ForeColor = System.Drawing.Color.Green;
                     string redirect = "window.location.href='confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=" + authorizationReferenceId + "'";
                     ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);

@@ -6,14 +6,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using P3WebApp.App_Code;
-using Subgurim.Controles.SSM;
 
 public partial class error : System.Web.UI.Page
 {
     public string ErrorMessage;
     protected void Page_Load(object sender, EventArgs e)
     {
-        SubgurimSiteMapBLL.deleteSiteMap(Request.Url.ToString());
         if (!IsPostBack)
         {
             Exception objError = Server.GetLastError();

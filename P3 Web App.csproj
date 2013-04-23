@@ -44,12 +44,9 @@
     <Reference Include="RestSharp">
       <HintPath>..\..\Samurai\Samurai\bin\Release\RestSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Samurai">
-      <HintPath>..\..\Samurai\Samurai\bin\Release\Samurai.dll</HintPath>
-    </Reference>
-    <Reference Include="SubgurimSiteMap, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Samurai, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\SubgurimSiteMap.dll</HintPath>
+      <HintPath>..\..\Samurai\Samurai\bin\Release\Samurai.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -82,7 +79,6 @@
     <Content Include="articles.aspx" />
     <Content Include="class-manager.aspx" />
     <Content Include="ClassHeader.ascx" />
-    <Content Include="clear-sitemap.aspx" />
     <Content Include="CmsPageContent.ascx" />
     <Content Include="confirm.aspx" />
     <Content Include="confirmed.aspx" />
@@ -553,13 +549,6 @@
     </Compile>
     <Compile Include="classSchedule_pm_risk.aspx.designer.cs">
       <DependentUpon>classSchedule_pm_risk.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="clear-sitemap.aspx.cs">
-      <DependentUpon>clear-sitemap.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="clear-sitemap.aspx.designer.cs">
-      <DependentUpon>clear-sitemap.aspx</DependentUpon>
     </Compile>
     <Compile Include="CmsPageContent.ascx.cs">
       <DependentUpon>CmsPageContent.ascx</DependentUpon>
