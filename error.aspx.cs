@@ -27,6 +27,11 @@ public partial class error : System.Web.UI.Page
                 return;
             if (objError.Message.Contains("The input is not a valid Base-64 string"))
                 return;
+            if (objError.Message.Contains("The file") && objError.Message.Contains("does not exist"))
+            {
+                Response.RedirectPermanent("http://" + Request.Url.Authority, true);
+                return;
+            }
             
             SendMail objSendEmail = new SendMail();
             objSendEmail.IsHTML = true;
