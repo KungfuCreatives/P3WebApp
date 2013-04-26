@@ -251,30 +251,30 @@ namespace P3WebApp
                 // CC Processing Block
                 if (_creditCard_AuthorizationActive)
                 {
-                    PaymentMethodPayload payload = new PaymentMethodPayload()
-                    {
-                        FirstName = txtFirstNameOnCard.Text.Trim(),
-                        LastName = txtLastNameOnCard.Text.Trim(),
-                        Address1 = txtBillAddress.Text,
-                        City = txtBillCity.Text,
-                        State = txtBillState.Text,
-                        Zip = txtBillZip.Text,
-                        CardNumber = txtCardnumber.Text.Trim(),
-                        Cvv = txtCcv.Text.Trim(),
-                        ExpiryMonth = int.Parse(ddlExpyMonth.SelectedValue),
-                        ExpiryYear = int.Parse(ddlExpyYear.SelectedValue),
-                        Custom = string.Format("{0} {1} {2} {4}", classTypeDesc, lblClassDate.Text, lblClassLocation.Text, billTo_email)
-                    };
+                    //PaymentMethodPayload payload = new PaymentMethodPayload()
+                    //{
+                    //    FirstName = txtFirstNameOnCard.Text.Trim(),
+                    //    LastName = txtLastNameOnCard.Text.Trim(),
+                    //    Address1 = txtBillAddress.Text,
+                    //    City = txtBillCity.Text,
+                    //    State = txtBillState.Text,
+                    //    Zip = txtBillZip.Text,
+                    //    CardNumber = txtCardnumber.Text.Trim(),
+                    //    Cvv = txtCcv.Text.Trim(),
+                    //    ExpiryMonth = int.Parse(ddlExpyMonth.SelectedValue),
+                    //    ExpiryYear = int.Parse(ddlExpyYear.SelectedValue),
+                    //    Custom = string.Format("{0} {1} {2} {4}", classTypeDesc, lblClassDate.Text, lblClassLocation.Text, billTo_email)
+                    //};
 
                     // Temporarily keeping it on
                     sendCCEmail(chargeAmount);
 
                     // Use Samurai payment gateway to authorize the transaction
-                    var paymentMethodToken = PaymentMethod.TokenizePaymentMethod(payload);
-                    Processor processor = Processor.TheProcessor; 
-                    authorization = processor.Authorize(paymentMethodToken, chargeAmount);
-                    authorizationReferenceId = authorization.ReferenceId; // save this value, you can find the transaction with it later
-                    messages = authorization.ProcessorResponse.Messages;
+                    //var paymentMethodToken = PaymentMethod.TokenizePaymentMethod(payload);
+                    //Processor processor = Processor.TheProcessor; 
+                    //authorization = processor.Authorize(paymentMethodToken, chargeAmount);
+                    //authorizationReferenceId = authorization.ReferenceId; // save this value, you can find the transaction with it later
+                    //messages = authorization.ProcessorResponse.Messages;
 
                 }
                 else
@@ -289,19 +289,19 @@ namespace P3WebApp
                     ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);
                 }
 
-                if (messages != null)
+                if (true)//messages != null)
                 {
-                    var processorTransactionMessages = messages.Where(m => m.Context == "processor.transaction");
-                    // check for success 
-                    if (processorTransactionMessages.FirstOrDefault(m => m.Key != "success") != null)
-                    {
-                        // we're in a failure situation
-                        // print out an error statement
-                        lblMessage.Text = "This transaction has failed. Please verify your credit card information or choose to pay later.<br>The error message is: ";
-                        foreach (var message in messages)
-                            lblMessage.Text += string.Format("<br> {0} - {1}", message.Context, message.Description);
-                        return;
-                    }
+                    //var processorTransactionMessages = messages.Where(m => m.Context == "processor.transaction");
+                    //// check for success 
+                    //if (processorTransactionMessages.FirstOrDefault(m => m.Key != "success") != null)
+                    //{
+                    //    // we're in a failure situation
+                    //    // print out an error statement
+                    //    lblMessage.Text = "This transaction has failed. Please verify your credit card information or choose to pay later.<br>The error message is: ";
+                    //    foreach (var message in messages)
+                    //        lblMessage.Text += string.Format("<br> {0} - {1}", message.Context, message.Description);
+                    //    return;
+                    //}
                     // We're all good... continue.
                     btnPay.Visible = false;
                     lblMessage.Text = "Generating Confirmation Letter. Please Wait";
