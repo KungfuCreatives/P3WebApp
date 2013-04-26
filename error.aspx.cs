@@ -29,7 +29,7 @@ public partial class error : System.Web.UI.Page
                 return;
             if (objError.Message.Contains("The file") && objError.Message.Contains("does not exist"))
             {
-                Response.RedirectPermanent("http://" + Request.Url.Authority, true);
+                Response.RedirectPermanent("http://pinnacle3learning.com", true);
                 return;
             }
             
