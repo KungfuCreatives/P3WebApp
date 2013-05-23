@@ -15,7 +15,7 @@
                                              	 The objective of this course is to prepare you for the Project Management Professional (PMP®) Certification Examination. In our  PMP® Certification Boot Camp, you'll gain the essential information needed to pass the PMP® Certification Exam. We are so confident that you will Pass the PMP® Exam after our 4 Day Instructor Led Boot Camp Class, We Guarantee It! 
  <p>In this course, you'll gain the essential preparation needed to pass the Project Management Institutes PMP® Certification Exam. The course is based on the Project Management Body of Knowledge(PMBOK® Guide). This course will  provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. 
                         Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the detailed exam and earn your Project Management Professional (PMP®) Credential. </p>
-                    	<p>****PLEASE NOTE: ALL CLASES AFTER JULY 31st are for the PMBOK 5th Edition version of the Exam****</p>
+                    	<p>****PLEASE NOTE: ALL CLASSES AFTER JULY 31st are for the PMBOK 5th Edition version of the Exam****</p>
                             <p class=" style4"><b>The Project Management Professional ® Boot Camp Course includes:</b></p>
                             <ul>
                               <li>PMP® Certification Exam Prep Study Book</li>

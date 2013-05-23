@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" Inherits="footersmall" Codebehind="footer-small.ascx.cs" %>
 <tr>
     <td colspan="5" bgcolor="#333333" id="footer" style="padding-left:4px; padding-right: 4px">
-        
+         
  <h3 class="item">
   <span class="fn">PMP Certification Bootcamp Training</span>
  </h3>

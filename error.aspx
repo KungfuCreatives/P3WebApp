@@ -9,7 +9,7 @@
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
 <p>
-<font color="red"><b>An Error Has Been Encountered</b></font>
+<font color="red"><b>Oops! An error has occurred</b></font>
 </p>
 <p>
 <font color="red"><b>Error Message:</b></font><br />

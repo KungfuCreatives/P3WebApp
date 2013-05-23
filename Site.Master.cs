@@ -24,6 +24,15 @@ namespace P3WebApp
         {
             get { return RadMenuMain; }
         }
+        protected override void OnPreRender(EventArgs e)
+        {
+            base.OnPreRender(e);
+            var seoTag = new HtmlLink();
+            seoTag.Attributes.Add("rel", "canonical");
+            var canonicalLink = "http://" + Request.Url.DnsSafeHost + Request.RawUrl.ToString().ToLower().Replace("www", "");
+            seoTag.Href = canonicalLink;
+            MetaContent.Controls.Add(seoTag);
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -35,6 +44,8 @@ namespace P3WebApp
             {
                 Response.Cache.SetNoStore();
             }
+            
+
             RadMenuItem currentItem = RadMenuMain.FindItemByUrl(Request.Url.PathAndQuery);
             if (currentItem != null)
             {

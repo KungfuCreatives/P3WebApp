@@ -32,6 +32,7 @@ public partial class error : System.Web.UI.Page
                 Response.RedirectPermanent("http://pinnacle3learning.com", true);
                 return;
             }
+            Response.StatusCode = 404;
             
             SendMail objSendEmail = new SendMail();
             objSendEmail.IsHTML = true;

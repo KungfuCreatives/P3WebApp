@@ -27,6 +27,15 @@ namespace P3WebApp
 
             }
         }
+        protected override void OnPreRender(EventArgs e)
+        {
+            base.OnPreRender(e);
+            var seoTag = new HtmlLink();
+            seoTag.Attributes.Add("rel", "canonical");
+            var canonicalLink = "http://" + Request.Url.DnsSafeHost + Request.RawUrl.ToString().ToLower().Replace("www", "");
+            seoTag.Href = canonicalLink;
+            MetaContent.Controls.Add(seoTag);
+        }
 
     }
 }

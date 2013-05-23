@@ -4,7 +4,7 @@
     <title>PMP Certification Boot Camp Training and Lean Six Sigma Training</title>
 <meta name="description" content="Our PMP Certification and Lean Six Sigma Boot Camp Training Classes have the Highest Pass Rate, Guaranteed! !" />
 <meta name="keywords" content="PMP Certification, PMP Certification Training, PMP Boot Camp, PMP Bootcamp, Lean Six Sigma Certification, Lean Six Sigma Training"/>
-<link rel="canonical" href="http://pinnacle3learning.com" />
+
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BannerContent" ID="contentBanner">
     <div id="flashDropZone"></div>

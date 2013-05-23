@@ -2,10 +2,11 @@
 <%@ Register src="ClassHeader.ascx" tagname="ClassHeader" tagprefix="uc1" %>
 <%@ Register src="CmsPageContent.ascx" tagname="CmsPageContent" tagprefix="uc1" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
-<link rel="canonical" href="http://www.pinnacle3learning.com/<%# LocationSeo %>-capm-training-class "/>
+<asp:placeholder runat="server">
     <title><%# City %> CAPM® Certification | <%# City %> CAPM® Training | <%# City %> CAPM® Class</title>
 <meta name="description" content="We have CAPM® Certification Classes and CAPM® Exam Prep Courses Available in the <%# City %> Area. We Offer the Highest Quality CAPM® Training in <%# City %>, Guaranteed!" />
 <meta name="keywords" content="capm certification, capm, capm training, capm certificate, capm boot camp, capm exam prep, capm certification training, pmi, capm exam questions, pmi certification, project management certification, capm certification requirements, pmi certification, project management professional certification, pmi capm, certification capm, capm certification exam, capm certified, pmi capm certification, capm requirements, capm certifications, capm cert, capm certification prep, capm education, capm certification class, capm certification test, CAPM® Exam, CAPM® Exam Prep, CAPM® Course, CAPM® Online Course, CAPM® Certification Training, CAPM® Training, Online CAPM® Training, CAPM® Preparation, CAPM® Free, CAPM® Practice Question, PMI Exam, PMI Course, PMI Online Course, PMI Certification Training, PMI Training, Online PMI Training, Project Management Certification CAPM®, Project Management Certification, Certification Project Management, Project Management Training, capm, capm exam, capm exam prep, capm bootcamp, capm exam preparation, capm prep, pmi capm exam, capm exam simulation, project management professional exam, capm exam training, capm prep courses, online capm exam prep, capm questions, capm test, capm training, capm certification training, pmi training, capm examination, pmi certification training, pmi capm training" />
+</asp:placeholder>
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BannerContent" ID="contentBanner">
     <img src="images/default_06.jpg" width="958" height="234" alt="" />

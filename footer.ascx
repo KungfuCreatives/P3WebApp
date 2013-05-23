@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" Inherits="footer" Codebehind="footer.ascx.cs" %>
 <tr>
     <td colspan="5" bgcolor="#333333" id="footer" style="padding-left:4px; padding-right: 4px">
-        <br/>
+        <br/> 
          
         <p>R.E.P. Logo, PMI, PMP, PMP Logo, and PMBOK are registered marks of the Project Management Institute, Inc.</p>
        

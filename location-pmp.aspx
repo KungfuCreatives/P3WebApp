@@ -2,10 +2,11 @@
 <%@ Register src="ClassHeader.ascx" tagname="ClassHeader" tagprefix="uc1" %>
 <%@ Register src="CmsPageContent.ascx" tagname="CmsPageContent" tagprefix="uc1" %>
 <asp:Content runat="server" ContentPlaceHolderID="MetaContent" ID="contentMeta">
-<link rel="canonical" href="http://www.pinnacle3learning.com/pmp-certification-<%# LocationSeo %>"/>
+<asp:placeholder runat="server">
     <title>PMP® Certification Boot Camp Training - <%# City %></title>
 <meta name="description" content="Register for PMP® Certification Boot Camp Training Classes available in <%# City %>. We offer the highest-quality PMP® Training, Guaranteed!" />
 <meta name="keywords" content="pmp certification, pmp, pmp training, pmp certificate, pmp boot camp, pmp exam prep, pmp certification training, pmi, pmp exam questions, pmi certification, project management certification, pmp certification requirements, pmi certification, project management professional certification, pmi pmp, certification pmp, pmp certification exam, pmp certified, pmi pmp certification, pmp requirements, pmp certifications, pmp cert, pmp certification prep, pmp education, pmp certification class, pmp certification test, PMP Exam, PMP Exam Prep, PMP Course, PMP Online Course, PMP Certification Training, PMP Training, Online PMP Training, PMP Preparation, PMP Free, PMP Practice Question, PMI Exam, PMI Course, PMI Online Course, PMI Certification Training, PMI Training, Online PMI Training, Project Management Certification PMP, Project Management Certification, Certification Project Management, Project Management Training, pmp, pmp exam, pmp exam prep, pmp bootcamp, pmp exam preparation, pmp prep, pmi pmp exam, pmp exam simulation, project management professional exam, pmp exam training, pmp prep courses, online pmp exam prep, pmp questions, pmp test, pmp training, pmp certification training, pmi training, pmp examination, pmi certification training, pmi pmp training" />
+</asp:placeholder>
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BannerContent" ID="contentBanner">
     <img src="images/default_06_location.jpg" width="958" height="234" alt="" />
@@ -36,7 +37,7 @@
                             </b>The objective of this course is to prepare you for the Project Management Professional (PMP®) Certification Examination. In our <%# City %> PMP® Certification Boot Camp, you'll gain the essential information needed to pass the PMP® Certification Exam. We are so confident that you will Pass the PMP® Exam after our 4 Day Instructor Led Boot Camp Class, We Guarantee It! </p>
                           <p>The PMP® Exam Prep course is based on the Project Management Body of Knowledge(PMBOK® Guide). This <%# City %> PMP® Boot Camp will provide attendees with practical information and skill enhancing tips and techniques that can be applied immediately to the project work environment. Our study strategy will increase your comprehension and retention of the key elements of each knowledge area ensuring you are prepared to pass the exam and earn your Project Management Professional (PMP®) Credential.
                         </p>
-                          <p>****PLEASE NOTE: ALL CLASES AFTER JULY 31st are for the PMBOK 5th Edition version of the Exam****</p>
+                          <p>****PLEASE NOTE: ALL CLASSES AFTER JULY 31st are for the PMBOK 5th Edition version of the Exam****</p>
                         <p class=" style4"><b>The Project Management Professional ® Boot Camp Course includes:</b></p>
                         <ul>
                                 <li>PMP® Certification Exam Prep Study Book</li>
