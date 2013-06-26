@@ -41,3 +41,4 @@ C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\bin\
 C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\bin\Newtonsoft.Json.xml
 C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\bin\Samurai.pdb
 C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\bin\Samurai.xml
+C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Web App\P3 Web App\obj\Debug\P3 Web App.csprojResolveAssemblyReference.cache

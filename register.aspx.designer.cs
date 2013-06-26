@@ -319,42 +319,6 @@ namespace P3WebApp {
         protected global::System.Web.UI.WebControls.TextBox billto_comments;
         
         /// <summary>
-        /// pnlCaptcha control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlCaptcha;
-        
-        /// <summary>
-        /// SampleCaptcha control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::BotDetect.Web.UI.Captcha SampleCaptcha;
-        
-        /// <summary>
-        /// CaptchaCode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CaptchaCode;
-        
-        /// <summary>
-        /// CaptchaErrorLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CaptchaErrorLabel;
-        
-        /// <summary>
         /// RadAjaxManager1 control.
         /// </summary>
         /// <remarks>

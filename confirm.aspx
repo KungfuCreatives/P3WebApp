@@ -162,7 +162,7 @@
                                 <td colspan="2">&nbsp;</td>
                             </tr>
                         </table>
-                        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel" EnableAJAX="true">
+                        <%--<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" DefaultLoadingPanelID="RadAjaxLoadingPanel" EnableAJAX="true">
                             <AjaxSettings>
                                 <telerik:AjaxSetting AjaxControlID="ddlPaymentType">
                                     <UpdatedControls>
@@ -180,7 +180,7 @@
                                     </UpdatedControls>
                                 </telerik:AjaxSetting>
                             </AjaxSettings>
-                        </telerik:RadAjaxManager>
+                        </telerik:RadAjaxManager>--%>
                         <div class="secureSeal">
                             <asp:Panel runat="server" ID="pnlSiteSeal" Visible="false" Width="100px">
                                 <span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=ngrNrhNzGoZeSBh7wCiQivYG40xIDd4PNlVaDffzVh1Gyp6M3udu3w6nXU3"></script></span>

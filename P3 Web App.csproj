@@ -391,6 +391,9 @@
     <Content Include="unsubscribe.aspx" />
     <Content Include="Location.Master" />
     <Content Include="Register.Master" />
+    <Content Include="App_Browsers\ie.browser" />
+    <Content Include="App_Browsers\firefox.browser" />
+    <Content Include="packages.config" />
     <None Include="pdfs\BFS2_v4.2.pdf" />
     <None Include="pdfs\BFSQRG4.pdf" />
     <None Include="pdfs\BFS_v4.2.pdf" />

@@ -186,18 +186,6 @@
                                                 <asp:TextBox ID="billto_comments" runat="server" Rows="4" TextMode="MultiLine" Width="300px"></asp:TextBox>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td valign="top" align="right" class="label">
-                                            Captcha:
-                                            </td>
-                                            <td>
-                                                <asp:Panel runat="server" ID="pnlCaptcha">
-                                                    <BotDetect:Captcha ID="SampleCaptcha" runat="server" />
-                                                    <asp:TextBox ID="CaptchaCode" runat="server" />
-                                                    <asp:Label ID="CaptchaErrorLabel" runat="server"  ForeColor="Red"/>
-                                                </asp:Panel>
-                                            </td>
-                                        </tr>
                                     </table>
                                 </td>
                                 </tr>

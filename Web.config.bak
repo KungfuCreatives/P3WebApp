@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Note: As an alternative to hand editing this file you can use the 
+    web admin tool to configure settings for your application. Use
+    the Website->Asp.Net Configuration option in Visual Studio.
+    A full list of settings and comments can be found in 
+    machine.config.comments usually located in 
+    \Windows\Microsoft.Net\Framework\v2.x\Config 
+-->
+<configuration>
+  <configSections>
+    <sectionGroup name="Google">
+      <section name="GoogleCheckout" type="GCheckout.Util.GCheckoutConfigHandler,GCheckout" />
+    </sectionGroup>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="P3WebApp.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+    <sectionGroup name="Rewrite.NET">
+      <!--index entry is required-->
+      <section name="Index" type="System.Configuration.NameValueSectionHandler,System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <!--each optional section name needs to be defined for each rule/section you want-->
+      <!--you can have more than one section, with the same rule (SimpleRule, etc..)-->
+      <section name="RegExpRule1" type="System.Configuration.NameValueSectionHandler,System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    </sectionGroup>
+  </configSections>
+  <Rewrite.NET>
+    <Index>
+      <!--
+			Format:
+				<add key="SECTION NAME" value="NAMESPACE.CLASSNAME,ASSEMBLY NAME" />
+			Example:
+				<add key="SimpleSettings" value="RulesEngine.SimpleRule,RulesEngine" />
+			-->
+      <add key="RegExpRule1" value="RegExpRule.RegExp,RegExpRule" />
+    </Index>
+    <!--the actual settings for the rule set for the section-->
+    <RegExpRule1>
+      <add key="^/pmp-certification-training.aspx" value="pmp-certification-training.aspx" />
+      <add key="^/pmp-certification-(.*)" value="location-pmp.aspx?l=$1" />
+      <add key="^/(.*)-capm-training-class" value="location-capm.aspx?l=$1" />
+      <add key="^/(.*)-lean-six-sigma-black-belt-training-class" value="location-six-sigma-black-belt.aspx?l=$1" />
+      <add key="^/(.*)-lean-six-sigma-green-belt-training-class" value="location-six-sigma-green-belt.aspx?l=$1" />
+      <add key="^/(.*)-projectrisk-training-class" value="location-projectrisk.aspx?l=$1" />
+      <add key="^/(.*)-pmessentials-training-class" value="location-pmessentials.aspx?l=$1" />
+      <add key="^/(.*)-msproject-training-class" value="location-msproject.aspx?l=$1" />
+    </RegExpRule1>
+  </Rewrite.NET>
+  <Google>
+    <GoogleCheckout SandboxMerchantID="462270902082195" SandboxMerchantKey="9j7_8pFtFX3M0DD9tnitfA" ProductionMerchantID="221908901376771" ProductionMerchantKey="HNJBjVQOd2316Z5lLR0diQ" PlatformID="124248135971073" Environment="Production" Logging="false" LogDirectory="c:\test\" Currency="USD" />
+  </Google>
+  <appSettings>
+    <add key="GoogleMerchantID" value="221908901376771" />
+    <add key="GoogleMerchantKey" value="HNJBjVQOd2316Z5lLR0diQ" />
+    <add key="GoogleEnvironment" value="Production" />
+    <add key="PlatformID" value="235235235235" />
+    <add key="Logging" value="false" />
+    <add key="LogDirectory" value="C:\test\" />
+    <add key="Currency" value="USD" />
+    <add key="fromEmail" value="info@pinnacle3learning.com" />
+    <add key="email1" value="haid.adam@gmail.com" />
+    <add key="email2" value="" />
+    <add key="email3" value="" />
+    <add key="errorEmail1" value="haid.adam@gmail.com" />
+    <add key="errorEmail2" value="" />
+    <add key="errorEmail3" value="" />
+    <add key="ClassManagerPassword" value="Brossess1" />
+    <add key="Cost_PMP" value="1995" />
+    <!-- integers only -->
+    <add key="Cost_PMP_Sale" value="-1" />
+    <!-- integers only -->
+    <add key="Cost_PMPLive" value="1495" />
+    <!-- integers only -->
+    <add key="Cost_PMPLive_Sale" value="" />
+    <add key="Cost_L6GI" value="3250" />
+    <!-- integers only -->
+    <add key="Cost_L6GI_Sale" value="-1" />
+    <!-- integers only -->
+    <add key="Cost_L6BI" value="4750" />
+    <!-- integers only -->
+    <add key="Cost_L6BI_Sale" value="-1" />
+    <!-- integers only -->
+    <add key="Cost_CAPM" value="1995" />
+    <!-- integers only -->
+    <add key="Cost_CAPM_Sale" value="-1" />
+    <!-- integers only -->
+    <add key="Cost_MS_Project" value="1295" />
+    <!-- integers only -->
+    <add key="Cost_Essentials" value="1295" />
+    <!-- integers only -->
+    <add key="Cost_Risk" value="1795" />
+    <!-- integers only -->
+    <add key="SendEmails" value="false" />
+    <add key="BccRegularEmailsToAddresses" value="true" />
+    <add key="BccErrorEmailsToAddresses" value="true" />
+    <add key="IncludeAttachmentsInEmailsToAdmin" value="true" />
+    <add key="SendLeadsToSalesForce" value="false" />
+    <add key="AcceptCreditCards" value="true" />
+    <add key="CreditCard_Test50Cents" value="false" />
+    <add key="CreditCard_AuthorizationActive" value="true" />
+    <add key="GoSecure" value="false" />
+    <add key="SForce_Username" value="susan@pinnacle3.com" />
+    <add key="SForce_Password" value="P1nnacle381vmKxPNKQwyZOBb4k80D0Zn" />
+    <add key="CustomErrors" value="true" />
+    <add key="EarlyBirdDiscountAmount" value="100" />
+    <!-- integers only -->
+    <add key="EarlyBirdDuration" value="60" />
+    <!-- integers only -->
+    <add key="EarlyBirdClassComment" value="Early Registration" />
+    <add key="TwoWeeksOutClassComment" value="Register Now" />
+  </appSettings>
+  <connectionStrings>
+    <add name="classDBF" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|classes_v2.mdb" providerName="System.Data.OleDb" />
+  </connectionStrings>
+  <system.web>
+    <!-- 
+            Set compilation debug="true" to insert debugging 
+            symbols into the compiled page. Because this 
+            affects performance, set this value to true only 
+            during development.
+        -->
+    <compilation debug="true" targetFramework="4.0">
+      <assemblies>
+        <add assembly="System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A" />
+        <add assembly="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+        <add assembly="System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />
+      </assemblies>
+    </compilation>
+    <!--
+            The <authentication> section enables configuration 
+            of the security authentication mode used by 
+            ASP.NET to identify an incoming user. 
+        -->
+    <authentication mode="Forms" />
+    <!--
+            The <customErrors> section enables configuration 
+            of what to do if/when an unhandled error occurs 
+            during the execution of a request. Specifically, 
+            it enables developers to configure html error pages 
+            to be displayed in place of a error stack trace.
+ -->
+    <customErrors defaultRedirect="error.aspx" mode="On" redirectMode="ResponseRewrite">
+      <error statusCode="404" redirect="error.aspx/" />
+    </customErrors>
+    <pages controlRenderingCompatibilityVersion="3.5" clientIDMode="AutoID" validateRequest="false" enableSessionState="true">
+      <controls>
+        <add tagPrefix="telerik" namespace="Telerik.Web.UI" assembly="Telerik.Web.UI" />
+        <add assembly="BotDetect" namespace="BotDetect.Web.UI" tagPrefix="BotDetect" />
+      </controls>
+    </pages>
+    <httpHandlers>
+      <add path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" verb="*" validate="false" />
+      <add verb="GET" path="BotDetectCaptcha.ashx" type="BotDetect.Web.CaptchaHandler, BotDetect" />
+    </httpHandlers>
+    <httpModules>
+      <add type="Rewrite.NET.Rewrite,Rewrite.NET" name="Rewrite.NET" />
+    </httpModules>
+    <httpRuntime requestValidationMode="2.0" executionTimeout="20" requestPathInvalidCharacters="&lt;,&gt;,*,%,:,\,?" />
+  </system.web>
+  <!-- 
+        The system.webServer section is required for running ASP.NET AJAX under Internet
+        Information Services 7.0.  It is not necessary for previous version of IIS.
+    -->
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true">
+      <add type="Rewrite.NET.Rewrite" name="Rewrite.NET" />
+    </modules>
+    <staticContent>
+      <mimeMap fileExtension=".f4v" mimeType="video/mp4" />
+    </staticContent>
+    <validation validateIntegratedModeConfiguration="false" />
+    <handlers>
+      <add name="Telerik_Web_UI_WebResource_axd" verb="*" preCondition="integratedMode" path="Telerik.Web.UI.WebResource.axd" type="Telerik.Web.UI.WebResource" />
+      <remove name="BotDetectCaptchaHandler" />
+      <add name="BotDetectCaptchaHandler" preCondition="integratedMode" verb="GET" path="BotDetectCaptcha.ashx" type="BotDetect.Web.CaptchaHandler, BotDetect" />
+    </handlers>
+    <defaultDocument>
+      <files>
+        <remove value="index.php" />
+        <remove value="iisstart.htm" />
+        <remove value="index.html" />
+        <remove value="index.htm" />
+        <remove value="Default.asp" />
+        <remove value="Default.htm" />
+      </files>
+    </defaultDocument>
+  </system.webServer>
+  <system.net>
+    <mailSettings>
+      <smtp from="info@pinnacle3.com" deliveryMethod="Network">
+        <!-- Use smtpout.secureserver.net for local testing and s2smtpout.secureserver.net for godaddy sites. -->
+        <!--<network host="smtpout.secureserver.net" port="3535" enableSsl="false" userName="info@pinnacle3learning.com" password="brosses" defaultCredentials="false"/>-->
+        <network host="s2smtpout.secureserver.net" />
+      </smtp>
+    </mailSettings>
+  </system.net>
+  <applicationSettings>
+    <P3WebApp.Properties.Settings>
+      <setting name="P3_Web_App_fdggwsapi_FDGGWSApiOrderService" serializeAs="String">
+        <value>https://ws.firstdataglobalgateway.com:443/fdggwsapi/services</value>
+      </setting>
+    </P3WebApp.Properties.Settings>
+  </applicationSettings>
+  <location path="about_Pinnacle_3_PMP_Training.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="aboutPinnacle3Learning.aspx" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="Self_Paced_PMP_Certification_Exam_Prep.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="self_paced_PMP_Training.aspx" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="about_Pinnacle3_PMP_Training.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="aboutPinnacle3Learning.aspx" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="MS_Project_ 2007.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="MS_Project_2007" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="register_essentials.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="." httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="register_pm_risk.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="." httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="machinate-management-schooling.aspx.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="." httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="six-sigma-black-belt.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="lean-six-sigma-black-belt.aspx" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="six-sigma-green-belt.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="lean-six-sigma-green-belt.aspx" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <location path="project-management-training-online.aspx">
+    <system.webServer>
+      <httpRedirect enabled="true" destination="pmp-classes-weekend.aspx" httpResponseStatus="Permanent" />
+    </system.webServer>
+  </location>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.5.0" newVersion="4.0.5.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

@@ -12,12 +12,9 @@ namespace P3WebApp
         public string className = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            SampleCaptcha.UserInputClientID = CaptchaCode.ClientID;
 
             if (!IsPostBack)
             {
-                CaptchaErrorLabel.Text = "Incorrect CAPTCHA code";
-                CaptchaErrorLabel.Visible = false;
 
                 int classIdInt = 0;
 
@@ -231,19 +228,7 @@ namespace P3WebApp
 
         private bool validateForm()
         {
-            string userInput = CaptchaCode.Text;
-            bool isHuman = SampleCaptcha.Validate(userInput);
-            CaptchaCode.Text = null; // clear previous user input
-
-            if (isHuman)
-            {
-                CaptchaErrorLabel.Visible = false;
-            }
-            else
-            {
-                CaptchaErrorLabel.Visible = true;
-            }
-            return !CaptchaErrorLabel.Visible;
+            return true;
         }
 
         protected void nextStep_Click(object sender, EventArgs e)

@@ -306,8 +306,9 @@ namespace P3WebApp
                     btnPay.Visible = false;
                     lblMessage.Text = "Generating Confirmation Letter. Please Wait";
                     lblMessage.ForeColor = System.Drawing.Color.Green;
-                    string redirect = "window.location.href='confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=" + authorizationReferenceId + "'";
-                    ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);
+                    Response.Redirect("confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=" + authorizationReferenceId);
+                    //string redirect = "window.location.href='confirmed-paid.aspx?registrationid=" + Request.QueryString["registrationid"] + "&apprv=" + authorizationReferenceId + "'";
+                    //ScriptManager.RegisterStartupScript(Page, Page.GetType(), Guid.NewGuid().ToString(), redirect, true);
                 }
                 else
                 {
