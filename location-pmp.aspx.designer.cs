@@ -67,6 +67,24 @@ namespace P3WebApp {
         protected global::P3WebApp.CmsPageContent CmsLocationContent;
         
         /// <summary>
+        /// imgHotel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgHotel;
+        
+        /// <summary>
+        /// hypHotelWebsite control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hypHotelWebsite;
+        
+        /// <summary>
         /// RadPageViewPmpApplication control.
         /// </summary>
         /// <remarks>
@@ -173,24 +191,6 @@ namespace P3WebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::P3WebApp.CmsPageContent cmsPageContent_FAQs_City;
-        
-        /// <summary>
-        /// imgHotel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgHotel;
-        
-        /// <summary>
-        /// hypHotelWebsite control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hypHotelWebsite;
         
         /// <summary>
         /// ClassHeader1 control.

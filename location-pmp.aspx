@@ -60,6 +60,19 @@
                     <asp:Panel runat="server" ID="pnlRssDetails" Visible="true">
                         <uc1:CmsPageContent ID="CmsLocationContent" runat="server" />
                     </asp:Panel>
+                     <table>
+                        <tr>
+                            <td valign="top"><p><asp:Image runat="server" ID="imgHotel" /></p></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><p><b><%# this.Hotel %></b><br />
+                            <%# this.HotelAddress%><br />
+                            <%# this.HotelNumber%><br />
+                            <asp:HyperLink runat="server" ID="hypHotelWebsite" Target="_blank">web site</asp:HyperLink><br /><br />
+                            <%# this.HotelDescription%><br /></p>
+                            </td>
+                        </tr>
+                    </table>
                 </telerik:RadPageView>
                 <telerik:RadPageView ID="RadPageViewPmpApplication" runat="server">
                     <uc1:CmsPageContent ID="cmsPageContent_PmpApplication_General" runat="server" PageTitle="PMP Application"/> 
@@ -85,21 +98,6 @@
                     <uc1:CmsPageContent ID="cmsPageContent_FAQs_City" runat="server" Visible="false"/> 
                 </telerik:RadPageView>
             </telerik:RadMultiPage>
-
-     <table>
-        <tr>
-            <td valign="top"><p><asp:Image runat="server" ID="imgHotel" /></p></td>
-        </tr>
-        <tr>
-            <td valign="top"><p><b><%# this.Hotel %></b><br />
-            <%# this.HotelAddress%><br />
-            <%# this.HotelNumber%><br />
-            <asp:HyperLink runat="server" ID="hypHotelWebsite" Target="_blank">web site</asp:HyperLink><br /><br />
-            <%# this.HotelDescription%><br /></p>
-            </td>
-        </tr>
-    </table>
-
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="RightContent" ID="rightContent">
