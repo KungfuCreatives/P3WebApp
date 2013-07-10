@@ -1,0 +1,6 @@
+//301 Redirect Old File
+redirect 301 http://Pinnacle3Learning.com/ http://Pinnacle3Learning.com/default.aspx
+redirect 301 classSchedule_pmp_weekdays.aspx http://Pinnacle3Learning.com/project-management-courses.aspx
+redirect 301 PMP_Exam_Prep_4th_Edition.aspx http://Pinnacle3Learning.com/pmp-certification-training.aspx
+redirect 301 Project-Management-Courses.aspx http://Pinnacle3Learning.com/project-management-courses.aspx
+redirect 301 Project-Management-Training.aspx http://Pinnacle3Learning.com/pmp-certification-training.aspx

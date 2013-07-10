@@ -1,0 +1,617 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Samurai</name>
+    </assembly>
+    <members>
+        <member name="T:Samurai.Helper">
+            <summary>
+            Contains some helper methods.
+            </summary>
+        </member>
+        <member name="M:Samurai.Helper.DecimalToString(System.Decimal)">
+            <summary>
+            Converts decimal to string that is acceptable by Samurai API. 
+            </summary>
+            <param name="value">String to convert.</param>
+            <returns>a string value that is acceptable by Samurai API.</returns>
+        </member>
+        <member name="M:Samurai.Helper.StringToTransactionType(System.String)">
+            <summary>
+            Converts string representation of transaction type into TransactionType value.
+            </summary>
+            <param name="value">String representation of transaction type.</param>
+            <returns>TransactionType value.</returns>
+        </member>
+        <member name="T:Samurai.Message">
+            <summary>
+            Represents message.
+            </summary>
+        </member>
+        <member name="M:Samurai.SamuraiBase.Execute``1(RestSharp.RestRequest)">
+            <summary>
+            Executes request and returns parsed object.
+            </summary>
+            <typeparam name="T">Type of object to return.</typeparam>
+            <param name="request">Request.</param>
+            <returns>a parsed object.</returns>
+        </member>
+        <member name="F:Samurai.Message._description">
+            <summary>
+            Gets or sets message description
+            </summary>
+        </member>
+        <member name="P:Samurai.Message.Subclass">
+            <summary>
+            Gets or sets what type of message it is. The value will always be <c>error</c> for 
+            errors and declines or <c>info</c> for informative messages.
+            </summary>
+        </member>
+        <member name="P:Samurai.Message.Context">
+            <summary>
+            Gets or sets the place where the message applies. Each context is prefixed 
+            with <c>input</c>, <c>processor</c> or <c>system</c> for user input messages, 
+            processor messages and UberGateway system messages respectively.
+            </summary>
+        </member>
+        <member name="P:Samurai.Message.Key">
+            <summary>
+            Gets or sets some specific information about the message.
+            </summary>
+        </member>
+        <member name="P:Samurai.Message.Value">
+            <summary>
+            Gets or sets the value, which represents the text node content of the XML serialization of this Message.
+            </summary>
+        </member>
+        <member name="T:Samurai.PaymentMethod">
+            <summary>
+            Represents payment method.
+            </summary>
+        </member>
+        <member name="F:Samurai.PaymentMethod._errors">
+            <summary>
+            Gets or sets a list of errors associated with this payment method.
+            </summary>
+        </member>
+        <member name="M:Samurai.PaymentMethod.Find(System.String)">
+            <summary>
+            Fetches payment method by its token.
+            </summary>
+            <param name="paymentMethodToken">Payment method token.</param>
+            <returns>payment method with given token.</returns>
+        </member>
+        <member name="M:Samurai.PaymentMethod.SetAttributes(Samurai.PaymentMethodPayload)">
+            <summary>
+            Update the payment method with the provided payload attributes
+            </summary>
+            <remarks>
+            This method will set the attributes of this payment method. It does not
+            persist those changes to the server.
+            </remarks>
+        </member>
+        <member name="M:Samurai.PaymentMethod.UpdateAttributes(Samurai.PaymentMethodPayload)">
+            <summary>
+            Update the payment method with the provided payload attributes
+            </summary>
+            <remarks>
+            This method will set the attributes of this payment method.
+            It will also persist the new changes to the server.
+            </remarks>
+        </member>
+        <member name="M:Samurai.PaymentMethod.Update">
+            <summary>
+            Uploads payment method changes onto server. Only properties that have been
+            changed will be uploaded.
+            </summary>
+            <remarks>
+            This method will be fetch original payment method by token and compare original
+            payment method with the current payment method.
+            </remarks>
+            <returns>an updated payment method.</returns>
+        </member>
+        <member name="M:Samurai.PaymentMethod.TokenizePaymentMethod(Samurai.PaymentMethodPayload)">
+            <summary>
+            Creates a brand new payment method with given parameters and returns its token.
+            </summary>
+            <param name="payload">Payment Method payload, containing parameters for the new PM</param>
+            <returns>token of a brand new payment method.</returns>
+        </member>
+        <member name="M:Samurai.PaymentMethod.Create(Samurai.PaymentMethodPayload)">
+            <summary>
+            Creates a brand new payment method with given parameters.
+            </summary>
+            <param name="payload">Payment Method payload, containing parameters for the new PM</param>
+            <returns>a brand new payment method.</returns>
+        </member>
+        <member name="M:Samurai.PaymentMethod.Redact">
+            <summary>
+            Redacts sensitive information from the payment method, rendering it unusable.
+            </summary>
+            <returns>reducted payment method.</returns>
+        </member>
+        <member name="M:Samurai.PaymentMethod.Retain">
+            <summary>
+            Retains the payment method on api.samurai.feefighters.com. Retain a payment method 
+            if it will not be used immediately. 
+            </summary>
+            <returns>retained payment method.</returns>
+        </member>
+        <member name="P:Samurai.PaymentMethod.PaymentMethodToken">
+            <summary>
+            Gets or sets payment method token.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.CreatedAt">
+            <summary>
+            Gets or sets date and time when the payment method was created.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.UpdatedAt">
+            <summary>
+            Gets or sets date and time when payment method was updated.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Custom">
+            <summary>
+            Gets or sets custom data.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.IsRetained">
+            <summary>
+            Gets or sets a value that indicates whether the payment method is retained.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.IsRedacted">
+            <summary>
+            Gets or sets a value that indicates whether the payment method is redacted.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.IsSensitiveDataValid">
+            <summary>
+            Gets or sets a value that indicates whether sensitive data (card number and cvv) are valid.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.IsExpirationValid">
+            <summary>
+            Gets or sets a value that indicates whether the expiration date is valid.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Messages">
+            <summary>
+            Gets or sets a list of messages associated with this payment method.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.LastFourDigits">
+            <summary>
+            Gets or sets last four digits of associated card number.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.CardNumber">
+            <summary>
+            Gets or sets last four digits of associated card number.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Cvv">
+            <summary>
+            Gets or sets last four digits of associated card number.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.CardType">
+            <summary>
+            Gets or sets card type of associated card.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.FirstName">
+            <summary>
+            Gets or sets first name.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.LastName">
+            <summary>
+            Gets or sets last name.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.ExpiryMonth">
+            <summary>
+            Gets or sets month of expiration.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.ExpiryYear">
+            <summary>
+            Gets or sets year of expiration.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Address1">
+            <summary>
+            Gets or sets address 1.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Address2">
+            <summary>
+            Gets or sets address 2.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.City">
+            <summary>
+            Gets or sets city.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.State">
+            <summary>
+            Gets or sets state.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Zip">
+            <summary>
+            Gets or sets zip.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Country">
+            <summary>
+            Gets or sets country.
+            </summary>
+        </member>
+        <member name="P:Samurai.PaymentMethod.Sandbox">
+            <summary>
+            Gets or sets sandbox.
+            </summary>
+        </member>
+        <member name="T:Samurai.Processor">
+            <summary>
+            Represents processor.
+            </summary>
+        </member>
+        <member name="M:Samurai.Processor.#ctor(System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="processorToken">Processor token.</param>
+        </member>
+        <member name="M:Samurai.Processor.Purchase(System.String,System.Decimal,Samurai.TransactionPayload)">
+            <summary>
+            Convenience method to authorize and capture a payment_method for a particular amount in one transaction.
+            It's a most generic form of this method.
+            </summary>
+            <param name="paymentMethodToken">Token identifying the payment method to authorize.</param>
+            <param name="amount">Amount to authorize.</param>
+            <param name="payload">Transaction payload object, for passing additional parameters</param>
+            <returns>a transaction containing the processor's response.</returns>
+        </member>
+        <member name="M:Samurai.Processor.Purchase(System.String,System.String,Samurai.TransactionPayload)">
+            <summary>
+            Convenience method to authorize and capture a payment_method for a particular amount in one transaction.
+            It's a most generic form of this method.
+            </summary>
+            <param name="paymentMethodToken">Token identifying the payment method to authorize.</param>
+            <param name="amount">Amount to authorize. Should be in format like "12.00".</param>
+            <param name="payload">Transaction payload object, for passing additional parameters</param>
+            /// <returns>a transaction containing the processor's response.</returns>
+        </member>
+        <member name="M:Samurai.Processor.Authorize(System.String,System.Decimal,Samurai.TransactionPayload)">
+            <summary>
+            Authorizes a payment_method for a particular amount. 
+            </summary>
+            <param name="paymentMethodToken">Token identifying the payment method to authorize.</param>
+            <param name="amount">Amount to authorize.</param>
+            <param name="payload">Transaction payload object, for passing additional parameters</param>/// 
+            <returns>a transaction containing the processor's response.</returns>
+        </member>
+        <member name="M:Samurai.Processor.Authorize(System.String,System.String,Samurai.TransactionPayload)">
+            <summary>
+            Authorizes a payment_method for a particular amount. 
+            </summary>
+            <param name="paymentMethodToken">Token identifying the payment method to authorize.</param>
+            <param name="amount">Amount to authorize. Should be in format like "12.00".</param>
+            <param name="payload">Transaction payload object, for passing additional parameters</param>/// 
+            <returns>a transaction containing the processor's response.</returns>
+        </member>
+        <member name="P:Samurai.Processor.TheProcessor">
+            <summary>
+            Returns the default processor specified by Samurai.ProcessorToken if you passed it into Samurai.Options.
+            </summary>
+        </member>
+        <member name="P:Samurai.Processor.ProcessorToken">
+            <summary>
+            Gets or sets processor token.
+            </summary>
+        </member>
+        <member name="T:Samurai.ProcessorResponse">
+            <summary>
+            Represents processor response.
+            </summary>
+        </member>
+        <member name="P:Samurai.ProcessorResponse.Success">
+            <summary>
+            Gets or sets a value that indicates whether the operation is succeed.
+            </summary>
+        </member>
+        <member name="P:Samurai.ProcessorResponse.Messages">
+            <summary>
+            Gets or sets a list of messages.
+            </summary>
+        </member>
+        <member name="P:Samurai.ProcessorResponse.GatewayData">
+            <summary>
+            Gets or sets gateway data.
+            </summary>
+        </member>
+        <member name="P:Samurai.ProcessorResponse.AvsResultCode">
+            <summary>
+            Gets or sets AVS result code.
+            </summary>
+        </member>
+        <member name="P:Samurai.ProcessorResponse.CvvResultCode">
+            <summary>
+            Gets or sets CVV result code.
+            </summary>
+        </member>
+        <member name="T:Samurai.Samurai">
+            <summary>
+            Represents main API.
+            </summary>
+        </member>
+        <member name="P:Samurai.Samurai.Options">
+            <summary>
+            Gets or sets connection options.
+            </summary>
+        </member>
+        <member name="P:Samurai.Samurai.Site">
+            <summary>
+            Gets or sets site for API calls.
+            </summary>
+        </member>
+        <member name="P:Samurai.Samurai.MerchantKey">
+            <summary>
+            Gets or sets merchant key.
+            </summary>
+        </member>
+        <member name="P:Samurai.Samurai.MerchantPassword">
+            <summary>
+            Gets or sets merchant password.
+            </summary>
+        </member>
+        <member name="P:Samurai.Samurai.ProcessorToken">
+            <summary>
+            Gets or sets processor token.
+            </summary>
+        </member>
+        <member name="P:Samurai.Samurai.Debug">
+            <summary>
+            Gets or sets debug mode.
+            </summary>
+        </member>
+        <member name="T:Samurai.SamuraiOptions">
+            <summary>
+            Represents connection options.
+            </summary>
+        </member>
+        <member name="M:Samurai.SamuraiOptions.ReverseMerge(Samurai.SamuraiOptions)">
+            <summary>
+            Merges this options with another. Properties of this options which are not null
+            will not be merged (overrided).
+            </summary>
+            <param name="options">Options to merge with.</param>
+            <returns>this options merged with another.</returns>
+        </member>
+        <member name="P:Samurai.SamuraiOptions.Site">
+            <summary>
+            Gets or sets API base url.
+            </summary>
+        </member>
+        <member name="P:Samurai.SamuraiOptions.MerchantKey">
+            <summary>
+            Gets or sets merchant key for connection.
+            </summary>
+        </member>
+        <member name="P:Samurai.SamuraiOptions.MerchantPassword">
+            <summary>
+            Gets or sets merchant password for connection.
+            </summary>
+        </member>
+        <member name="P:Samurai.SamuraiOptions.ProcessorToken">
+            <summary>
+            Gets or sets processor token for connection.
+            </summary>
+        </member>
+        <member name="P:Samurai.SamuraiOptions.Debug">
+            <summary>
+            Gets or sets debug mode
+            </summary>
+        </member>
+        <member name="T:Samurai.Transaction">
+            <summary>
+            Represents a transaction.
+            </summary>
+        </member>
+        <member name="F:Samurai.Transaction._errors">
+            <summary>
+            Gets or sets a list of errors associated with this transaction.
+            </summary>
+        </member>
+        <member name="M:Samurai.Transaction.Find(System.String)">
+            <summary>
+            Fetches a transaction.
+            </summary>
+            <param name="purchaseReferenceId">Transaction reference id.</param>
+            <returns>a transaction with given reference id.</returns>
+        </member>
+        <member name="M:Samurai.Transaction.Capture(System.Decimal)">
+            <summary>
+            Captures an authorization. Optionally specify an amount to do a partial 
+            capture of the initial authorization. The default is to capture the full 
+            amount of the authorization.
+            </summary>
+            <remarks>
+            If amount is not specefied Capture(string=null) method will be used.
+            </remarks>
+            <param name="amount">Amount of partial capture, specify only if needed.</param>
+            <returns>Captured transaction.</returns>
+        </member>
+        <member name="M:Samurai.Transaction.Capture(System.String)">
+            <summary>
+            Captures an authorization. Optionally specify an amount to do a partial 
+            capture of the initial authorization. The default is to capture the full 
+            amount of the authorization.
+            </summary>
+            <param name="amount">Amount of partial capture, specify only if needed.</param>
+            <returns>Captured transaction.</returns>
+        </member>
+        <member name="M:Samurai.Transaction.Void">
+            <summary>
+            Voids this transaction. If the transaction has not yet been captured and settled 
+            it can be voided to prevent any funds from transferring.
+            </summary>
+            <returns>Voided transaction.</returns>
+        </member>
+        <member name="M:Samurai.Transaction.Credit(System.String)">
+            <summary>
+            Create a credit or refund against the original transaction. Optionally accepts an amount 
+            to credit, the default is to credit the full value of the original amount.
+            </summary>
+            <param name="amount">Amount of partial credit, specify only if needed.</param>
+            <returns>a credited transaction.</returns>
+        </member>
+        <member name="M:Samurai.Transaction.Reverse(System.String)">
+            <summary>
+            Create a credit or refund against the original transaction. Optionally accepts an amount 
+            to credit, the default is to credit the full value of the original amount.
+            </summary>
+            <param name="amount">Amount of partial reverse, specify only if needed.</param>
+            <returns>a reversed transaction.</returns>
+        </member>
+        <member name="P:Samurai.Transaction.ReferenceId">
+            <summary>
+            Gets or sets transaction reference id.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.TransactionToken">
+            <summary>
+            Gets or sets transaction token.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.CreatedAt">
+            <summary>
+            Gets or sets time when transaction was created.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.Description">
+            <summary>
+            Gets or sets description.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.DescriptorName">
+            <summary>
+            Gets or sets dynamic descriptor name.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.DescriptorPhone">
+            <summary>
+            Gets or sets dynamic descriptor phone.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.Custom">
+            <summary>
+            Gets or sets custom data.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.BillingReference">
+            <summary>
+            Gets or sets descriptor.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.CustomerReference">
+            <summary>
+            Gets or sets custom data.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.TransactionType">
+            <summary>
+            Gets or sets transaction type.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.Type">
+            <summary>
+            Gets type of transaction as TransactionType enum.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.Amount">
+            <summary>
+            Gets or sets amount.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.CurrencyCode">
+            <summary>
+            Gets or sets currency code. "USD" for example.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.ProcessorToken">
+            <summary>
+            Gets or sets processor token.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.ProcessorResponse">
+            <summary>
+            Gets or sets processor response.
+            </summary>
+        </member>
+        <member name="P:Samurai.Transaction.PaymentMethod">
+            <summary>
+            Gets or sets payment method.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.Type">
+            <summary>
+            Gets or sets type for transaction.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.Amount">
+            <summary>
+            Gets or sets amount to authorize.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.CurrencyCode">
+            <summary>
+            Gets or sets currency code, default is USD.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.PaymentMethodToken">
+            <summary>
+            Gets or sets token identifying the payment method to authorize.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.Description">
+            <summary>
+            Gets or sets descriptor for the transaction.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.DescriptorName">
+            <summary>
+            Gets or sets dynamic descriptor name for the transaction.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.DescriptorPhone">
+            <summary>
+            Gets or sets dynamic descriptor phone for the transaction.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.Custom">
+            <summary>
+            Gets or sets custom data, this data does not get passed to the processor, 
+            it is stored within api.samurai.feefighters.com only.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.CustomerReference">
+            <summary>
+            Gets or sets an identifier for the customer,
+            this will appear in the processor if supported.
+            </summary>
+        </member>
+        <member name="P:Samurai.TransactionPayload.BillingReference">
+            <summary>
+            Gets or sets an identifier for the purchase,
+            this will appear in the processor if supported.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,321 +1,424 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="C:\Users\Adam\Dropbox\HCE\Customers\Pinnacle 3 Learning\Release" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
-    <file relUrl="bin/Telerik.Web.UI.dll" publishTime="01/06/2011 21:10:25" />
-    <file relUrl="PMP_Exam_Prep.aspx" publishTime="05/11/2011 16:51:10" />
-    <file relUrl="location-six-sigma-black-belt.aspx" publishTime="09/16/2011 06:59:06" />
+  <publishProfile publishUrl="C:\Users\ahaid\Dropbox\HCE\Customers\Pinnacle 3 Learning\Release" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="images/Hotel Pictures/Denver CO.jpg" publishTime="06/24/2011 15:57:00" />
+    <file relUrl="bin/Telerik.Web.UI.dll" publishTime="03/08/2010 15:22:14" />
+    <file relUrl="PMP_Exam_Prep.aspx" publishTime="03/07/2013 20:40:13" />
     <file relUrl="pmi-certification.aspx" publishTime="09/13/2011 15:03:02" />
-    <file relUrl="images/hotels/new-york.gif" publishTime="06/30/2011 13:31:11" />
-    <file relUrl="images/btn_sendInquiry_blue.gif" publishTime="05/11/2011 16:39:12" />
-    <file relUrl="images/hotels/princeton.gif" publishTime="06/30/2011 13:33:22" />
-    <file relUrl="images/nav_over_01.gif" publishTime="06/02/2011 12:14:12" />
-    <file relUrl="images/btn_viewWeekendSchedule_blue.jpg" publishTime="05/11/2011 15:50:35" />
+    <file relUrl="images/header_1.jpg" publishTime="03/05/2013 22:01:27" />
+    <file relUrl="images/title_courseOfferings.jpg" publishTime="03/05/2013 21:54:24" />
+    <file relUrl="PMP_Exam_Prep_4th_Edition.aspx" publishTime="08/08/2012 21:11:08" />
+    <file relUrl="images/classschedulebg.jpg" publishTime="03/05/2013 21:54:02" />
+    <file relUrl="images/title_accreditations.jpg" publishTime="03/05/2013 21:54:23" />
+    <file relUrl="images/6_p1.jpg" publishTime="12/30/2009 08:54:19" />
+    <file relUrl="images/btn_viewWeekendSchedule_blue.jpg" publishTime="03/05/2013 21:54:02" />
     <file relUrl="images/51izsuuMP2L._SL160_.jpg" publishTime="03/31/2010 11:34:19" />
-    <file relUrl="images/spacer.gif" publishTime="03/23/2011 09:30:10" />
-    <file relUrl="images/btn_viewOnlineCourses_blue.gif" publishTime="05/11/2011 16:44:49" />
-    <file relUrl="images/hotels/cleveland.gif" publishTime="06/30/2011 13:20:20" />
-    <file relUrl="classSchedule_pm_risk.aspx" publishTime="04/28/2011 09:20:27" />
-    <file relUrl="images/keith-brodie.jpg" publishTime="08/15/2011 11:58:46" />
-    <file relUrl="App_Data/testimonials.xml" publishTime="09/16/2011 09:14:41" />
-    <file relUrl="images/hotels/nashville.gif" publishTime="06/30/2011 13:30:34" />
-    <file relUrl="images/pinnacle_logo_white.gif" publishTime="07/25/2011 16:06:24" />
-    <file relUrl="images/six-sigma-kaizen.gif" publishTime="09/16/2011 09:07:32" />
+    <file relUrl="classSchedule_pm_risk.aspx" publishTime="09/25/2012 21:17:26" />
+    <file relUrl="images/default_01.jpg" publishTime="03/05/2013 21:54:03" />
+    <file relUrl="images/Hotel Pictures/Seattle WA.jpg" publishTime="07/14/2011 15:38:42" />
+    <file relUrl="bin/pdfs/pmnetwork201004-b6d767d2f8-pp.pdf" publishTime="05/13/2010 07:23:04" />
+    <file relUrl="images/temp_right_col_06.jpg" publishTime="03/05/2013 21:54:22" />
+    <file relUrl="images/hotels/phoenix-az.jpg" publishTime="03/07/2013 20:33:23" />
+    <file relUrl="images/Hotel Pictures/Sacramento CA.jpg" publishTime="06/24/2011 17:07:00" />
+    <file relUrl="images/six-sigma-kaizen.jpg" publishTime="03/05/2013 21:54:20" />
+    <file relUrl="Register.Master" publishTime="03/14/2013 21:06:55" />
+    <file relUrl="App_Data/testimonials.xml" publishTime="10/10/2011 22:46:33" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="04/12/2013 20:34:23" />
+    <file relUrl="images/logo_youtube.png" publishTime="03/23/2011 09:30:13" />
+    <file relUrl="images/hotels/san-diego-ca.jpg" publishTime="03/07/2013 20:33:24" />
+    <file relUrl="images/hotels/miami-fl.jpg" publishTime="03/07/2013 20:33:21" />
+    <file relUrl="images/web-site-header.jpg" publishTime="09/19/2011 09:02:07" />
+    <file relUrl="images/hotels/houston-tx.jpg" publishTime="03/07/2013 20:33:19" />
+    <file relUrl="images/Hotel Pictures/Jersey City NJ.jpg" publishTime="06/24/2011 16:14:00" />
     <file relUrl="FDGGWS_Certificate_WS1001250113._.1/WS1001250113._.1.p12.pw.txt" publishTime="05/09/2011 09:28:55" />
-    <file relUrl="images/btn_sendInquiry_blue.jpg" publishTime="05/11/2011 15:56:56" />
-    <file relUrl="images/email/title_upcoming_weekend.gif" publishTime="12/30/2009 08:54:22" />
+    <file relUrl="classSchedule_pm_essentials.aspx" publishTime="09/25/2012 21:17:26" />
+    <file relUrl="classSchedule.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/btn_sendInquiry_blue.jpg" publishTime="03/05/2013 21:53:59" />
     <file relUrl="customers/carousel/accenture.jpg" publishTime="04/04/2011 13:43:30" />
+    <file relUrl="images/temp_right_col_02.jpg" publishTime="03/05/2013 21:54:22" />
+    <file relUrl="images/Hotel Pictures/Tampa FL.jpg" publishTime="06/24/2011 17:31:00" />
     <file relUrl="images/kathleen-king.jpg" publishTime="08/15/2011 11:58:48" />
-    <file relUrl="images/hotels/san-francisco.gif" publishTime="06/30/2011 13:16:54" />
-    <file relUrl="class-manager.aspx" publishTime="09/12/2011 16:45:44" />
-    <file relUrl="images/temp_right_col_06.gif" publishTime="03/31/2010 11:20:28" />
-    <file relUrl="images/default_05.gif" publishTime="12/30/2009 08:54:24" />
+    <file relUrl="images/hotels/raleigh-nc.jpg" publishTime="03/07/2013 20:33:23" />
+    <file relUrl="images/pinnacle3Learning_email1_01.jpg" publishTime="03/05/2013 22:01:28" />
+    <file relUrl="class-manager.aspx" publishTime="09/25/2012 21:17:26" />
+    <file relUrl="images/title_InstructorLed.jpg" publishTime="03/05/2013 21:54:24" />
+    <file relUrl="images/Copy of btn_PreferWeekdays.jpg" publishTime="07/08/2013 21:50:22" />
+    <file relUrl="images/Hotel Pictures/Atlanta GA.jpg" publishTime="07/15/2011 14:59:36" />
     <file relUrl="customers/carousel/deloitte.jpg" publishTime="04/04/2011 13:49:32" />
-    <file relUrl="confirmed.aspx" publishTime="08/22/2011 22:18:09" />
-    <file relUrl="images/nav_01.gif" publishTime="06/02/2011 12:13:05" />
-    <file relUrl="images/btn_viewWeekdaySchedule_blue.gif" publishTime="05/11/2011 16:36:22" />
-    <file relUrl="location-capm.aspx" publishTime="09/16/2011 10:21:12" />
-    <file relUrl="images/btn_viewWeekdaySchedule.jpg" publishTime="03/31/2010 11:20:14" />
+    <file relUrl="Scripts/watermark/jquery.data.js" publishTime="12/03/2010 11:34:22" />
+    <file relUrl="images/exam1.jpg" publishTime="03/05/2013 21:54:06" />
+    <file relUrl="images/hotels/washington-dc.jpg" publishTime="03/07/2013 20:33:26" />
+    <file relUrl="images/hotels/jersey-city-nj.jpg" publishTime="03/07/2013 20:33:20" />
+    <file relUrl="location-capm.aspx" publishTime="05/23/2013 07:24:40" />
+    <file relUrl="images/default_07.jpg" publishTime="03/05/2013 21:54:04" />
     <file relUrl="images/lenora-holmsten.jpg" publishTime="08/15/2011 11:58:44" />
+    <file relUrl="images/nav_02.jpg" publishTime="03/05/2013 21:54:08" />
     <file relUrl="images/513zj03XwZL._SL160_.jpg" publishTime="03/31/2010 11:34:18" />
+    <file relUrl="images/microsoft-partner.jpg" publishTime="09/20/2011 08:23:12" />
+    <file relUrl="images/default_09.jpg" publishTime="03/05/2013 21:54:05" />
+    <file relUrl="images/Hotel Pictures/Philadelphia PA.jpg" publishTime="06/24/2011 16:56:00" />
     <file relUrl="images/btn_viewWeekendSchedule.jpg" publishTime="03/31/2010 11:20:15" />
-    <file relUrl="images/btn_viewOnlineCourses_blue.jpg" publishTime="05/11/2011 15:51:33" />
-    <file relUrl="images/default_03.gif" publishTime="12/30/2009 08:54:23" />
-    <file relUrl="images/nav_02.gif" publishTime="06/02/2011 12:10:49" />
+    <file relUrl="images/btn_viewOnlineCourses_blue.jpg" publishTime="03/05/2013 21:54:01" />
     <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="04/04/2011 10:31:36" />
-    <file relUrl="images/right_column_img_06.gif" publishTime="12/30/2009 08:54:27" />
-    <file relUrl="classSchedule_pmp_weekend.aspx" publishTime="06/02/2011 16:02:50" />
+    <file relUrl="classSchedule_pmp_weekend.aspx" publishTime="03/07/2013 20:40:13" />
     <file relUrl="customers/carousel/adp.jpg" publishTime="04/04/2011 13:46:53" />
     <file relUrl="customers/carousel/dell.jpg" publishTime="04/04/2011 13:48:55" />
     <file relUrl="images/bordered_small_02.jpg" publishTime="03/31/2010 11:20:12" />
-    <file relUrl="RssReader.ascx" publishTime="06/09/2011 09:28:27" />
+    <file relUrl="images/nav_10.jpg" publishTime="03/05/2013 21:54:10" />
+    <file relUrl="images/hotels/seattle-wa.jpg" publishTime="03/07/2013 20:33:25" />
     <file relUrl="Thanks.aspx" publishTime="04/28/2011 09:20:26" />
+    <file relUrl="images/hotels/st-louis-mo.jpg" publishTime="03/07/2013 20:33:25" />
+    <file relUrl="Web.Release.config" publishTime="04/04/2011 10:31:36" />
+    <file relUrl="images/Hotel Pictures/San Jose CA.jpg" publishTime="06/24/2011 17:16:00" />
     <file relUrl="images/REP_Logo.jpg" publishTime="03/23/2011 09:16:34" />
-    <file relUrl="images/hotels/las-vegas.gif" publishTime="06/30/2011 13:26:38" />
+    <file relUrl="images/nav_over_14.jpg" publishTime="03/05/2013 21:54:16" />
     <file relUrl="FDGGWS_Certificate_WS1001250113._.1/WS1001250113._.1.key.pw.txt" publishTime="05/09/2011 09:28:55" />
     <file relUrl="images/2_p2.jpg" publishTime="03/23/2011 09:30:19" />
     <file relUrl="images/email/pinnacle3Learning_email1_01.jpg" publishTime="12/30/2009 08:54:20" />
-    <file relUrl="Project_Risk.aspx" publishTime="09/09/2011 10:39:38" />
-    <file relUrl="PM_Essentials.aspx" publishTime="09/13/2011 15:27:47" />
-    <file relUrl="PMP_Private_Group_Training.aspx" publishTime="09/13/2011 15:22:45" />
+    <file relUrl="images/hotels/philadelphia-pa.jpg" publishTime="03/07/2013 20:33:22" />
+    <file relUrl="CmsPageContent.ascx" publishTime="06/09/2011 09:35:28" />
+    <file relUrl="PM_Essentials.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/hotels/kailua-kona-hi.jpg" publishTime="03/07/2013 20:33:20" />
     <file relUrl="Instructor_Led_PMP_Exam_Training.aspx" publishTime="09/08/2011 11:06:50" />
-    <file relUrl="images/default_02.gif" publishTime="12/30/2009 08:54:23" />
-    <file relUrl="images/email/title_upcoming_weekDAY.gif" publishTime="12/30/2009 08:54:21" />
-    <file relUrl="images/hotels/los-angeles.gif" publishTime="06/30/2011 13:28:21" />
-    <file relUrl="images/btn_classSchedule_blue.gif" publishTime="06/06/2011 08:35:36" />
-    <file relUrl="images/nav_over_03.gif" publishTime="06/02/2011 12:15:31" />
-    <file relUrl="images/hotels/raleigh.gif" publishTime="06/30/2011 13:33:53" />
-    <file relUrl="images/logo_youtube.png" publishTime="03/23/2011 09:30:13" />
-    <file relUrl="lean-six-sigma-black-belt.aspx" publishTime="09/16/2011 10:22:30" />
-    <file relUrl="ClassHeader.ascx" publishTime="09/16/2011 10:20:11" />
-    <file relUrl="images/title_PrivateGroupTraining.gif" publishTime="12/30/2009 08:54:29" />
-    <file relUrl="images/hotels/tampa.gif" publishTime="06/30/2011 13:39:02" />
+    <file relUrl="images/nav_over_10.jpg" publishTime="03/05/2013 21:54:15" />
+    <file relUrl="Scripts/watermark/mit-license.txt" publishTime="08/13/2012 12:03:46" />
+    <file relUrl="images/headquarters.jpg" publishTime="09/28/2011 13:47:20" />
+    <file relUrl="App_Data/classes_v2.mdb" publishTime="06/19/2013 08:06:22" />
+    <file relUrl="images/nav_07.jpg" publishTime="03/05/2013 21:54:09" />
     <file relUrl="images/logo_linkedin.jpg" publishTime="03/23/2011 09:30:13" />
+    <file relUrl="images/title_upcoming.jpg" publishTime="03/05/2013 22:01:30" />
+    <file relUrl="images/hotels/kansas-city-ks.jpg" publishTime="03/07/2013 20:33:20" />
+    <file relUrl="favicon.ico" publishTime="03/16/2011 11:01:10" />
+    <file relUrl="images/Hotel Pictures/San Francisco Ca.jpg" publishTime="06/24/2011 17:12:00" />
+    <file relUrl="images/t_logo-b.png" publishTime="09/09/2010 17:00:18" />
+    <file relUrl="ClassHeader.ascx" publishTime="02/28/2013 21:40:51" />
+    <file relUrl="private-group-sent.aspx" publishTime="09/25/2012 21:22:10" />
+    <file relUrl="images/pinnacle3Learning_email1_02.jpg" publishTime="03/05/2013 22:01:28" />
     <file relUrl="Scripts/swfobject.js" publishTime="03/23/2011 09:30:04" />
-    <file relUrl="images/title_managing_project_risk.gif" publishTime="03/31/2010 11:20:32" />
-    <file relUrl="images/callUs2.jpg" publishTime="03/23/2011 09:30:18" />
-    <file relUrl="lean-six-sigma-green-belt.aspx" publishTime="09/16/2011 10:22:30" />
-    <file relUrl="images/hotels/reston.gif" publishTime="06/30/2011 13:34:27" />
-    <file relUrl="images/hotels/phoenix.gif" publishTime="06/30/2011 13:32:33" />
-    <file relUrl="images/title_payForClass.gif" publishTime="12/30/2009 08:54:29" />
+    <file relUrl="images/btn_submitPayment_blue.jpg" publishTime="03/05/2013 21:54:00" />
+    <file relUrl="images/Hotel Pictures/Nashville TN.jpg" publishTime="06/24/2011 16:32:00" />
+    <file relUrl="lean-six-sigma-green-belt.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/nav_over_13.jpg" publishTime="03/05/2013 21:54:16" />
+    <file relUrl="images/default_07_over.jpg" publishTime="03/05/2013 21:54:05" />
+    <file relUrl="images/title_PrivateGroupTraining.jpg" publishTime="03/05/2013 21:54:26" />
+    <file relUrl="images/nav_over_06.jpg" publishTime="03/05/2013 21:54:14" />
     <file relUrl="images/Pinnacle_3_PMP_DC_Office.jpg" publishTime="03/31/2010 11:20:24" />
     <file relUrl="images/michael-wright.jpg" publishTime="08/15/2011 11:58:31" />
-    <file relUrl="images/hotels/st-louis.gif" publishTime="06/30/2011 13:38:06" />
-    <file relUrl="confirm.aspx" publishTime="08/03/2011 10:48:38" />
-    <file relUrl="images/hotels/philadelphia.gif" publishTime="06/30/2011 13:32:04" />
-    <file relUrl="self_paced_PMP_Training.aspx" publishTime="08/12/2011 13:24:36" />
+    <file relUrl="confirm.aspx" publishTime="06/18/2013 20:32:35" />
+    <file relUrl="images/hotels/cleveland-oh.jpg" publishTime="03/07/2013 20:33:17" />
+    <file relUrl="images/Hotel Pictures/Las Vegas NV.jpg" publishTime="06/24/2011 16:23:00" />
+    <file relUrl="bin/Samurai.xml" publishTime="04/12/2013 20:36:02" />
+    <file relUrl="images/Hotel Pictures/Huston TX.jpg" publishTime="06/24/2011 16:10:00" />
+    <file relUrl="self_paced_PMP_Training.aspx" publishTime="03/07/2013 20:27:34" />
+    <file relUrl="images/hotels/reston-va.jpg" publishTime="03/07/2013 20:33:24" />
     <file relUrl="customers/accenture.jpg" publishTime="04/04/2011 11:06:31" />
     <file relUrl="images/mark-tolbert-111807.jpg" publishTime="03/31/2010 11:20:17" />
-    <file relUrl="images/temp_right_col.gif" publishTime="12/30/2009 08:54:27" />
-    <file relUrl="images/email/untitled2.JPG" publishTime="12/30/2009 08:54:22" />
+    <file relUrl="RssReader.ascx" publishTime="04/03/2013 10:25:43" />
+    <file relUrl="images/hotels/baltimore-md.jpg" publishTime="03/07/2013 20:33:16" />
+    <file relUrl="images/Hotel Pictures/Cleveland OH.jpg" publishTime="06/24/2011 15:51:00" />
     <file relUrl="google2c3955bdfba1b0c2.html" publishTime="03/16/2011 11:01:14" />
-    <file relUrl="images/bordered_small_01.jpg" publishTime="03/31/2010 11:20:12" />
+    <file relUrl="images/btn_viewDownload_blue.jpg" publishTime="03/05/2013 21:54:01" />
+    <file relUrl="footer-small.ascx" publishTime="05/22/2013 21:25:59" />
+    <file relUrl="FDGGWS_Certificate_WS1001250113._.1/WS1001250113._.1.ks.pw.txt" publishTime="05/09/2011 09:28:55" />
     <file relUrl="images/email/pinnacle3Learning_email1_02.jpg" publishTime="12/30/2009 08:54:20" />
+    <file relUrl="images/register-btn.png" publishTime="09/18/2012 20:19:40" />
     <file relUrl="images/email/1sttime.jpg" publishTime="12/30/2009 08:54:19" />
-    <file relUrl="favicon.ico" publishTime="03/16/2011 11:01:10" />
-    <file relUrl="images/nav_03.gif" publishTime="06/02/2011 12:11:26" />
-    <file relUrl="images/hotels/honolulu.gif" publishTime="06/30/2011 13:24:34" />
-    <file relUrl="images/TransfersChainOfCommands.gif" publishTime="12/10/2009 16:46:49" />
-    <file relUrl="images/pinnacle_logo_white.jpg" publishTime="07/25/2011 16:03:33" />
+    <file relUrl="images/hotels/san-francisco-ca.jpg" publishTime="03/07/2013 20:33:24" />
+    <file relUrl="images/Hotel Pictures/Baltimore MD.jpg" publishTime="09/29/2011 19:56:09" />
+    <file relUrl="images/hotels/san-jose-ca.jpg" publishTime="03/07/2013 20:33:25" />
+    <file relUrl="images/default_05.jpg" publishTime="03/05/2013 21:54:04" />
+    <file relUrl="images/pinnacle3Learning_email1_04.jpg" publishTime="03/05/2013 22:01:29" />
+    <file relUrl="confirmed.aspx" publishTime="03/07/2013 21:22:58" />
+    <file relUrl="images/title_upcoming_weekend.jpg" publishTime="03/05/2013 22:01:31" />
     <file relUrl="images/51zyW9rvaNL._SL160_.jpg" publishTime="03/31/2010 11:34:21" />
-    <file relUrl="pmp-certification-prep-faqs.aspx" publishTime="04/28/2011 10:56:31" />
-    <file relUrl="images/exam1.gif" publishTime="09/16/2011 13:28:25" />
-    <file relUrl="images/title_PrivateGroupTraining_v2.gif" publishTime="01/13/2011 11:27:50" />
-    <file relUrl="images/hotels/arlington.gif" publishTime="07/24/2011 18:49:35" />
-    <file relUrl="images/viewOnlineSchedule.gif" publishTime="12/30/2009 08:54:30" />
-    <file relUrl="images/temp_right_col_01.gif" publishTime="03/23/2011 09:30:21" />
-    <file relUrl="images/question.jpg" publishTime="05/12/2011 14:01:11" />
+    <file relUrl="pmp-certification-prep-faqs.aspx" publishTime="03/03/2013 21:04:10" />
+    <file relUrl="images/Hotel Pictures/San Diego CA.jpg" publishTime="06/24/2011 17:10:00" />
+    <file relUrl="images/right_column_img_06.jpg" publishTime="03/05/2013 21:54:20" />
+    <file relUrl="Scripts/watermark/readme.txt" publishTime="08/13/2012 12:03:40" />
+    <file relUrl="images/stand-out.jpg" publishTime="03/05/2013 22:01:30" />
+    <file relUrl="Scripts/watermark/changelog.txt" publishTime="08/13/2012 12:32:54" />
     <file relUrl="images/bordered_small_03.jpg" publishTime="03/31/2010 11:20:12" />
-    <file relUrl="images/btn_submitPayment_blue.gif" publishTime="05/11/2011 16:54:42" />
+    <file relUrl="images/pmiAd/pmiAd_SMALL.jpg" publishTime="03/07/2013 20:38:14" />
+    <file relUrl="images/question.jpg" publishTime="05/12/2011 14:01:11" />
+    <file relUrl="images/hotels/indianapolis-in.jpg" publishTime="03/07/2013 20:33:19" />
+    <file relUrl="images/nav_over_09.jpg" publishTime="03/05/2013 21:54:15" />
     <file relUrl="images/david-gazave.jpg" publishTime="08/15/2011 11:58:52" />
     <file relUrl="images/7_p3.jpg" publishTime="03/31/2010 11:20:11" />
-    <file relUrl="images/hotels/denver.gif" publishTime="06/30/2011 13:23:17" />
+    <file relUrl="images/right_column_img_02.jpg" publishTime="03/05/2013 21:54:19" />
     <file relUrl="images/KeithBhead.jpg" publishTime="08/16/2010 14:05:06" />
-    <file relUrl="images/pmiAd/p3Ad.gif" publishTime="12/30/2009 08:54:22" />
-    <file relUrl="register.aspx" publishTime="08/08/2011 13:57:57" />
+    <file relUrl="register.aspx" publishTime="06/19/2013 07:57:55" />
     <file relUrl="Global.asax" publishTime="09/09/2011 10:10:49" />
-    <file relUrl="images/pmiAd/pmiAd_SMALL.gif" publishTime="12/30/2009 08:54:22" />
-    <file relUrl="CmsPageContent.ascx" publishTime="06/09/2011 09:35:28" />
-    <file relUrl="images/nav_over_02.gif" publishTime="06/02/2011 12:15:57" />
-    <file relUrl="images/Pinnacle_3_PMP_CO_Office.jpg" publishTime="03/31/2010 11:20:23" />
-    <file relUrl="images/title_ContactUs.gif" publishTime="03/31/2010 11:20:30" />
-    <file relUrl="images/email/header_2.jpg" publishTime="12/30/2009 08:54:20" />
-    <file relUrl="testimonials.aspx" publishTime="09/22/2011 16:19:45" />
-    <file relUrl="images/hotels/san-jose.gif" publishTime="06/30/2011 13:36:22" />
+    <file relUrl="images/clickForRegInfo.jpg" publishTime="03/05/2013 21:54:02" />
+    <file relUrl="Site.Master" publishTime="03/14/2013 21:10:22" />
+    <file relUrl="images/viewWeekdaySchedule.jpg" publishTime="03/05/2013 21:54:29" />
+    <file relUrl="bin/Newtonsoft.Json.pdb" publishTime="04/12/2013 20:34:23" />
+    <file relUrl="images/nav_sub_over_11_1.jpg" publishTime="03/05/2013 21:54:17" />
+    <file relUrl="images/nav_11.jpg" publishTime="03/05/2013 21:54:11" />
+    <file relUrl="images/discount_img_blk.jpg" publishTime="03/05/2013 21:54:06" />
+    <file relUrl="testimonials.aspx" publishTime="03/03/2013 21:11:04" />
+    <file relUrl="images/pinnacle3Learning_email1_05.jpg" publishTime="03/05/2013 22:01:29" />
+    <file relUrl="images/hotels/honolulu-hi.jpg" publishTime="03/07/2013 20:33:19" />
+    <file relUrl="images/Hotel Pictures/Los Angeles CA.jpg" publishTime="06/24/2011 16:25:00" />
     <file relUrl="images/pmRisk_img1.jpg" publishTime="03/31/2010 11:20:25" />
-    <file relUrl="images/default_09.gif" publishTime="12/30/2009 08:54:24" />
-    <file relUrl="images/6_p1.jpg" publishTime="12/30/2009 08:54:19" />
-    <file relUrl="images/discount_img_blk.gif" publishTime="03/23/2011 09:30:20" />
-    <file relUrl="images/btn_nextStep_blue.gif" publishTime="07/15/2011 16:05:47" />
-    <file relUrl="images/hotels/seattle.gif" publishTime="07/14/2011 15:42:13" />
+    <file relUrl="images/Copy of btn_classSchedule_blue.jpg" publishTime="07/08/2013 21:50:22" />
+    <file relUrl="images/untitled2.jpg" publishTime="03/05/2013 22:01:31" />
+    <file relUrl="images/TransfersChainOfCommands.jpg" publishTime="03/05/2013 21:54:28" />
+    <file relUrl="images/title_register.jpg" publishTime="03/05/2013 21:54:26" />
+    <file relUrl="images/hotels/boston-ma.jpg" publishTime="03/07/2013 20:33:16" />
+    <file relUrl="MiniContactForm.ascx" publishTime="03/04/2013 21:46:16" />
+    <file relUrl="images/btn_classSchedule_blue.jpg" publishTime="03/05/2013 21:53:58" />
+    <file relUrl="images/phone1.jpg" publishTime="03/05/2013 21:54:18" />
+    <file relUrl="images/nav_15.jpg" publishTime="03/05/2013 21:54:12" />
+    <file relUrl="images/ms_project.jpg" publishTime="03/05/2013 21:54:07" />
     <file relUrl="images/email/callUs2.jpg" publishTime="12/30/2009 08:54:19" />
-    <file relUrl="images/clickForRegInfo.gif" publishTime="12/30/2009 08:54:23" />
-    <file relUrl="images/hotels/baltimore.gif" publishTime="06/30/2011 13:16:46" />
-    <file relUrl="images/hotels/chicago.gif" publishTime="06/30/2011 13:19:47" />
     <file relUrl="images/pmp-instruction.jpg" publishTime="04/23/2011 11:04:35" />
-    <file relUrl="receipt.aspx" publishTime="04/28/2011 09:20:26" />
+    <file relUrl="receipt.aspx" publishTime="09/25/2012 21:17:22" />
     <file relUrl="images/default_06.jpg" publishTime="03/31/2010 11:20:16" />
-    <file relUrl="images/hotels/miami.gif" publishTime="06/30/2011 13:29:31" />
-    <file relUrl="images/nav_08.gif" publishTime="04/19/2011 10:29:32" />
+    <file relUrl="pmp-certification-training.aspx" publishTime="05/23/2013 07:30:00" />
     <file relUrl="images/bordered_small_05.jpg" publishTime="01/13/2011 11:27:50" />
     <file relUrl="images/scott-burch.jpg" publishTime="08/15/2011 11:58:56" />
-    <file relUrl="images/email/title_upcoming.gif" publishTime="12/30/2009 08:54:21" />
-    <file relUrl="FDGGWS_Certificate_WS1001250113._.1/WS1001250113._.1.ks.pw.txt" publishTime="05/09/2011 09:28:55" />
-    <file relUrl="images/title_accreditations.gif" publishTime="03/31/2010 11:20:29" />
-    <file relUrl="images/email/spacer.gif" publishTime="12/30/2009 08:54:21" />
+    <file relUrl="images/right_column_img_01.jpg" publishTime="03/05/2013 21:54:19" />
+    <file relUrl="images/viewOnlineSchedule.jpg" publishTime="03/05/2013 21:54:29" />
+    <file relUrl="images/Hotel Pictures/Cincinnati OH.jpg" publishTime="09/21/2011 09:46:38" />
+    <file relUrl="images/1sttime.jpg" publishTime="03/05/2013 22:01:26" />
+    <file relUrl="Scripts/expressinstall.swf" publishTime="12/10/2009 16:46:51" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="04/12/2013 20:34:23" />
     <file relUrl="images/51v0McTQoKL._SL160_.jpg" publishTime="03/31/2010 11:34:19" />
-    <file relUrl="bin/P3 Web App.pdb" publishTime="09/22/2011 17:32:18" />
+    <file relUrl="bin/P3 Web App.pdb" publishTime="07/08/2013 21:52:34" />
     <file relUrl="bin/pdfs/PMPExamPrepCourseOutline.pdf" publishTime="04/07/2011 08:24:07" />
-    <file relUrl="receipt-pmp.ascx" publishTime="08/08/2011 16:45:37" />
-    <file relUrl="images/viewWeekendSchedule.gif" publishTime="01/13/2011 11:17:34" />
-    <file relUrl="privacy-policy.aspx" publishTime="05/23/2011 14:30:37" />
+    <file relUrl="receipt-pmp.ascx" publishTime="03/07/2013 20:40:12" />
+    <file relUrl="images/hotels/tampa-fl.jpg" publishTime="03/07/2013 20:33:26" />
+    <file relUrl="privacy-policy.aspx" publishTime="09/25/2012 21:17:23" />
+    <file relUrl="Scripts/watermark/gpl2-license.txt" publishTime="05/09/2010 15:00:20" />
     <file relUrl="aboutPinnacle3Learning.aspx" publishTime="06/09/2011 09:45:43" />
+    <file relUrl="error.aspx" publishTime="05/22/2013 21:21:19" />
     <file relUrl="images/office.jpg" publishTime="03/31/2010 11:20:23" />
     <file relUrl="customers/ericsson.jpg" publishTime="04/04/2011 11:11:46" />
-    <file relUrl="images/title_SelfPacedCourses.gif" publishTime="12/30/2009 08:54:30" />
-    <file relUrl="images/item-bg.gif" publishTime="06/02/2011 09:13:26" />
+    <file relUrl="images/Hotel Pictures/Boston MA.jpg" publishTime="07/13/2011 09:25:43" />
+    <file relUrl="images/spacer.jpg" publishTime="03/05/2013 22:01:30" />
+    <file relUrl="images/Copy of btn_fullSchedule_blue.jpg" publishTime="07/08/2013 21:50:22" />
+    <file relUrl="images/Hotel Pictures/Chicago IL.jpg" publishTime="06/24/2011 15:47:00" />
     <file relUrl="customers/usairforce.jpg" publishTime="04/04/2011 11:14:05" />
-    <file relUrl="images/discount_img.gif" publishTime="12/30/2009 08:54:25" />
-    <file relUrl="location-pmessentials.aspx" publishTime="09/13/2011 15:27:47" />
-    <file relUrl="images/title_InstructorLed.gif" publishTime="01/13/2011 11:26:11" />
+    <file relUrl="location-six-sigma-black-belt-old.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="location-pmessentials.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/nav_over_08.jpg" publishTime="03/05/2013 21:54:14" />
+    <file relUrl="images/right_column_img_03.jpg" publishTime="03/05/2013 21:54:19" />
+    <file relUrl="images/nav_over_04.jpg" publishTime="03/05/2013 21:54:13" />
     <file relUrl="images/kathleen_king.jpg" publishTime="01/10/2011 15:48:28" />
-    <file relUrl="images/nav_over_09.gif" publishTime="06/02/2011 12:07:30" />
-    <file relUrl="images/pmiLogo.jpg" publishTime="12/30/2009 08:54:26" />
-    <file relUrl="classSchedule.aspx" publishTime="06/06/2011 08:36:27" />
-    <file relUrl="images/btn_fullSchedule_blue.gif" publishTime="06/03/2011 10:18:50" />
+    <file relUrl="images/hotels/denver-co.jpg" publishTime="03/07/2013 20:33:18" />
+    <file relUrl="images/nav_sub_11_2.jpg" publishTime="03/05/2013 21:54:17" />
     <file relUrl="customers/boozallen.jpg" publishTime="04/04/2011 11:07:39" />
+    <file relUrl="images/Hotel Pictures/Bethesda MD.jpg" publishTime="06/24/2011 15:43:00" />
+    <file relUrl="images/Hotel Pictures/New York City NY.jpg" publishTime="06/24/2011 16:53:00" />
+    <file relUrl="MS_Project_2007.aspx" publishTime="03/07/2013 20:40:13" />
     <file relUrl="images/logo_facebook.png" publishTime="03/23/2011 09:30:12" />
     <file relUrl="customers/motorola.jpg" publishTime="04/04/2011 11:13:38" />
-    <file relUrl="images/viewComingSoon.gif" publishTime="03/31/2010 11:20:35" />
-    <file relUrl="images/email/pinnacle3Learning_email1_05.gif" publishTime="12/30/2009 08:54:21" />
-    <file relUrl="images/default_01.gif" publishTime="12/30/2009 08:54:23" />
+    <file relUrl="packages.config" publishTime="06/17/2013 21:04:31" />
+    <file relUrl="images/nav_over_12.jpg" publishTime="03/05/2013 21:54:16" />
+    <file relUrl="images/Hotel Pictures/Balitime MD OLD.jpg" publishTime="06/24/2011 15:37:00" />
+    <file relUrl="images/hotels/sacramento-ca.jpg" publishTime="03/07/2013 20:33:24" />
+    <file relUrl="images/hotels/chicago-il.jpg" publishTime="03/07/2013 20:33:17" />
     <file relUrl="pdfs/pmnetwork201004-b6d767d2f8-pp.pdf" publishTime="05/13/2010 07:23:04" />
-    <file relUrl="images/nav_04.gif" publishTime="06/02/2011 12:11:54" />
+    <file relUrl="images/title_managing_project_risk.jpg" publishTime="03/05/2013 21:54:25" />
+    <file relUrl="images/hotels/detroit-mi.jpg" publishTime="03/07/2013 20:33:18" />
     <file relUrl="customers/armycorpsofengineers.jpg" publishTime="04/04/2011 11:06:47" />
-    <file relUrl="Default.aspx" publishTime="09/22/2011 16:19:45" />
-    <file relUrl="location-pmp.aspx" publishTime="09/16/2011 10:22:30" />
+    <file relUrl="Default.aspx" publishTime="05/22/2013 21:36:28" />
+    <file relUrl="location-pmp.aspx" publishTime="05/23/2013 08:55:38" />
+    <file relUrl="images/Copy of bordered_msproject.jpg" publishTime="07/08/2013 21:50:22" />
+    <file relUrl="bin/Samurai.pdb" publishTime="04/12/2013 20:36:02" />
+    <file relUrl="images/nav_sub_over_11_2.jpg" publishTime="03/05/2013 21:54:18" />
+    <file relUrl="images/nav_12.jpg" publishTime="03/05/2013 21:54:11" />
     <file relUrl="images/51ohQKsQDwL._SL160_.jpg" publishTime="03/31/2010 11:34:19" />
-    <file relUrl="bin/P3 Web App.XmlSerializers.dll" publishTime="09/22/2011 17:32:34" />
     <file relUrl="images/steve-blash.jpg" publishTime="08/15/2011 11:58:54" />
-    <file relUrl="images/hotels/dallas.gif" publishTime="06/30/2011 13:22:48" />
-    <file relUrl="images/logo_Twitter.jpg" publishTime="03/23/2011 09:30:11" />
-    <file relUrl="Project-Management-Training.aspx" publishTime="09/16/2011 10:16:24" />
-    <file relUrl="bin/pdfs/pmnetwork201004-b6d767d2f8-pp.pdf" publishTime="05/13/2010 07:23:04" />
-    <file relUrl="images/temp_right_col_02.gif" publishTime="03/23/2011 09:30:21" />
-    <file relUrl="images/hotels/boston.gif" publishTime="07/13/2011 09:30:33" />
-    <file relUrl="images/youtube.jpg" publishTime="09/09/2010 11:52:53" />
+    <file relUrl="customers/hp.jpg" publishTime="04/04/2011 11:12:17" />
+    <file relUrl="images/hotels/austin-tx.jpg" publishTime="03/07/2013 20:33:16" />
+    <file relUrl="images/pmiLogo.jpg" publishTime="12/30/2009 08:54:26" />
+    <file relUrl="location-capm-old.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/item-bg.jpg" publishTime="03/05/2013 21:54:07" />
+    <file relUrl="images/hotels/cincinnati-il.jpg" publishTime="03/07/2013 20:33:17" />
+    <file relUrl="images/nav_13.jpg" publishTime="03/05/2013 21:54:11" />
+    <file relUrl="images/title_welcome.jpg" publishTime="03/05/2013 21:54:27" />
+    <file relUrl="images/keith-brodie.jpg" publishTime="08/15/2011 11:58:46" />
+    <file relUrl="images/nav_over_11.jpg" publishTime="03/05/2013 21:54:15" />
+    <file relUrl="images/title_about_p3_learning.jpg" publishTime="03/05/2013 21:54:23" />
+    <file relUrl="images/bordered_msproject.jpg" publishTime="03/05/2013 21:53:57" />
     <file relUrl="Pinnacle_3_PMP_Training_Guarantee.aspx" publishTime="09/07/2011 15:51:54" />
-    <file relUrl="css/main.css" publishTime="09/12/2011 16:18:35" />
+    <file relUrl="images/Hotel Pictures/Miami FL.jpg" publishTime="06/24/2011 16:27:00" />
+    <file relUrl="images/bordered_small_01.jpg" publishTime="03/31/2010 11:20:12" />
+    <file relUrl="bin/RestSharp.dll" publishTime="04/12/2013 20:34:23" />
+    <file relUrl="images/hotels/princeton-nj.jpg" publishTime="03/07/2013 20:33:23" />
     <file relUrl="customers/usarmy.jpg" publishTime="04/04/2011 11:15:08" />
-    <file relUrl="sitemap.html" publishTime="05/20/2011 07:17:40" />
-    <file relUrl="images/nav_over_05.gif" publishTime="06/02/2011 12:14:49" />
-    <file relUrl="images/phone1.gif" publishTime="09/16/2011 12:54:20" />
-    <file relUrl="images/register_now.gif" publishTime="07/25/2011 16:15:50" />
-    <file relUrl="images/nav_09.gif" publishTime="06/02/2011 12:07:08" />
-    <file relUrl="location-msproject.aspx" publishTime="09/13/2011 15:27:47" />
-    <file relUrl="PMP_Exam_Prep_4th_Edition.aspx" publishTime="05/02/2011 21:46:39" />
-    <file relUrl="images/title_selfPaced.gif" publishTime="03/31/2010 11:20:34" />
-    <file relUrl="images/email/rightColBG.gif" publishTime="12/30/2009 08:54:21" />
+    <file relUrl="images/title_upcoming_weekDAY.jpg" publishTime="03/05/2013 22:01:31" />
+    <file relUrl="unsubscribe.aspx" publishTime="09/25/2012 21:17:21" />
+    <file relUrl="images/title_guarantee.jpg" publishTime="03/05/2013 21:54:24" />
+    <file relUrl="bin/Samurai.dll" publishTime="04/12/2013 20:36:02" />
+    <file relUrl="location-msproject.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/btn_takequiz_blue.jpg" publishTime="03/05/2013 21:54:00" />
     <file relUrl="test.aspx" publishTime="04/04/2011 10:35:29" />
-    <file relUrl="articles.aspx" publishTime="06/08/2011 14:04:35" />
-    <file relUrl="Sitemap.aspx" publishTime="05/23/2011 13:55:59" />
+    <file relUrl="images/pinnacle_logo_white.jpg" publishTime="03/05/2013 21:54:18" />
+    <file relUrl="images/callUs2.jpg" publishTime="03/05/2013 22:01:27" />
+    <file relUrl="articles.aspx" publishTime="04/02/2013 21:24:42" />
     <file relUrl="images/john-achee.jpg" publishTime="08/15/2011 11:58:49" />
-    <file relUrl="Contact_Pinnacle_3_PMP_Certification_Training.aspx" publishTime="07/15/2011 21:48:48" />
+    <file relUrl="images/nav_09.jpg" publishTime="03/05/2013 21:54:10" />
+    <file relUrl="images/btn_PreferWeekends.jpg" publishTime="03/05/2013 21:53:59" />
+    <file relUrl="images/sidebar.jpg" publishTime="03/05/2013 22:01:30" />
     <file relUrl="images/pmEssentials_img.jpg" publishTime="01/13/2011 11:17:32" />
-    <file relUrl="private-group-sent.aspx" publishTime="07/28/2011 12:49:19" />
     <file relUrl="customers/carousel/armycorpsofengineers.jpg" publishTime="04/04/2011 13:47:28" />
     <file relUrl="practice-exams.aspx" publishTime="09/16/2011 15:24:39" />
-    <file relUrl="images/title_pm_essentials.gif" publishTime="12/30/2009 08:54:29" />
+    <file relUrl="bin/BotDetect.dll" publishTime="10/30/2012 16:04:32" />
+    <file relUrl="images/hotels/arlington-va.jpg" publishTime="03/07/2013 20:33:15" />
     <file relUrl="images/email/sidebar.jpg" publishTime="12/30/2009 08:54:21" />
     <file relUrl="flash/pinnacle3Header.swf" publishTime="03/07/2011 12:28:33" />
-    <file relUrl="images/btn_viewOnlineCourses.jpg" publishTime="03/31/2010 11:20:14" />
+    <file relUrl="images/header_2.jpg" publishTime="03/05/2013 22:01:27" />
+    <file relUrl="images/calltoaction.jpg" publishTime="03/05/2013 21:54:02" />
+    <file relUrl="images/Hotel Pictures/Seattle WA OLD.jpg" publishTime="06/24/2011 17:24:00" />
+    <file relUrl="images/topBar_01.jpg" publishTime="03/05/2013 21:54:28" />
+    <file relUrl="images/temp_right_col_04.jpg" publishTime="03/05/2013 21:54:22" />
     <file relUrl="index.html" publishTime="04/30/2011 21:03:17" />
-    <file relUrl="images/nav_over_08.gif" publishTime="04/19/2011 10:21:01" />
-    <file relUrl="images/title_welcome.gif" publishTime="03/23/2011 09:30:18" />
-    <file relUrl="location-six-sigma-green-belt.aspx" publishTime="09/16/2011 06:59:04" />
-    <file relUrl="images/monitor.gif" publishTime="03/23/2011 09:29:58" />
-    <file relUrl="images/title_about_p3_learning.gif" publishTime="08/16/2010 14:20:52" />
+    <file relUrl="PMP_Private_Group_Training.aspx" publishTime="03/27/2013 19:42:33" />
+    <file relUrl="images/Hotel Pictures/St. Louis City MO.jpg" publishTime="06/24/2011 17:27:00" />
+    <file relUrl="location-six-sigma-green-belt.aspx" publishTime="05/23/2013 07:24:27" />
+    <file relUrl="images/nav_over_01.jpg" publishTime="03/05/2013 21:54:12" />
     <file relUrl="images/email/stand out.jpg" publishTime="12/30/2009 08:54:21" />
-    <file relUrl="MS_Project_2007.aspx" publishTime="09/13/2011 15:27:47" />
+    <file relUrl="lean-six-sigma-black-belt.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/Hotel Pictures/Washington DC.jpg" publishTime="07/24/2011 16:42:34" />
+    <file relUrl="App_Browsers/firefox.browser" publishTime="06/17/2013 21:04:31" />
     <file relUrl="App_Themes/Default/SkinFile.skin" publishTime="04/24/2010 16:15:23" />
-    <file relUrl="htaccess.txt" publishTime="04/17/2011 16:06:08" />
+    <file relUrl="images/right_column_img_05.jpg" publishTime="03/05/2013 21:54:20" />
+    <file relUrl="htaccess.txt" publishTime="08/08/2012 21:11:09" />
     <file relUrl="Scripts/AC_RunActiveContent.js" publishTime="12/10/2009 16:46:51" />
-    <file relUrl="images/ms_project.gif" publishTime="12/10/2009 16:46:44" />
-    <file relUrl="images/topBar_02.gif" publishTime="12/30/2009 08:54:30" />
-    <file relUrl="bin/Telerik.Web.UI.xml" publishTime="01/06/2011 21:10:25" />
-    <file relUrl="images/nav_05.gif" publishTime="06/02/2011 12:12:21" />
+    <file relUrl="images/nav_14.jpg" publishTime="03/05/2013 21:54:12" />
+    <file relUrl="images/topBar_02.jpg" publishTime="03/05/2013 21:54:28" />
+    <file relUrl="images/hotels/new-york-ny.jpg" publishTime="03/07/2013 20:33:22" />
+    <file relUrl="images/rightColBG.jpg" publishTime="03/05/2013 22:01:29" />
+    <file relUrl="images/pinnacle3Learning_email1_03.jpg" publishTime="03/05/2013 22:01:28" />
+    <file relUrl="images/temp_right_col.jpg" publishTime="03/05/2013 21:54:21" />
     <file relUrl="FDGGWS_Certificate_WS1001250113._.1/WS1001250113._.1.auth.txt" publishTime="05/09/2011 09:28:55" />
     <file relUrl="customers/pricewaterhouse.jpg" publishTime="04/04/2011 11:12:47" />
-    <file relUrl="images/hotels/austin.gif" publishTime="06/30/2011 13:17:45" />
-    <file relUrl="images/email/header_1.jpg" publishTime="12/30/2009 08:54:20" />
-    <file relUrl="Web.Debug.config" publishTime="04/04/2011 10:31:36" />
-    <file relUrl="images/default_07.gif" publishTime="12/30/2009 08:54:24" />
-    <file relUrl="images/title_classSchedule.gif" publishTime="03/23/2011 09:30:43" />
-    <file relUrl="images/nav_06.gif" publishTime="06/02/2011 12:12:40" />
-    <file relUrl="images/right_column_img_02.gif" publishTime="12/30/2009 08:54:27" />
-    <file relUrl="images/viewWeekdaySchedule.gif" publishTime="03/31/2010 11:20:35" />
+    <file relUrl="confirmed-paid.aspx" publishTime="03/07/2013 21:22:56" />
+    <file relUrl="images/email/header_1.jpg" publishTime="09/30/2011 09:27:14" />
+    <file relUrl="Location.Master" publishTime="05/23/2013 07:23:15" />
+    <file relUrl="images/hotels/minneapolis-mn.jpg" publishTime="03/07/2013 20:33:22" />
     <file relUrl="images/six-sigma-overall-yield.jpg" publishTime="09/16/2011 09:08:59" />
-    <file relUrl="pdfs/PMPExamPrepCourseOutline.pdf" publishTime="04/07/2011 08:24:07" />
-    <file relUrl="images/hotels/sacramento.gif" publishTime="06/30/2011 13:35:09" />
-    <file relUrl="images/hotels/bethesda.gif" publishTime="07/24/2011 18:46:22" />
+    <file relUrl="images/Hotel Pictures/Dallas TX.jpg" publishTime="06/24/2011 15:55:00" />
+    <file relUrl="Web.Debug.config" publishTime="04/04/2011 10:31:36" />
+    <file relUrl="Project_Risk.aspx" publishTime="03/07/2013 20:40:12" />
     <file relUrl="images/bordered_small_04.jpg" publishTime="03/31/2010 11:20:13" />
-    <file relUrl="sitemap.xml" publishTime="09/16/2011 13:58:46" />
+    <file relUrl="images/Hotel Pictures/Austin TX.jpg" publishTime="06/24/2011 15:34:00" />
     <file relUrl="images/scott burch, pmp.jpg" publishTime="02/03/2011 11:20:01" />
-    <file relUrl="error.aspx" publishTime="07/14/2011 08:27:00" />
-    <file relUrl="App_Data/classes_v2.mdb" publishTime="09/15/2011 21:31:54" />
-    <file relUrl="images/right_column_img_01.gif" publishTime="12/30/2009 08:54:27" />
+    <file relUrl="images/hotels/atlanta-ga.jpg" publishTime="03/07/2013 20:33:15" />
+    <file relUrl="images/default_06_location.jpg" publishTime="09/19/2012 06:40:12" />
+    <file relUrl="images/email/untitled2.JPG" publishTime="12/30/2009 08:54:22" />
     <file relUrl="images/terra-vanzant-stern.jpg" publishTime="09/07/2011 10:39:11" />
-    <file relUrl="images/nav_over_04.gif" publishTime="06/02/2011 12:15:13" />
-    <file relUrl="bin/P3 Web App.dll" publishTime="09/22/2011 17:32:19" />
-    <file relUrl="images/right_column_img_04.gif" publishTime="12/30/2009 08:54:27" />
-    <file relUrl="images/btn_submitInquiry_blue.gif" publishTime="05/11/2011 16:38:32" />
+    <file relUrl="bin/P3 Web App.dll" publishTime="07/08/2013 21:52:34" />
     <file relUrl="images/six-sigma-dmaic-integration.jpg" publishTime="09/16/2011 09:09:29" />
-    <file relUrl="article.aspx" publishTime="05/24/2011 18:23:45" />
-    <file relUrl="images/temp_right_col_05.gif" publishTime="03/31/2010 11:20:28" />
-    <file relUrl="images/title_pmp_exam_prep.gif" publishTime="03/31/2010 11:20:32" />
-    <file relUrl="Web.Release.config" publishTime="04/04/2011 10:31:36" />
-    <file relUrl="images/nav_over_07.gif" publishTime="06/02/2011 12:13:49" />
+    <file relUrl="images/title_selfPaced.jpg" publishTime="03/05/2013 21:54:27" />
+    <file relUrl="article.aspx" publishTime="05/22/2013 21:36:28" />
+    <file relUrl="pmp-classes-weekend.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/Pinnacle_3_PMP_CO_Office.jpg" publishTime="03/31/2010 11:20:23" />
+    <file relUrl="images/title_pmp_exam_prep.jpg" publishTime="03/05/2013 21:54:26" />
+    <file relUrl="images/nav_08.jpg" publishTime="03/05/2013 21:54:10" />
+    <file relUrl="images/default_08.jpg" publishTime="03/05/2013 21:54:05" />
     <file relUrl="accreditation_Pinnacle_3_PMP_Exam_Training.aspx" publishTime="09/13/2011 15:06:03" />
+    <file relUrl="images/Hotel Pictures/Indianapolis IN.jpg" publishTime="09/21/2011 09:47:15" />
+    <file relUrl="images/nav_04.jpg" publishTime="03/05/2013 21:54:08" />
+    <file relUrl="images/Hotel Pictures/Arlington VA.jpg" publishTime="06/24/2011 15:27:00" />
     <file relUrl="images/gordonYoung.jpg" publishTime="12/30/2009 08:54:24" />
-    <file relUrl="unsubscribe.aspx" publishTime="09/12/2011 16:24:42" />
-    <file relUrl="images/nav_07.gif" publishTime="06/02/2011 12:13:31" />
-    <file relUrl="customers/dell.jpg" publishTime="04/04/2011 11:08:02" />
-    <file relUrl="images/hotels/jersey-city.gif" publishTime="06/30/2011 13:25:38" />
-    <file relUrl="images/btn_submitPayment_blue.jpg" publishTime="05/11/2011 15:55:45" />
-    <file relUrl="images/hotels/kansas-city.gif" publishTime="06/30/2011 13:26:11" />
-    <file relUrl="images/btn_nextStep_blue.jpg" publishTime="05/11/2011 15:53:41" />
-    <file relUrl="Project-Management-Courses.aspx" publishTime="07/14/2011 08:28:45" />
-    <file relUrl="images/btn_confirmEnrollment_blue.gif" publishTime="05/11/2011 16:55:12" />
+    <file relUrl="images/register_now.jpg" publishTime="03/05/2013 21:54:18" />
+    <file relUrl="images/nav_05.jpg" publishTime="03/05/2013 21:54:09" />
+    <file relUrl="images/title_pm_essentials.jpg" publishTime="03/05/2013 21:54:25" />
+    <file relUrl="images/Hotel Pictures/Kanas City KS.jpg" publishTime="06/24/2011 16:18:00" />
+    <file relUrl="location-six-sigma-black-belt.aspx" publishTime="05/23/2013 07:23:07" />
+    <file relUrl="images/hotels/bethesda-md.jpg" publishTime="03/07/2013 20:33:16" />
+    <file relUrl="images/viewWeekendSchedule.jpg" publishTime="03/05/2013 21:54:30" />
+    <file relUrl="images/monitor.jpg" publishTime="03/05/2013 21:54:07" />
+    <file relUrl="images/Hotel Pictures/Detriot MI.jpg" publishTime="06/24/2011 16:05:00" />
+    <file relUrl="images/Untitled-1.jpg" publishTime="03/05/2013 21:54:29" />
+    <file relUrl="images/default_04.jpg" publishTime="03/05/2013 21:54:04" />
+    <file relUrl="css/main.css" publishTime="03/07/2013 20:40:14" />
+    <file relUrl="images/logo_Twitter.jpg" publishTime="03/23/2011 09:30:11" />
+    <file relUrl="images/btn_nextStep_blue.jpg" publishTime="03/05/2013 21:53:59" />
+    <file relUrl="Project-Management-Courses.aspx" publishTime="03/07/2013 20:40:12" />
+    <file relUrl="App_Browsers/ie.browser" publishTime="06/17/2013 21:04:31" />
     <file relUrl="customers.aspx" publishTime="09/22/2011 16:20:52" />
+    <file relUrl="images/btn_fullSchedule_blue.jpg" publishTime="03/05/2013 21:53:58" />
     <file relUrl="why-us.aspx" publishTime="09/13/2011 15:08:38" />
     <file relUrl="images/pmVirtualClassroom.jpg" publishTime="12/10/2009 16:46:46" />
-    <file relUrl="contact-sent.aspx" publishTime="07/22/2011 16:13:29" />
-    <file relUrl="images/default_07_over.gif" publishTime="12/30/2009 08:54:24" />
-    <file relUrl="virtual_classes_iframe.html" publishTime="04/28/2011 10:42:14" />
-    <file relUrl="images/btn_viewWeekdaySchedule_blue.jpg" publishTime="05/11/2011 15:49:42" />
-    <file relUrl="images/hotels/houston.gif" publishTime="06/30/2011 13:25:08" />
-    <file relUrl="images/btn_confirmEnrollment_blue.jpg" publishTime="05/11/2011 15:56:17" />
-    <file relUrl="images/hotels/san-diego.gif" publishTime="06/30/2011 13:35:43" />
+    <file relUrl="images/email/header_2.jpg" publishTime="12/30/2009 08:54:20" />
+    <file relUrl="contact-sent.aspx" publishTime="09/25/2012 21:22:10" />
+    <file relUrl="location-six-sigma-green-belt-old.aspx" publishTime="03/07/2013 20:40:13" />
+    <file relUrl="images/Hotel Pictures/Reston VA.jpg" publishTime="06/24/2011 17:04:00" />
+    <file relUrl="pdfs/PMPExamPrepCourseOutline.pdf" publishTime="04/07/2011 08:24:07" />
+    <file relUrl="images/btn_viewWeekdaySchedule_blue.jpg" publishTime="03/05/2013 21:54:01" />
+    <file relUrl="images/hotels/Tysons-Corner-va.jpg" publishTime="03/07/2013 20:33:26" />
+    <file relUrl="images/hotels/dallas-tx.jpg" publishTime="03/07/2013 20:33:18" />
+    <file relUrl="images/btn_confirmEnrollment_blue.jpg" publishTime="03/05/2013 21:53:58" />
+    <file relUrl="images/title_payForClass.jpg" publishTime="03/05/2013 21:54:25" />
+    <file relUrl="images/pmiAd/p3Ad.jpg" publishTime="03/07/2013 20:38:14" />
+    <file relUrl="images/nav_over_03.jpg" publishTime="03/05/2013 21:54:13" />
     <file relUrl="Scripts/jquery-1.4.1.js" publishTime="04/04/2011 10:31:36" />
-    <file relUrl="location-projectrisk.aspx" publishTime="09/13/2011 15:27:47" />
+    <file relUrl="images/nav_over_02.jpg" publishTime="03/05/2013 21:54:13" />
+    <file relUrl="location-projectrisk.aspx" publishTime="03/07/2013 20:40:13" />
     <file relUrl="certificate/WS1001250113._.1.pem" publishTime="05/09/2011 09:28:44" />
-    <file relUrl="images/t_logo-b.png" publishTime="09/09/2010 17:00:18" />
-    <file relUrl="images/default_08.gif" publishTime="12/30/2009 08:54:24" />
+    <file relUrl="customers/dell.jpg" publishTime="04/04/2011 11:08:02" />
+    <file relUrl="images/btn_PreferWeekdays.jpg" publishTime="03/05/2013 21:53:59" />
+    <file relUrl="images/btn_viewOnlineCourses.jpg" publishTime="03/31/2010 11:20:14" />
+    <file relUrl="images/nav_over_15.jpg" publishTime="03/05/2013 21:54:16" />
+    <file relUrl="images/title_classSchedule.jpg" publishTime="03/05/2013 21:54:23" />
     <file relUrl="classSchedule_pmp_weekdays.aspx" publishTime="04/17/2011 15:47:51" />
+    <file relUrl="images/temp_right_col_05.jpg" publishTime="03/05/2013 21:54:22" />
+    <file relUrl="images/youtube.jpg" publishTime="09/09/2010 11:52:53" />
     <file relUrl="PMP_Certification_Prep_FAQ's.aspx" publishTime="04/28/2011 10:56:31" />
     <file relUrl="images/email/pinnacle3Learning_email1_04.jpg" publishTime="12/30/2009 08:54:20" />
     <file relUrl="lean-six-sigma.aspx" publishTime="09/13/2011 15:06:55" />
-    <file relUrl="footer.ascx" publishTime="09/16/2011 13:46:31" />
-    <file relUrl="images/btn_viewWeekendSchedule_blue.gif" publishTime="05/11/2011 16:34:00" />
+    <file relUrl="images/title_ContactUs.jpg" publishTime="03/05/2013 21:54:24" />
+    <file relUrl="footer.ascx" publishTime="05/22/2013 21:25:56" />
     <file relUrl="images/51vxHYtSJPL._SL160_.jpg" publishTime="03/31/2010 11:34:20" />
-    <file relUrl="images/right_column_img_03.gif" publishTime="12/30/2009 08:54:27" />
-    <file relUrl="Scripts/expressinstall.swf" publishTime="12/10/2009 16:46:51" />
+    <file relUrl="images/Hotel Pictures/Honolulu HI.jpg" publishTime="06/24/2011 16:09:00" />
+    <file relUrl="images/btn_viewWeekdaySchedule.jpg" publishTime="03/31/2010 11:20:14" />
     <file relUrl="customers/deloitte.jpg" publishTime="04/04/2011 11:08:28" />
-    <file relUrl="images/title_courseOfferings.gif" publishTime="03/31/2010 11:20:30" />
-    <file relUrl="images/title_register.gif" publishTime="03/31/2010 11:20:33" />
-    <file relUrl="customers/hp.jpg" publishTime="04/04/2011 11:12:17" />
-    <file relUrl="images/temp_right_col_04.gif" publishTime="03/23/2011 09:30:23" />
+    <file relUrl="images/nav_over_07.jpg" publishTime="03/05/2013 21:54:14" />
+    <file relUrl="Scripts/watermark/jquery.watermark.js" publishTime="08/13/2012 11:53:46" />
+    <file relUrl="images/Hotel Pictures/Princeton NJ.jpg" publishTime="06/24/2011 17:00:00" />
+    <file relUrl="images/hotels/las-vegas-nv.jpg" publishTime="03/07/2013 20:33:20" />
+    <file relUrl="virtual_classes_iframe.html" publishTime="04/28/2011 10:42:14" />
     <file relUrl="images/email/1sttime_outline.jpg" publishTime="12/30/2009 08:54:20" />
+    <file relUrl="images/callUs.jpg" publishTime="12/30/2009 08:54:23" />
     <file relUrl="images/marleen-cain.jpg" publishTime="08/15/2011 11:58:41" />
-    <file relUrl="confirmed-paid.aspx" publishTime="08/22/2011 22:12:57" />
+    <file relUrl="images/1sttime_outline.jpg" publishTime="03/05/2013 22:01:26" />
+    <file relUrl="images/temp_right_col_01.jpg" publishTime="03/05/2013 21:54:21" />
     <file relUrl="images/JerseyCityNJ.jpg" publishTime="04/16/2010 14:41:11" />
+    <file relUrl="Scripts/watermark/jquery.watermark.min.js" publishTime="08/13/2012 12:02:52" />
+    <file relUrl="images/nav_over_05.jpg" publishTime="03/05/2013 21:54:14" />
+    <file relUrl="images/btn_submitInquiry_blue.jpg" publishTime="03/05/2013 21:54:00" />
     <file relUrl="images/21dkikwxwJL._SL160_.jpg" publishTime="03/31/2010 11:34:17" />
-    <file relUrl="images/email/pinnacle3Learning_email1_03.gif" publishTime="12/30/2009 08:54:20" />
-    <file relUrl="images/right_column_img_05.gif" publishTime="12/30/2009 08:54:27" />
-    <file relUrl="images/hotels/detroit.gif" publishTime="06/30/2011 13:23:57" />
+    <file relUrl="images/viewComingSoon.jpg" publishTime="03/05/2013 21:54:29" />
+    <file relUrl="images/Hotel Pictures/Raleigh NC.jpg" publishTime="06/24/2011 17:02:00" />
+    <file relUrl="images/discount_img.jpg" publishTime="03/05/2013 21:54:06" />
+    <file relUrl="images/hotels/nashville-tn.jpg" publishTime="03/07/2013 20:33:22" />
+    <file relUrl="images/hotels/los-angeles-ca.jpg" publishTime="03/07/2013 20:33:21" />
     <file relUrl="instructors.aspx" publishTime="09/07/2011 15:28:17" />
-    <file relUrl="images/topBar_01.gif" publishTime="03/23/2011 19:33:42" />
-    <file relUrl="images/nav_over_06.gif" publishTime="06/02/2011 12:14:31" />
-    <file relUrl="images/btn_downloadCourseOutline_blue.jpg" publishTime="05/11/2011 15:52:39" />
+    <file relUrl="images/nav_01.jpg" publishTime="03/05/2013 21:54:08" />
+    <file relUrl="Scripts/watermark/jquery.watermark.htm" publishTime="08/13/2012 11:58:32" />
+    <file relUrl="images/Hotel Pictures/Phoenix AZ.jpg" publishTime="06/24/2011 16:57:00" />
+    <file relUrl="images/right_column_img_04.jpg" publishTime="03/05/2013 21:54:20" />
+    <file relUrl="images/default_02.jpg" publishTime="03/05/2013 21:54:03" />
+    <file relUrl="images/nav_03.jpg" publishTime="03/05/2013 21:54:08" />
     <file relUrl="philosophy.aspx" publishTime="09/07/2011 15:31:52" />
-    <file relUrl="images/title_guarantee.gif" publishTime="03/31/2010 11:20:31" />
-    <file relUrl="images/default_04.gif" publishTime="12/30/2009 08:54:23" />
-    <file relUrl="Site.Master" publishTime="09/16/2011 15:30:17" />
-    <file relUrl="images/bordered_msproject.gif" publishTime="03/31/2010 11:20:11" />
+    <file relUrl="images/default_03.jpg" publishTime="03/05/2013 21:54:03" />
+    <file relUrl="images/hotels/memphis-tn.jpg" publishTime="03/07/2013 20:33:21" />
+    <file relUrl="images/title_SelfPacedCourses.jpg" publishTime="03/05/2013 21:54:27" />
+    <file relUrl="project-management-training-online.aspx" publishTime="03/07/2013 20:40:12" />
+    <file relUrl="images/btn_downloadCourseOutline_blue.jpg" publishTime="05/11/2011 15:52:39" />
     <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="04/04/2011 10:31:36" />
     <file relUrl="customers/adp.jpg" publishTime="04/04/2011 11:06:39" />
-    <file relUrl="certified-associate-in-project-management.aspx" publishTime="09/13/2011 15:27:48" />
-    <file relUrl="images/callUs.jpg" publishTime="12/30/2009 08:54:23" />
-    <file relUrl="classSchedule_pm_essentials.aspx" publishTime="04/28/2011 10:45:04" />
-    <file relUrl="images/hotels/atlanta.gif" publishTime="07/15/2011 15:00:30" />
+    <file relUrl="images/Hotel Pictures/Boston MA OLD.jpg" publishTime="06/24/2011 15:45:00" />
+    <file relUrl="images/Hotel Pictures/Atlanta GA OLD.jpg" publishTime="06/24/2011 15:30:00" />
+    <file relUrl="images/nav_06.jpg" publishTime="03/05/2013 21:54:09" />
+    <file relUrl="certified-associate-in-project-management.aspx" publishTime="03/07/2013 20:40:14" />
+    <file relUrl="images/nav_sub_11_1.jpg" publishTime="03/05/2013 21:54:17" />
+    <file relUrl="images/title_PrivateGroupTraining_v2.jpg" publishTime="03/05/2013 21:54:26" />
+    <file relUrl="images/hotels/charlotte-nc.jpg" publishTime="03/07/2013 20:33:17" />
+    <file relUrl="Contact_Pinnacle_3_PMP_Certification_Training.aspx" publishTime="03/07/2013 20:40:14" />
   </publishProfile>
 </publishData>

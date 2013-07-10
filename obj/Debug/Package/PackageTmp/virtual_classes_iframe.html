@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+<!-- begin MindEdge remote code v1.09 -->
+<style type="text/css">
+
+/* course title */
+.programTitle{ 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: black; 
+	font-weight:bold; 
+	text-decoration:none; 
+} 
+/* content block for a course */
+.program{ 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: black; 
+	text-decoration:none;
+	margin: 10px 10px 15px 10px;
+	padding: 0 8px 0 8px;
+	position: relative;
+}
+.programMoreLink {
+    color: #0000ee;
+    text-decoration: none;
+}
+.programMoreLink:active {
+    text-decoration: underline;
+}
+.programMoreLink:hover {
+    text-decoration: underline;
+}
+div.meCourseIcon {
+    position: absolute;
+    left: 0px;
+}
+.meCourseIcon img {
+    display: inline;
+    padding: 0px 0px 0px 0px;
+}
+.meCourseInfo {
+    padding: 0 0 0 85px;
+    color: black;
+    text-align: left;
+}
+.programCourseCostBlock {
+    padding: 2px 0 2px 0;
+}
+.programCourseCostLabel {
+    font-weight: bold;
+}
+/* course description text including the 'more' link */
+span.programDescription{ 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: black; 
+	text-decoration:none;
+	margin:5px 5px 5px 5px;
+    display:block;
+} 
+/* 'add to cart', 'remove from cart', 'view cart', and 'proceed to secure check out' links */
+a.programCartLink,a.programCartLink:active,a.programCartLink:visited{ 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #995310; 
+	text-decoration:none; 
+} 
+a.programCartLink:hover{ 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #838327; 
+	text-decoration:none; 
+} 
+/* content block for list of category links (hidden by default) */ 
+#categoryLinksDIV{ 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: black; 
+	border:3px solid #333333; 
+	padding:10px; 
+	width:320px; 
+	background-color:#f0f0f0; 
+	margin-bottom:15px; 
+	display:none; /* change to "display:block;" to allow display */
+}
+#categoryLinksDIV #categoryLinksHeading{
+    display:none;
+}
+#categoryLinksDIV ul{
+    padding-left: 35px;
+    margin: 13px 0;
+}
+/* category link from the '#categoryLinksDIV' content block (hidden by default) */
+a.categoryLink{ 
+	text-decoration:none; 
+	color:#222222; 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 12px;
+	line-height: 20px;
+} 
+
+.certAmounts {
+    padding: 2px 0;
+}
+.programSuiteBlock .certAmounts {
+    font-size: 11px;
+}
+
+/*************** CSS rules for category heading ***************/
+.programCategory{
+    background-color:#333333; 
+    border: 1px dotted #d9d9d9; 
+    color:#FFFFFF; 
+	margin-top:25px; 
+	margin-bottom:2px; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	font-weight:bold; 
+	padding:3px; 
+	display:block;
+	text-align:left;
+}
+.programCategory:first-child{
+    margin-top:0;
+}
+
+/*************** CSS rules for content block containing a suite or bundle (only displayed when suites and bundles are available) ***************/
+.programSuiteBlock { 
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: black; 
+	border:1px solid #333333; 
+	margin:10px; 
+	padding:8px; 
+	background-color:#f0f0f0; 
+	margin-bottom:15px; 
+	display:block;
+	position:relative;
+}
+div.meSuiteIcon {
+    position: absolute;
+    left: 8px;
+}
+.meSuiteIcon img {
+    padding: 0px 0px 0px 0px;
+}
+.meSuiteInfo {
+    padding: 0 0 0 85px;
+    color: black;
+    text-align: left;
+}
+/* suite title */
+.programSuiteTitle{ 
+    font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+    font-size: 13px; 
+    color: black; 
+    font-weight:bold; 
+    text-decoration:none; 
+} 
+/* suite title image */
+.programSuiteTitle img{ 
+    float:left;
+    margin-right:8px;
+} 
+/* suite cost block containing cost label and cost price */
+div.programSuiteCostBlock {
+    font-size: 11px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+/* suite cost label */
+span.programSuiteCostLabel {
+    font-weight:bold;
+}
+/* suite cost price */
+span.programSuiteCostPrice {
+}
+/* content block containing suite description */
+.programSuiteDescription {
+    margin: 5px 5px 5px 5px;
+}
+/* content block containing list of suite courses */
+.programSuite_courses{
+}
+/* suite's course list */
+ul.programSuiteCoursesList {
+    list-style-type: disc;
+    margin: 5px 0px 5px 0px;
+    padding-left: 40px;
+}
+/* suite's course list item */
+li.programSuiteCoursesListItem {
+    margin: 2px 0px 2px 0px;
+    padding: 0px;
+}
+/* suite cart links block ('add to cart', 'remove from cart', 'view cart', 'proceed to secure checkout') */
+div.programSuiteCartLinksBlock {
+    font-size: 12px;
+}
+span.programSuiteCartLinkSpan {
+}
+/* 'add to cart', 'remove from cart', 'view cart', and 'proceed to secure check out' links */
+a.programSuiteCartLink,a.programSuiteCartLink:active,a.programSuiteCartLink:visited{ 
+    color: #995310;
+    text-decoration: none;
+} 
+a.programSuiteCartLink:hover{ 
+    color: #838327; 
+} 
+
+
+/*************** CSS rules for content block containing an addon item ***************/
+.addonBlock { 
+    font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+    font-size: 13px; 
+    color: black; 
+    margin:10px; 
+    padding:8px; 
+    margin-bottom:15px; 
+    display:block;
+    position:relative;
+}
+div.addonIcon {
+    position: absolute;
+    left: 8px;
+}
+.addonIcon img {
+    padding: 0px 0px 0px 0px;
+}
+.addonInfo {
+    padding: 0 0 0 85px;
+    color: black;
+    text-align: left;
+}
+/* addon title */
+.addonTitle{ 
+    font-weight:bold; 
+} 
+/* addon title image */
+.addonTitle img{ 
+    float:left;
+    margin-right:8px;
+} 
+div.addonCostQty {
+    font-size: 11px;
+    position: relative;
+    width: 400px;
+}
+/* addon cost block containing cost label and cost price */
+div.addonCostBlock {
+    padding-top:5px;
+    padding-bottom:2px;
+    position: relative;
+}
+/* addon cost label */
+span.addonCostLabel {
+    font-weight:bold;
+}
+/* addon cost price */
+span.addonCostPrice {
+}
+/* content block containing addon description */
+.addonDescription {
+    margin: 5px 5px 5px 5px;
+}
+/* addon cart links block ('add to cart', 'remove from cart', 'view cart', 'proceed to secure checkout') */
+div.addonCartLinksBlock {
+    font-size: 12px;
+}
+span.addonCartLinkSpan {
+}
+/* 'add to cart', 'remove from cart', 'view cart', and 'proceed to secure check out' links */
+a.addonCartLink,a.addonCartLink:active,a.addonCartLink:visited { 
+    color: #995310;
+    text-decoration: none;
+} 
+a.addonCartLink:hover { 
+    color: #838327; 
+} 
+.addonBlock .qty {
+    margin: 0 0 0 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 250px;
+    padding: 5px 0 2px 0;
+}
+.addonBlock .qty label {
+    font-weight: bold;
+}
+.addonBlock .qty input {
+    margin: 0 0 0 4px;
+}
+.addonCustomFields {
+    font-size: 11px;
+}
+.meUpdateMsg {
+    color: green;
+}
+
+
+/*************** CSS rules for shopping cart popup window ***************/
+#programCartBody {
+    font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; 
+    color: black; 
+    background: #333333; 
+}
+#programCartWrapper {
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+h3#programCartHeading {
+    font-size: 14px;
+}
+ul#programCartList {
+}
+li.programCartListItem {
+    font-size: 13px;
+    font-weight: bold;
+}
+div.programCartSuiteCoursesBlock {
+    font-size: small;
+    font-weight: normal;
+}
+ul.programCartSuiteCoursesList {
+}
+li.programCartSuiteCoursesListItem {
+}
+div#programCartTotalCost {
+}
+span#programCartTotalCostLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+span#programCartTotalCostPrice {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/*************** CSS rules for buttons ***************/
+.meButton {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 3px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1em;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.meButton:hover {
+    text-decoration: none;
+}
+.meButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.meButtonLarge {
+    padding: .4em 1.5em .42em;
+}
+.meButtonSmall {
+    padding: .2em 1em .275em;
+}
+
+/*************** CSS rules for button colors ***************/
+/* black */
+.meButtonBlack {
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.meButtonBlack:hover {
+    background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+    background: -moz-linear-gradient(top,  #444,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+.meButtonBlack:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));
+    background: -moz-linear-gradient(top,  #000,  #444);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+}
+
+/* gray */
+.meButtonGray {
+    border: solid 1px #555;
+    background: #6e6e6e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+    background: -moz-linear-gradient(top,  #888,  #575757);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+.meButtonGray:hover {
+    background: #616161;
+    background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+    background: -moz-linear-gradient(top,  #757575,  #4b4b4b);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+.meButtonGray:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+    background: -moz-linear-gradient(top,  #575757,  #888);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');
+}
+
+/* white */
+.meButtonWhite {
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.meButtonWhite:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.meButtonWhite:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+/* orange */
+.meButtonOrange {
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.meButtonOrange:hover {
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+    background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.meButtonOrange:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+    background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+/* red */
+.meButtonRed {
+    border: solid 1px #980c10;
+    background: #d81b21;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+    background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.meButtonRed:hover {
+    background: #b61318;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+    background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.meButtonRed:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+    background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+
+/* blue */
+.meButtonBlue {
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.meButtonBlue:hover {
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.meButtonBlue:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+    background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/* rosy */
+.meButtonRosy {
+    border: solid 1px #b73948;
+    background: #da5867;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+    background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+}
+.meButtonRosy:hover {
+    background: #ba4b58;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cf5d6a), to(#a53845));
+    background: -moz-linear-gradient(top,  #cf5d6a,  #a53845);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');
+}
+.meButtonRosy:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#bf404f), to(#f16c7c));
+    background: -moz-linear-gradient(top,  #bf404f,  #f16c7c);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf404f', endColorstr='#f16c7c');
+}
+
+/* green */
+.meButtonGreen {
+    border: solid 1px #538312;
+    background: #64991e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+    background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
+.meButtonGreen:hover {
+    background: #538018;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+    background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+.meButtonGreen:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#4e7d0e), to(#7db72f));
+    background: -moz-linear-gradient(top,  #4e7d0e,  #7db72f);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+}
+
+/* pink */
+.meButtonPink {
+    border: solid 1px #d2729e;
+    background: #f895c2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#feb1d3), to(#f171ab));
+    background: -moz-linear-gradient(top,  #feb1d3,  #f171ab);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb1d3', endColorstr='#f171ab');
+}
+.meButtonPink:hover {
+    background: #d57ea5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4aacb), to(#e86ca4));
+    background: -moz-linear-gradient(top,  #f4aacb,  #e86ca4);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
+}
+.meButtonPink:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f171ab), to(#feb1d3));
+    background: -moz-linear-gradient(top,  #f171ab,  #feb1d3);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f171ab', endColorstr='#feb1d3');
+}
+
+/*** custom *** substitute the color values in the following three rules to customize the button colors */
+.meButtonCustom {
+    border: solid 1px #000000;
+    background: #f895c2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#666666));
+    background: -moz-linear-gradient(top,  #999999,  #666666);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#666666');
+}
+.meButtonCustom:hover {
+    background: #d57ea5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#cccccc));
+    background: -moz-linear-gradient(top,  #999999,  #cccccc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#cccccc');
+}
+.meButtonCustom:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#999999));
+    background: -moz-linear-gradient(top,  #666666,  #999999);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#999999');
+}
+</style>
+<script type="text/javascript">
+var showCategoryLinks = true;
+var meCartButtons = true;
+var cartButtonSize = 'Small';   // Small, Large
+var cartButtonColor = 'White';  // Black, Gray, White, Red, Orange, Blue, Green, Rosy, Pink, Custom
+var sortArray = new Array();
+// specify the order of courses within a category using course id numbers
+//
+// example: displaying two specific courses first within the 'Project Management' category of courses
+//          and two specific courses first within the 'Creativity' category of courses
+//          and one specific course first within the 'Communication' category of courses
+// 
+sortArray['Project Management'] = '255';
+// sortArray['Creativity'] = '323,322';
+// sortArray['Communication'] = '307';
+</script>
+<script src="https://secure.mindedgeonline.com/jscripts/findDOM.js" type="text/javascript"></script>
+<script src="https://secure.mindedgeonline.com/jscripts/cookie.js" type="text/javascript"></script>
+<script src="https://secure.mindedgeonline.com/jscripts/cart.js" type="text/javascript"></script> 
+</head>
+<body>
+<script src="https://secure.mindedgeonline.com/jscripts/remotePrograms_js.php?d=23&ref=980&regp=pinnacle3&showsuites=true&showcats=false&addons=false&showIcons=true&hidecart=false&v=1.09" type="text/javascript"></script>
+<!-- end MindEdge remote code -->
+</body>
+</html>

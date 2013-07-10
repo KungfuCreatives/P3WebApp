@@ -40,24 +40,6 @@ namespace P3WebApp {
         protected global::P3WebApp.CmsPageContent CmsLocationContent;
         
         /// <summary>
-        /// ClassHeader1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::P3WebApp.ClassHeader ClassHeader1;
-        
-        /// <summary>
-        /// RadListViewClasses control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Telerik.Web.UI.RadListView RadListViewClasses;
-        
-        /// <summary>
         /// imgHotel control.
         /// </summary>
         /// <remarks>
@@ -74,6 +56,24 @@ namespace P3WebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink hypHotelWebsite;
+        
+        /// <summary>
+        /// ClassHeader1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::P3WebApp.ClassHeader ClassHeader1;
+        
+        /// <summary>
+        /// RadListViewClasses control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadListView RadListViewClasses;
         
         /// <summary>
         /// classDB control.

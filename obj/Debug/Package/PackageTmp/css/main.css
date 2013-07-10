@@ -1,0 +1,257 @@
+body{
+font: 14px/1.35 "CartoGothic", Verdana, Arial, sans-serif;
+color: #555;
+}
+p {
+
+}
+td {
+
+}
+ul {
+font-family : Verdana, Arial, sans-serif;
+font-size : 11px;
+margin-left : 60px;
+}
+li {
+font-family : Verdana, Arial, sans-serif;
+font-size : 11px;
+padding-right : 20px;
+}
+.topNav a {
+font-size : 10px;
+color : #333333;
+text-decoration : none;
+}
+.topNav a:hover {
+font-size : 10px;
+color : #003399;
+text-decoration : none;
+}
+.pPad {
+margin-left : 10px;
+padding-right : 10px;
+}
+
+h1 {
+font-size: 18px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+h2 {
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+. h2 {
+text-align : left;
+}
+.classTypes {
+font-weight : bold;
+font-size : 14px;
+}
+.classTypes li {
+margin-bottom : 5px;
+margin-left : 0;
+}
+.classTypes a {
+font-weight : bold;
+font-size : 14px;
+}
+#classOfferings {
+background-position : center;
+background-image : url(../images/monitor.jpg);
+background-repeat : no-repeat;
+color : #ffffff;
+height : 306px;
+vertical-align : middle;
+position : relative;
+}
+#classOfferings p {
+margin-left : 50px;
+margin-bottom : -5px;
+margin-right : -50px;
+}
+#classOfferings a {
+color : #66ccff;
+text-decoration : none;
+}
+#classOfferings a:hover {
+color : #0099ff;
+text-decoration : none;
+}
+#classOfferingsContent {
+position : relative;
+top : 10%;
+}
+.classTitle {
+margin-left : 30px;
+margin-bottom : -5px;
+padding-right : 10px;
+font-size : 14px;
+color : #336699;
+font-weight : bold;
+}
+.classTitle2 {
+margin-left : 30px;
+margin-bottom : -5px;
+padding-right : 10px;
+font-size : 12px;
+color : #000000;
+font-weight : bold;
+}
+#footer {
+color : #ffffff;
+font-size : 10px;
+font-family : Verdana, Arial, sans-serif;
+text-align : center;
+}
+#footer p {
+margin-bottom : -5px;
+}
+#footer a {
+color : #cccccc;
+text-decoration : none;
+}
+#footer a:hover {
+color : #ffffff;
+text-decoration : none;
+}
+.classScheduleHeaders {
+color : white;
+font-weight : bold;
+font-size : 12px;
+background-color : #336699;
+}
+.classScheduleHeaders a {
+color : white;
+font-weight : bold;
+font-size : 12px;
+background-color : #336699;
+} 
+.style1
+{
+	font-size: 12px;
+}
+.style2
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+.style3
+{
+	font-size: 18px;
+}
+.style7 {font-size: 14px}
+.style6
+{
+	font-weight: bold;
+}
+.style4 {font-size: 14px}
+.style5 {font-family: Verdana, Arial, sans-serif;}
+.style9 {font-size: 12px}
+.style11 {font-size: 18px}
+
+.TelerikItem
+{
+background-image : url(../images/item-bg.jpg);
+background-repeat : repeat-x;
+height:35px;
+}
+.TelerikClassGrid
+{
+    
+}
+.wrapper
+{
+	border: 1px solid #D5D3D6;
+	margin: 4px 2px 4px 2px;
+}
+.locationSchedule
+{
+	background-color:#F3F1F4;
+	text-align:center;
+	color:#3E636B;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.class 
+{
+	background-color:white;
+}
+.classTitle
+{
+	text-align:left;
+	padding-left:10px;
+	margin-bottom:5px;
+	border-bottom:1px solid #333333;
+}
+.classDetailsWrapper
+{
+	background-image:url("../images/classschedulebg.jpg");
+	background-repeat:repeat-x;
+	
+}
+.classDetails
+{
+	text-align:left;
+	padding-left:15px;
+	font-size:80%;
+}
+.classPrice
+{ 
+	text-align:right;
+	padding-right:2px;
+	font-size:85%;
+}
+.classDetailsTable
+{
+	width:100%;
+}
+.strikePriceText
+{
+	text-decoration: line-through;
+}
+.classComment
+{
+	font-weight:bold;
+	margin-top:4px;
+}
+.mini-contact-wrapper
+{
+    margin-left: 6px;
+    margin-right: 7px;
+    padding-left: 8px;
+    background-color: #eeeeee;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    border-radius: 8px; 
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.error-message
+{
+    color:Red;
+}
+.mini-contact-wrapper h3
+{
+    height: 10px;
+    text-align: center;
+}
+div.submit-button
+{
+    text-align:right;
+}
+.input-box
+{
+    padding: 2px 0 0 0;
+}
+.secureSeal
+{
+    position: relative;
+    top: -110px;
+    height: 0px;
+    left: -400px;
+}

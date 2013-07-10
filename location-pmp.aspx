@@ -85,6 +85,21 @@
                     <uc1:CmsPageContent ID="cmsPageContent_FAQs_City" runat="server" Visible="false"/> 
                 </telerik:RadPageView>
             </telerik:RadMultiPage>
+
+     <table>
+        <tr>
+            <td valign="top"><p><asp:Image runat="server" ID="imgHotel" /></p></td>
+        </tr>
+        <tr>
+            <td valign="top"><p><b><%# this.Hotel %></b><br />
+            <%# this.HotelAddress%><br />
+            <%# this.HotelNumber%><br />
+            <asp:HyperLink runat="server" ID="hypHotelWebsite" Target="_blank">web site</asp:HyperLink><br /><br />
+            <%# this.HotelDescription%><br /></p>
+            </td>
+        </tr>
+    </table>
+
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="RightContent" ID="rightContent">
@@ -113,19 +128,7 @@
         </ItemTemplate>
     </telerik:RadListView>
 </fieldset>
-     <table>
-        <tr>
-            <td valign="top"><p><asp:Image runat="server" ID="imgHotel" /></p></td>
-        </tr>
-        <tr>
-            <td valign="top"><p><b><%# this.Hotel %></b><br />
-            <%# this.HotelAddress%><br />
-            <%# this.HotelNumber%><br />
-            <asp:HyperLink runat="server" ID="hypHotelWebsite" Target="_blank">web site</asp:HyperLink><br /><br />
-            <%# this.HotelDescription%><br /></p>
-            </td>
-        </tr>
-    </table>
+     
     <asp:AccessDataSource ID="classDB" runat="server" 
     DataFile="~/App_Data/classes_v2.mdb" SelectCommand="
     SELECT classes.ClassID, ClassType.classTypeDesc, DaysOfWeek.Description, Hotels.*, Locations.LocationDesc as City,Locations.LocationSeo, classes.HOT, 
