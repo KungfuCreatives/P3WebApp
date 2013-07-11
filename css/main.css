@@ -255,3 +255,7 @@ div.submit-button
     height: 0px;
     left: -400px;
 }
+.imgFloatLeft
+{
+    padding-right:10px;
+}
