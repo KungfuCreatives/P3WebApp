@@ -18,12 +18,22 @@
     <asp:Panel runat="server" ID="pnlRssDetails" Visible="true">
         <uc1:CmsPageContent ID="CmsLocationContent" runat="server" />
     </asp:Panel>
-     <asp:Image runat="server" ID="imgHotel" ImageAlign="Left" CssClass="imgFloatLeft" />
-    <b><%# this.Hotel %></b><br />
-    <%# this.HotelAddress%><br />
-    <%# this.HotelNumber%><br />
-    <asp:HyperLink runat="server" ID="hypHotelWebsite" Target="_blank">web site</asp:HyperLink><br />
-    <p><%# this.HotelDescription%></p>
+     <table>
+                    <tr>
+                        <td><asp:Image runat="server" ID="imgHotel" /></td>
+                        <td valign="middle">
+                        <b><%# this.Hotel %></b><br />
+                        <%# this.HotelAddress%><br />
+                        <%# this.HotelNumber%><br />
+                        <asp:HyperLink runat="server" ID="hypHotelWebsite" Target="_blank">web site</asp:HyperLink><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <p><%# this.HotelDescription%></p>
+                        </td>
+                    </tr>
+                    </table>
     
 </asp:Content>
 
