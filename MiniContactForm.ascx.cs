@@ -46,7 +46,7 @@ namespace P3WebApp
             body += "<b>Email</b><br>" + txtEmail.Text.Trim() +"<br>";
             body += "<b>Question/Message</b><br>" + txtQuestions.Text + "<br>";
             objSendEmail.Body = body;
-            SendMail.Send(objSendEmail, true);
+            SendMail.Send(objSendEmail, false);
         }
 
         protected void lbAnother_Click(object sender, EventArgs e)
