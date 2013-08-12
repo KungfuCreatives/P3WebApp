@@ -88,6 +88,7 @@
     <Content Include="footer-small.ascx" />
     <Content Include="images\1sttime.jpg" />
     <Content Include="images\1sttime_outline.jpg" />
+    <Content Include="images\blogIcon.png" />
     <Content Include="images\bordered_msproject.jpg" />
     <Content Include="images\btn_classSchedule_blue.jpg" />
     <Content Include="images\btn_fullSchedule_blue.jpg" />
