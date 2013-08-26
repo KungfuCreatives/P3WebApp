@@ -7,7 +7,7 @@
 
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BannerContent" ID="contentBanner">
-    <div id="flashDropZone"></div>
+    <img src="images/default_06.jpg" width="958" height="234" alt="" />
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent" ID="contentMain">
                         <h1 style="text-align:center">PMP&reg; Certification  and Lean Six Sigma Training</h1>
@@ -149,11 +149,5 @@ WHERE (((classes.ClassTypeID)=7) AND ((classes_1.ClassTypeID)=6))
                         <p align="left" style="margin-top:6px;">&nbsp;</p>
                         <h2 align="center"><u>PMP&reg; &amp; Lean Six Sigma Certification News</u></h2>
                         <uc1:RssReader ID="RssReader" runat="server" />
-<script type="text/javascript">
-    var flashvars = {};
-    var params = {};
-    var attributes = {};
-    swfobject.embedSWF("flash/pinnacle3Header.swf", "flashDropZone", "958", "254", "9.0.0", "expressInstall.swf", flashvars, params, attributes);
-</script>
 </asp:Content>
                 	

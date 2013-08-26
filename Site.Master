@@ -44,6 +44,20 @@
 <meta name="alexaVerifyID" content="pWSXZcfZLwf2vxOqf-xEadlIh1g" />
 <script src="Scripts/swfobject.js" type="text/javascript"></script>
 <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server"></telerik:RadStyleSheetManager>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1854264-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+</script>
 </head>
 <body bgcolor="#FFFFFF" onload="">
     <form id="form1" runat="server">
@@ -57,8 +71,15 @@
                     <td width="350"><a href="."><img border="0" src="images/pinnacle_logo_white.jpg"  alt="PMP certification" /></a>
                       <div align="center"><span class="style4"><b>Helping You Achieve Your Pinnacle!</b></span></div>
                       </td><td class="topNav" align="right">
-                        <p><a href="/">home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="pmi-certification.aspx">courses</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="articles.aspx">articles</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="practice-exams.aspx">practice exams</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="blog"><img alt="blog" src="images/blogIcon.png" height="30px" border="0" /></a><%--&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Sitemap.aspx">&nbsp;sitemap</a>--%>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                        <p><a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx"><img src="/images/calltoaction.jpg" style="position: relative;right: -1px;" alt="calltoaction" /></a></p>    
+                        <p><a href="/">home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="pmi-certification.aspx">courses</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="articles.aspx">articles</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="practice-exams.aspx">practice exams</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx">contact us</a><%--&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="Sitemap.aspx">&nbsp;sitemap</a>--%>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        
+                        <div style="position: relative"><a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx"><img src="/images/calltoaction.jpg" style="position: relative;right: -1px;" alt="calltoaction" /></a>
+
+
+
+                            <div id="header-number"><a href="Contact_Pinnacle_3_PMP_Certification_Training.aspx">888-617-8478</a></div>
+
+                        </div>    
                     </td>
                 </tr>
             </table>
@@ -223,30 +244,19 @@
         { 'service': 'linkedin', 'id': 'pinnacle-3-learning', 'usertype': 'company' },
         { 'service': 'youtube', 'id': 'ThePinnacle3' }
       ]
-        },
-        'whatsnext': {},
-        'recommended': {
-            'title': 'Recommended for you:'
         }
     });
 </script>
 <!-- AddThis Smart Layers END -->
-
     </form>
     
-    <script type="text/javascript">
+<!-- start number replacer -->
+<script type="text/javascript"><!--
+vs_account_id      = "CtjSZ1Htmqpn8ACE";
+//--></script>
+<script type="text/javascript" src="http://calls.bluecorona.com/euinc/number-changer.js">
+</script>
+<!-- end ad widget -->
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-1854264-1']);
-        _gaq.push(['_trackPageview']);
-        _gaq.push(['_trackPageLoadTime']);
-
-
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
 </body>
 </html>
